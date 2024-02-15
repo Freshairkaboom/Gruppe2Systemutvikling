@@ -10,7 +10,7 @@
 - Shaima Nazand
 - Monica Johansen
 - Ramona Cretulescu
-- Christoffer 
+- Christoffer Johansen 
 
 ## Foranalyse
 
