@@ -26,7 +26,7 @@
 - Database
 - Mass transit (RabbitMq)
 
-##Kvalitetssikring og testing
+## Kvalitetssikring og testing
 - Overordna testplan/testbeskrivelse
 
 ## Kontekst/Bakgrunn
