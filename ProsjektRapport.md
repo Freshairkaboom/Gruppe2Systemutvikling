@@ -1,8 +1,8 @@
-#Prosjektrapport
+# Prosjektrapport
 
-##Introduksjon
+## Introduksjon
 
-## Ti
+## Team
 
 - Lars A. Strand
 - Adrian Johansen
@@ -10,7 +10,7 @@
 - Shaima Nazand
 - Monica Johansen
 - Ramona Cretulescu
-- Christoffer 
+- Christoffer Johansen 
 
 ## Foranalyse
 
@@ -26,7 +26,7 @@
 - Database
 - Mass transit (RabbitMq)
 
-##Kvalitetssikring og testing
+## Kvalitetssikring og testing
 - Overordna testplan/testbeskrivelse
 
 ## Kontekst/Bakgrunn
@@ -38,5 +38,3 @@
 ## Omfang
 
 ## Eksklusjoner
-
-##
