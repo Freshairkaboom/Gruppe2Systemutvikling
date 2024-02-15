@@ -1,8 +1,8 @@
-#Prosjektrapport
+# Prosjektrapport
 
-##Introduksjon
+## Introduksjon
 
-## Ti
+## Team
 
 - Lars A. Strand
 - Adrian Johansen
