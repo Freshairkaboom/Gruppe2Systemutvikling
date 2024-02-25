@@ -15,4 +15,3 @@ Integrere værvarsling for hytteadresse og knytte HytteApp til en sentral hos Hy
 Hente adresser til hytter fra Statens Kartverk og sikre at appen overholder kravene til personvern i henhold til GDPR.
 Tilby en universelt utformet app for hytteeiere som er enkel å bruke og tilgjengelig for ulike brukergrupper.
 Implementere en administrasjonsmodul for Hytteservice-administrasjonen for å vise oversikter og generere statistikk, inkludert antall brøytede hytter siste periode og oversikt over hytteområder med mest brøyting siste periode.
-Gjennom disse målsettingene vil HytteApp-prosjektet bidra til å løse problemene Hytteservice står overfor og forbedre både effektiviteten og kundeopplevelsen i leveransen av brøytetjenester til hytteeiere
