@@ -26,13 +26,13 @@ Hensikten med prosjektet er å spare Hytteservice for unødig ressursbruk, som k
 #### Mål 1
 Utvikle en funksjonell og brukervennlig HytteApp.
 
-### Mål 2
+#### Mål 2
 Implementere funksjoner i HytteApp som gir Hytteservice en nøyaktig oversikt over hyttebruk, som gjør at brøyteaktiviteter kan gjennomføres mer effektivt.
 
-### Mål 3
+#### Mål 3
 Sikre at HytteApp tar hensyn til retningslinjer for universell utforming
 
-### Mål 4
+#### Mål 4
 Sikre at HytteApp tar hensyn til personvern og GDPR
 
 ### Brukerbehov
