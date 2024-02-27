@@ -35,6 +35,12 @@ Formålet med prosjektet er å utvikle en mobilapplikasjon, HytteApp, som effekt
 ### Brukerbehov
 
 ## Kravanalyse
+### Funksjonelle Krav:
+- Registering og innlogging for hytteeiere
+- Mulighet for å bestille brøyting
+- Varslingssytem via SMS når brøyting er fullført
+- Integrasjon mot Statens Kartverk for å hente hytteadresser
+
 - Funksjonelle krav (brukerregistrering, bestilling, motta sms, værvarsel, administrasjon)
 - Ikke-funksjonelle krav (Universell utforming, GDPR)
 
