@@ -14,24 +14,22 @@
 
 ## Foranalyse
 
-## 1.1 Problembeskrivelse: Bakgrunn, hensikt, og målsettinger for prosjektet. Beskrive problemene med hytteservice: (Hytteservice står overfor, som ineffektiv håndtering av serviceoppdrag, og hvordan HytteApp kan tilby en bedre løsning ved å automatisere/ digitalisere service.)  
+## Problembeskrivelse:
+Hytteservice, et firma som tilbyr ulike tjenester til hytteeiere, opplever utfordringer knyttet til effektiviteten og kostnadene ved brøytingstjenester i hytteområder. Mangel på nøyaktig informasjon om hvem som befinner seg på eller skal bruke hyttene fører til unødvendig brøyting av veier og gårdsplasser. Dette fører til høye kostnader, økt slitasje på utstyr og økt tidsbruk. Dette ineffektive systemet fører også til redusert kundeopplevelse og kan svekke Hytteservice sitt omdømme. 
 
-(Hytteservice står overfor vanskeligheter med å identifisere hvilke hytter som er bebodd til enhver tid. Dette fører til at de må brøyte alle hyttefelt hver, ustabilt vær, usikkerhet, noe som gjør at betydelige økonomiske kostnader på grunn av ineffektiv bruk av tid og ressurser.)
+## Bakgrunn:
+Hytteservice har lenge levert tjenester til hytteeiere over hele landet, men med vinterhalvåret kommer spesifikke utfordringer knyttet til brøyting av veier og områder rundt hyttene. Den nåværende praksisen med å brøyte basert på estimater og generell kunnskap om hyttebruk har vist seg å være ineffektiv og kostbar. Nå skal det automatiseres og digitaliseres for å tilby en bedre løsning enn det de har.
 
-## 1.2.1 Problembeskrivelse 
+## Hensikt og målsettinger for prosjektet:
+Gjennom utviklingen av HytteApp ønsker Hytteservice å modernisere sin tilnærming til brøytingstjenester, samtidig som de opprettholder sitt omdømme for kvalitet og pålitelighet i markedet. 
 
+Formålet med prosjektet er å utvikle en mobilapplikasjon, HytteApp, som effektiviserer og forbedrer brøyteprosessen for Hytteservice og hytteeierne. Målene inkluderer:
 
-## 1.2.2 Målsettinger 
-Fortelle at HytteApp er nødvendig, dets hovedformål (for eksempel å øke effektiviteten i håndteringen av serviceoppdrag), og spesifikke mål som prosjektet sikter mot å oppnå. (Målet med HytteApp er å effektivisere og forbedre tjenestene som tilbys av hytteservice.  Bedre planleggingsverktøy.) 
-- Skape en effektiv og brukervennlige app for hytteeiere, kalt USN HytteApp. 
--Gjennomføre funksjonalitet i HytteApp som gir Hytteservice presis informasjon om bruken av hyttene, for å muliggjøre mer målrettet og effektiv brøyting. 
-- Inkludere prinsipper for universell utforming i HytteApp, for å sikre tilgjengelighet for alle brukere. 
-- Gjennomføre nødvendige tiltak i HytteApp for å ivareta personvern og overholde GDPR-regelverket
-
-## 1.3 Prosjektorganisering
-
-(Dette prosjektet er drevet av et ønske om å øke brøyting ved å kutte ned unødvendige bruk av tids bookning og usikkerhet og ressurser som brukes, samt å forbedre kommunikasjonen med hytteeierne. En app for planlegging og koordinering av brøytearbeid er foreslått som en løsning på disse utfordringene.) (Hensikten med prosjektet er å redusere unødvendige utgifter for Hytteservice og spare tid, som kan lede til besparelser i drift og mulige markedsfordeler for hytteeiere gjennom mer effektiv snørydding).
-
+Å redusere kostnader ved unødvendig brøyting og slitasje på utstyr.
+Å utvikle en funksjonell og brukervennlig HytteApp. 
+Å forbedre kundeopplevelsen for hytteeiere gjennom en enkel og pålitelig bestillingsprosess.
+Å øke effektiviteten til Hytteservice gjennom bedre ressursallokering og planlegging av brøyteoppdrag.
+Å sikre at løsningen oppfyller personvernkravene, spesielt GDPR, og har universell utforming for tilgjengelighet.
 
 
 ### Brukerbehov
