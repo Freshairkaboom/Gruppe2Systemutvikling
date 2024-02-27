@@ -14,6 +14,10 @@
 
 ## Foranalyse
 
+
+xxxxxxxxxxxxxxxx
+
+
 ### Brukerbehov
 
 ## Kravanalyse
