@@ -1,13 +1,13 @@
-#Problembeskrivelse:
+# Problembeskrivelse:
 Hytteservice står overfor utfordringer knyttet til ineffektivitet og unødvendige kostnader i forbindelse med brøyting av hytteområder. Uten en nøyaktig oversikt over hytter som er i bruk, må alle områder brøytes ved snøfall, noe som fører til økte kostnader, tidssløsing og unødvendig slitasje på utstyr. Det mangler også en effektiv måte å kommunisere med hytteeiere og planlegge brøyteaktiviteter.
 
-#Bakgrunn:
+# Bakgrunn:
 Hytteservice er et firma som leverer ulike tjenester til hytteeiere over hele landet, inkludert vaktmestertjenester, vedlevering, brøyting og strøing. Særlig i vinterhalvåret er brøyting til hytter og hytteområder en sentral aktivitet. For å effektivisere og forenkle brøyteprosessen samt forbedre kommunikasjonen med hytteeiere, ønsker Hytteservice å utvikle en applikasjon, HytteApp.
 
-#Hensikt:
+# Hensikt:
 HytteApp-prosjektet har som hensikt å utvikle en applikasjon som gir Hytteservice og hytteeiere en bedre oversikt over brøytebehov og en enklere måte å bestille og utføre brøyting på. Ved å tilby en brukervennlig plattform ønsker Hytteservice å redusere kostnader, spare tid og minimere slitasje på utstyr samtidig som de forbedrer kundeopplevelsen og effektiviteten i tjenesteleveransen.
 
-#Målsettinger:
+# Målsettinger:
 
 Utvikle en første versjon av HytteApp som støtter brøytetjenester og forenkler oversikt og bestilling av brøyting i hytteområder.
 Muliggjøre registrering av hytteeiere som brukere, bestilling av brøyting ved å melde planlagt ankomst til hytta, og sending/mottak av meldinger til/fra Hytteservice/brøytemannskap.
