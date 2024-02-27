@@ -21,4 +21,4 @@ Snakk om hvordan appen vil overholde sikkerhets- og personvernkravene i GDPR.
 
 ## Brukerhistorier:  
 
-Lag brukerhistorier som skisserer spesielle situasjoner der ulike brukere vil bruke appen for å oppnå bestemte mål.
+Lag brukerhistorier som skisserer spesielle situasjoner der ulike brukere vil bruke appen for å oppnå bestemte mål. 
