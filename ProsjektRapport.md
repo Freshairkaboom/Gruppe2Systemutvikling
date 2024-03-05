@@ -32,6 +32,9 @@ Tilby en universelt utformet app for hytteeiere som er enkel å bruke og tilgjen
 Implementere en administrasjonsmodul for Hytteservice-administrasjonen for å vise oversikter og generere statistikk, inkludert antall brøytede hytter siste periode og oversikt over hytteområder med mest brøyting siste periode.
 
 ### Brukerbehov
+#### Brukerhistorier.
+- Som hytteeier ønsker jeg å kunne bestille måking og andre tjenester på en raskt og effektiv måte, så jeg kan komme til en ferdigbrøytet hytte.
+- Som brøytemannskap ønsker jeg en rask og effektiv kommunikasjon med de som eier hyttene, så jeg vet hvilke hytter som skal brøytes, og jeg slipper unødig slitasje på utstyret.
 
 ## Kravanalyse
 - Funksjonelle krav (brukerregistrering, bestilling, motta sms, værvarsel, administrasjon)
