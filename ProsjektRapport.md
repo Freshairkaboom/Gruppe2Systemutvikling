@@ -33,9 +33,11 @@ Implementere en administrasjonsmodul for Hytteservice-administrasjonen for å vi
 
 ### Brukerbehov
 #### Brukerhistorier.
-- Som hytteeier ønsker jeg å kunne bestille måking og andre tjenester på en raskt og effektiv måte, så jeg kan komme til en ferdigbrøytet hytte.
+- Som hytteeier ønsker jeg å kunne bestille måking på en raskt og effektiv måte, så jeg kan komme til en ferdigbrøytet hytte.
 - Som brøytemannskap ønsker jeg en rask og effektiv kommunikasjon med de som eier hyttene, så jeg vet hvilke hytter som skal brøytes, og jeg slipper unødig slitasje på utstyret.
-- Som administrator ønsker jeg en forenklet og oversiktig bestilling av måking, så jeg slipper unødvendig kostnader og slitasje ved å brøyte hytter som ikke er i bruk
+- Som administrator ønsker jeg en forenklet og oversiktig bestilling av måking, så jeg slipper unødvendig kostnader og at jeg kan overvåke og optimalisere tjenesten.
+- Som bruker av hytteappen ønsker jeg at den er i tråd med GDPR og at den har universiell utforming, så den er sikker og tilgjengelig for alle brukere
+
 
 ## Kravanalyse
 - Funksjonelle krav (brukerregistrering, bestilling, motta sms, værvarsel, administrasjon)
