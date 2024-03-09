@@ -33,6 +33,8 @@ Implementere en administrasjonsmodul for Hytteservice-administrasjonen for å vi
 
 ### Brukerbehov
 #### Brukerhistorier.
+Brukerhistorier er et verktøy som brukes i gjennomføring av prosjekter, spesielt som et virkemiddel i SCRUM og Kanban arbeidsmetoder, for å oversette kravspesifikasjoner til konkrete ønsker som utviklere kan deretter kan prøve å oppfylle ved å lage konkrete arbeidsoppgaver som gjennomføres av prosjektteam. Her er noen av brukerhistoriene vi har tenkt ut som kan være relevant for bruken av HytteApp.
+
 - Som hytteeier ønsker jeg å kunne bestille måking på en raskt og effektiv måte, så jeg kan komme til en ferdigbrøytet hytte.
 - Som brøytemannskap ønsker jeg en rask og effektiv kommunikasjon med de som eier hyttene, så jeg vet hvilke hytter som skal brøytes, og jeg slipper unødig slitasje på utstyret.
 - Som administrator ønsker jeg en forenklet og oversiktig bestilling av måking, så jeg slipper unødvendig kostnader og at jeg kan overvåke og optimalisere tjenesten.
