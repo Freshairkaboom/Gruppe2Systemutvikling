@@ -49,7 +49,6 @@ Aktivitetsdiagram er et viktig verktøy som brukes i applikasjonsutviklings- pro
 
 Aktør: Hytteeier
 UC1: Registrer bruker
-
 Aktivitetsdiagrammet viser hvordan aktøren hytteeier oppretter en bruker i systemet. Aktiviteten går fra å trykke på "registrer deg" på logg inn siden, som deretter tar deg inn på et skjema der du fyller ut informasjon som navn, epost, telefonnummer og hytteadresse. Når informasjonen er fylt ut, trykker hytteeier på "registrer deg" knappen. Systemet validerer innholdet i skjemaet for å sjekke at innholdet er godkjent. Dersom det ikke er det får hytteeier opp rød skrift på de feltene som må fikses på, og de kan fikse det og trykke på "registrer deg" igjen. Dersom det er godkjent så registreres bruker i databasen, og bruker blir sendt tilbake til logg inn skjermen med en popup melding som sier:  "Brukeren er opprettet, vennligst logg inn".
 
 Figur 1: Aktivitetsdiagram for "registrer bruker" for aktøren Hytteeier.
@@ -57,12 +56,15 @@ Figur 1: Aktivitetsdiagram for "registrer bruker" for aktøren Hytteeier.
 UC2: Logger inn
 UC3: Bestiller brøyting
 
-Brøytemannskap
-- Får henvendelser på appen om hvilke hytter de skal måke
-Administrasjon
-- Får statistikk fra appen
-Statens kartverk
-Systemutviklere
+Aktør: Brøytemannskap
+UC1: Får henvendelser på appen om hvilke hytter de skal måke
+
+Aktør: Administrasjon
+UC1: Får statistikk fra appen
+
+Aktør: Statens kartverk
+
+Aktør:Systemutviklere
 
 ### Flytdiagram
 
