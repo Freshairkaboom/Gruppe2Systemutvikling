@@ -54,7 +54,7 @@ Aktivitetsdiagrammet viser hvordan aktøren hytteeier oppretter en bruker i syst
 Figur 1: Aktivitetsdiagram for "registrer bruker" for aktøren Hytteeier.
 
 UC2: Logger inn
-Aktivitetsdiagrammet viser hvordan aktøren hytteeier logger inn som bruker av systemet. Aktiviteten går fra å skrive inn brukernavn og passord i feltene på logg inn siden og, deretter trykke på logg inn knappen. Systemet verifiserer da brukeren. Dersom det ikke blir godkjent, nullstilles feltene for brukernavn og passord, og man får en popup melding som sier: "Feil ved innlogging, sjekk brukernavn og passord."
+Aktivitetsdiagrammet viser hvordan aktøren hytteeier logger inn som bruker av systemet. Aktiviteten går fra å skrive inn brukernavn og passord i feltene på logg inn siden og, deretter trykke på logg inn knappen. Systemet verifiserer da brukeren. Dersom det ikke blir godkjent, nullstilles feltene for brukernavn og passord, og man får en popup melding som sier: "Feil ved innlogging, sjekk brukernavn og passord." Dersom det er godkjent, får brukeren en sesjonskode som gjør at applikasjonen husker at man er logget inn til neste gang, og så blir brukeren tatt til hjem siden.
 
 Figur 2: Aktivitetsdiagram for "logg inn" for aktøren Hytteeier.
 
