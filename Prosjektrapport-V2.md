@@ -59,6 +59,9 @@ Aktivitetsdiagrammet viser hvordan aktøren hytteeier logger inn som bruker av s
 Figur 2: Aktivitetsdiagram for "logg inn" for aktøren Hytteeier.
 
 UC3: Bestiller brøyting
+Aktivitetsdiagrammet viser hvordan aktøren hytteeier bestiller brøyting. Aktiviteten går fra å sjekke om brukeren har en bruker. Hvis ikke, må brukeren registrere bruker. Hvis ja, så sjekker systemet om du har en aktiv sesjon. Hvis ja, så kommer du til hjem siden, og hvis ikke, så må du logge inn og så kommer du til hjem siden. Så kan du trykke på "bestill brøyting" knappen på hjem siden, og så velger du i kalenderen hvilken dato du vil ha brøyting til, og så trykker du på "bestill" knappen som dukker opp. Til slutt kommer brukeren tilbake til hjem siden og får en grønn popup melding som sier "Du har bestilt brøyting til dato: *dato her*". 
+
+Figur 3: Aktivitetsdiagram for "bestill brøyting" for aktøren Hytteeier.
 
 Aktør: Brøytemannskap
 UC1: Får henvendelser på appen om hvilke hytter de skal måke
