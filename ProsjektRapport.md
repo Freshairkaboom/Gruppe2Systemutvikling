@@ -59,15 +59,40 @@ Brukerhistorier er et verktøy som brukes i gjennomføring av prosjekter, spesie
 - Som bruker av hytteappen ønsker jeg at den er i tråd med GDPR og at den har universiell utforming, så den er sikker og tilgjengelig for alle brukere
 
 
-## Kravanalyse
-### Funksjonelle Krav:
+# Kravanalyse
+
+## Funksjonelle Krav:
 - Registering og innlogging for hytteeiere
 - Mulighet for å bestille brøyting
 - Varslingssytem via SMS når brøyting er fullført
 - Integrasjon mot Statens Kartverk for å hente hytteadresser
 
 - Funksjonelle krav (brukerregistrering, bestilling, motta sms, værvarsel, administrasjon)
-- Ikke-funksjonelle krav (Universell utforming, GDPR)
+
+## Ikke-funksjonelle krav:
+
+### Sikkerhet og personvern: 
+Appen må overholde GDPR-krav og andre relevante lover og forskrifter angående personvern. Dette inkluderer sikker lagring og håndtering av brukerdata, samt kryptering av sensitiv informasjon under overføring.
+
+### Universell utforming (UU): 
+Appen må være tilgjengelig og brukervennlig for alle, uavhengig av eventuelle funksjonshemminger eller teknisk kunnskap. Dette inkluderer tilpasninger for syns-, hørsels- og motoriske utfordringer.
+
+### Ytelse og skalerbarhet: 
+Appen må kunne håndtere et stort antall brukere samtidig uten at det går på bekostning av ytelsen. Videre må den være skalerbar for å kunne tilpasse seg økende brukerbase og funksjonalitetsbehov over tid.
+
+### Pålitelighet og tilgjengelighet: 
+Appen må være stabil og pålitelig, med minimal nedetid og feilhåndtering. Videre må den være tilgjengelig på ulike plattformer og enheter, inkludert mobile enheter og nettlesere.
+
+### Brukervennlighet og responsivt design: 
+Appen må ha et intuitivt og responsivt grensesnitt som er enkelt å navigere og forstå for brukerne. Den må også tilpasses forskjellige skjermstørrelser og enheter for optimal brukeropplevelse.
+
+### Teknologisk plattform: 
+Valg av teknologisk plattform må være godt dokumentert og begrunnet, med fokus på sikkerhet, fleksibilitet og vedlikeholdbarhet over tid.
+
+### Teknisk dokumentasjon: 
+Det må være tilstrekkelig teknisk dokumentasjon og brukerveiledninger tilgjengelig for å hjelpe både utviklere og brukere med å forstå og bruke appen effektivt.
+
+
 
 ## Design av teknologi
 - Frontend
