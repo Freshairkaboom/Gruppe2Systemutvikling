@@ -94,6 +94,15 @@ Det må være tilstrekkelig teknisk dokumentasjon og brukerveiledninger tilgjeng
 
 
 
+###
+Universell utforming
+
+I forhold til utvikling av HytteApp er det en del spørsmål som må stilles i forhold til hvorvidt vi skal ta hensyn til spesielle brukerbehov, eller om vi holder oss til etablerte standarder. Vi må svare på om vi overholder Web Content Accessibility Guidelines 2.1 (World Wide Web Consortium, 2018) og likestillings- og diskrimineringsloven (Lovdata, 2017), og om designet vårt kan sies å være inkluderende.
+
+For å godkjenne design bør designere vise til hvordan de har tatt hensyn til UU i produktet, hvilke hensyn og virkemidler som er brukt i forhold til etablerte standarder, og hvilke nye hensyn som er tatt. Deretter må de som godkjenner designene gå over om det som er tatt hensyn til og implementert i designet er nok til å overholde WCAG og likestillings- og diskrimineringsloven. I designfasen, spesifikt i etterkant av prototyping, kan det være hjelpsomt å involvere testgrupper for å se på om de forskjellige hensynene faktisk fungerer.
+
+Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hensyn som ennå ikke er tatt. Dette kan gjøres ved hjelp av å inkludere en tilgjengelighetserklæring i applikasjonen. En slik erklæring er et verktøy som viser til hvorvidt applikasjonen er i samsvar med UU, og lister opp alle bruddene på UU, hvilke brukergrupper som blir påvirket av bruddene, samt en måte for brukere å melde fra om brudd og sende klage til diskrimineringsnemda. I erklæringen kan man også legge ut om hvorfor ikke alle standardene er fulgt, hva som gjøres med det, og evt. hvor lang tid det vil ta før bruddene fikses. Et godt eksempel på en slik erklæring er på USN sin egen nettside (Universitetet i Sørøst-Norge, 2024), se referanse for link.
+
 ## Design av teknologi
 - Frontend
 - Backend
@@ -112,3 +121,10 @@ Det må være tilstrekkelig teknisk dokumentasjon og brukerveiledninger tilgjeng
 ## Omfang
 
 ## Eksklusjoner
+
+##
+Referanser:
+
+World Wide Web Consortium. (2018). Web Content Accessibility Guidelines (WCAG) 2.1. Hentet fra https://www.w3.org/TR/WCAG21/
+Kultur- og likestillingsdepartmentet. (2017) Lov om likestilling og forbud mot diskriminering (likestillings- og diskrimineringsloven). Hentet fra https://lovdata.no/dokument/NL/lov/2017-06-16-51
+Universitetet i Sørøst-Norge. (2024) Tilgjengelighetserklæring. Hentet fra https://uustatus.no/nb/erklaringer/publisert/d186395f-72ef-4445-aeb8-8e4093eb7639
