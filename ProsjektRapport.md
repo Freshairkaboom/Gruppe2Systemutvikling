@@ -4,7 +4,7 @@
 
 ## Team
 
-- Lars A. Strand AKA Supermann
+- Lars A. Strand
 - Adrian Johansen
 - Bjørn Tore Follegg
 - Shaima Nazand
