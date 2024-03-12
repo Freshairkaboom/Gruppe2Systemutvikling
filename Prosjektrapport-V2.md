@@ -45,7 +45,7 @@
 ### UC-beskrivelser
 
 ### Aktivitetsdiagram
-Aktivitetsdiagram er et viktig verktøy som brukes i applikasjonsutviklings- prosessen for å få oversikt over hvordan hver aktivitet i applikasjonen fungerer i systemet fra begynnelse til slutt, slik at det er lettere å forstå hva som skjer nå en aktør utfører de forskjellige aktivitetene i use case diagrammene. I denne seksjonen beskrives de forskjellige aktivitetene i HytteApp med tilhørende diagram.
+Aktivitetsdiagram er et viktig verktøy som brukes i applikasjonsutviklings- prosessen for å få oversikt over hvordan hver aktivitet i applikasjonen fungerer i systemet fra begynnelse til slutt, slik at det er lettere å forstå hva som skjer når en aktør utfører de forskjellige aktivitetene i use case diagrammene. I denne seksjonen beskrives de forskjellige aktivitetene i HytteApp med tilhørende diagram.
 
 Aktør: Hytteeier
 UC1: Registrer bruker
