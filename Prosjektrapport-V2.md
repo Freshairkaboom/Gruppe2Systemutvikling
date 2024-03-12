@@ -4,7 +4,13 @@
 
 
 ## Team
-
+- Lars A. Strand
+- Adrian Johansen
+- Bjørn Tore Follegg
+- Shaima Nazand
+- Monica Johansen
+- Ramona Cretulescu
+- Christoffer Johansen
 ### Individuell beskrivelse, gruppemedlems bidrag til prosjektet(legges til på slutten av oppgavetiden)
 ### Refleksjon over lært/erfart i prosjektet. 
 
