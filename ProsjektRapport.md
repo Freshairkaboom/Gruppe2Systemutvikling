@@ -56,7 +56,29 @@ Brukerhistorier er et verktøy som brukes i gjennomføring av prosjekter, spesie
 - Som hytteeier ønsker jeg å kunne bestille måking på en raskt og effektiv måte, så jeg kan komme til en ferdigbrøytet hytte.
 - Som brøytemannskap ønsker jeg en rask og effektiv kommunikasjon med de som eier hyttene, så jeg vet hvilke hytter som skal brøytes, og jeg slipper unødig slitasje på utstyret.
 - Som administrator ønsker jeg en forenklet og oversiktig bestilling av måking, så jeg slipper unødvendig kostnader og at jeg kan overvåke og optimalisere tjenesten.
-- Som bruker av hytteappen ønsker jeg at den er i tråd med GDPR og at den har universiell utforming, så den er sikker og tilgjengelig for alle brukere
+- Som bruker av hytteappen ønsker jeg at den er i tråd med GDPR og at den har universiell utforming, så den er sikker og tilgjengelig for alle brukere.
+
+### Interessenter og brukebeskrivelser
+
+Hytteeiere 
+Hvem er vi: Dette er primærbrukere av HytteApp, som enten eier eller leier hytter og har behov for brøytetjenester for å sikretilgang til deres hytter i vintersesongen. Disse brukere er interessert i en praktisk og intuitiv løsning for å koordinere og få fult kontroll over brøytingen på sine eiendommer.
+ (..... Brukebeskrivelse. ....)
+
+Brøyte-tjeneste team
+Hvem er vi: De operative brukere er ansatte eller kontraktører som ufører selve brøytearbeidet. Disse brukere er interessert i et effektivt system for å organisere og prioritere brøyteoppdragene sine basert på hytteeiernes bestillinger. 
+
+(..... Brukebeskrivelse. ....)
+
+Administrasjon hos Hytteservice 
+Hvem er vi: Administrative brukere, som inkluderer ledelsen og administrasjonen hos Hytteservice. De trenger verktøy som lar dem overvåke og styre på brøytingstjenester. Dette innebærer planlegging, kundebehandling og rapportering. 
+(..... Brukebeskrivelse. ....)
+
+Teknisk personell (Systemutviklere og It-støtte)
+Hvem er vi: Systemutviklere og IT-støttepersonellet har ansvaret for å utvikle, gjennomføre og vedlikeholde HytteApp. De jobber med å sikre at appen er teknisk solid, sikker og enkelt å bruke. Denne gruppen er opptatt av tydelige krav og tilbakemeldinger for å kunne levere en løsning som er både teknisk ster og har god brukervennlighet. 
+(..... Brukebeskrivelse. ....)
+
+
+
 
 
 # Kravanalyse
