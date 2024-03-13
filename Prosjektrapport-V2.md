@@ -47,7 +47,7 @@
 ### Aktivitetsdiagram
 Aktivitetsdiagram er et viktig verktøy som brukes i applikasjonsutviklings- prosessen for å få oversikt over hvordan hver aktivitet i applikasjonen fungerer i systemet fra begynnelse til slutt, slik at det er lettere å forstå hva som skjer når en aktør utfører de forskjellige aktivitetene i use case diagrammene. I denne seksjonen beskrives de forskjellige aktivitetene i HytteApp med tilhørende diagram.
 
-Aktør: Bruker
+#### Aktør: Bruker
 UC1: Registrer bruker
 Aktivitetsdiagrammet viser hvordan aktøren Bruker oppretter en bruker i systemet. Aktiviteten går fra å trykke på "registrer deg" på logg inn siden, som deretter tar deg inn på et skjema der du fyller ut informasjon som navn, epost, telefonnummer og hytteadresse. Når informasjonen er fylt ut, trykker Bruker på "registrer deg" knappen. Systemet validerer innholdet i skjemaet for å sjekke at innholdet er godkjent. Dersom det ikke er det får Bruker opp rød skrift på de feltene som må fikses på, og de kan fikse det og trykke på "registrer deg" igjen. Dersom det er godkjent så registreres bruker i databasen, og bruker blir sendt tilbake til logg inn skjermen med en popup melding som sier: "Brukeren er opprettet, vennligst logg inn".
 
@@ -78,13 +78,13 @@ Aktivitetsdiagrammet viser hvordan aktøren Bruker sender melding. Aktiviteten g
 
 Figur 6: Aktivitetsdiagram for "leser meldinger" for aktøren Bruker.
 
-Aktør: Brøytemannskap
+#### Aktør: Brøytemannskap
 UC1: Får henvendelser på appen om hvilke hytter de skal måke
 
-Aktør: Administrasjon
+#### Aktør: Administrasjon
 UC1: Får statistikk fra appen
 
-Aktør: Statens kartverk
+#### Aktør: Statens kartverk
 
 ### Flytdiagram
 
