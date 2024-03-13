@@ -54,26 +54,31 @@ Aktivitetsdiagrammet viser hvordan aktøren Bruker oppretter en bruker i systeme
 Figur 1: Aktivitetsdiagram for "registrer bruker" for aktøren Bruker.
 
 UC2: Logger inn
+
 Aktivitetsdiagrammet viser hvordan aktøren Bruker logger inn som bruker av systemet. Aktiviteten går fra å skrive inn brukernavn og passord i feltene på logg inn siden og, deretter trykke på logg inn knappen. Systemet verifiserer da brukeren. Dersom det ikke blir godkjent, nullstilles feltene for brukernavn og passord, og man får en popup melding som sier: "Feil ved innlogging, sjekk brukernavn og passord." Dersom det er godkjent, får brukeren en sesjonskode som gjør at applikasjonen husker at man er logget inn til neste gang, og så blir brukeren tatt til hjem siden.
 
 Figur 2: Aktivitetsdiagram for "logg inn" for aktøren Bruker.
 
 UC3: Bestiller brøyting
+
 Aktivitetsdiagrammet viser hvordan aktøren Bruker bestiller brøyting. Aktiviteten går fra å sjekke om brukeren har en bruker. Hvis ikke, må brukeren registrere bruker. Hvis ja, så sjekker systemet om du har en aktiv sesjon. Hvis ja, så kommer du til hjem siden, og hvis ikke, så må du logge inn og så kommer du til hjem siden. Så kan du trykke på "bestill brøyting" knappen på hjem siden, og så velger du i kalenderen hvilken dato du vil ha brøyting til, og så trykker du på "bestill" knappen som dukker opp. Til slutt kommer brukeren tilbake til hjem siden og får en grønn popup melding som sier "Du har bestilt brøyting til dato: *dato her*". 
 
 Figur 3: Aktivitetsdiagram for "bestill brøyting" for aktøren Bruker.
 
 UC4: Viser værvarsel
+
 Aktivitetsdiagrammet viser hvordan aktøren Bruker viser værvarsel. Aktiviteten går fra å sjekke om brukeren har en bruker. Hvis ikke, må brukeren registrere bruker. Hvis ja, så sjekker systemet om du har en aktiv sesjon. Hvis ja, så kommer du til hjem siden, og hvis ikke, så må du logge inn og så kommer du til hjem siden. Så kan du trykke på "vis værvarsel" knappen på hjem siden, og systemet vil hente værvarsel via API og vise det til brukeren i et nytt vindu. Herfra kan brukeren velge å gå tilbake til hjem siden når de er ferdige å se på værmeldingen.
 
 Figur 4: Aktivitetsdiagram for "vis værvarsel" for aktøren Bruker.
 
 UC5: Sender melding
+
 Aktivitetsdiagrammet viser hvordan aktøren Bruker sender melding. Aktiviteten går fra å sjekke om brukeren har en bruker. Hvis ikke, må brukeren registrere bruker. Hvis ja, så sjekker systemet om du har en aktiv sesjon. Hvis ja, så kommer du til hjem siden, og hvis ikke, så må du logge inn og så kommer du til hjem siden. Så kan du trykke på "kontakt HytteService" knappen på hjem siden, og Bruker blir tatt til en side der man får en tekstboks. Man skriver deretter inn meldingen i tekstboksen, og trykker "Send melding" knappen. Bruker blir da tatt tilbake til hjem siden.
 
 Figur 5: Aktivitetsdiagram for "sender melding" for aktøren Bruker.
 
 UC6: Leser meldinger
+
 Aktivitetsdiagrammet viser hvordan aktøren Bruker sender melding. Aktiviteten går fra å sjekke om brukeren har en bruker. Hvis ikke, må brukeren registrere bruker. Hvis ja, så sjekker systemet om du har en aktiv sesjon. Hvis ja, så kommer du til hjem siden, og hvis ikke, så må du logge inn og så kommer du til hjem siden. Bruker kan deretter trykke på notifikasjoner for å se en liste over mottatte meldinger med tittel, tekst og dato den ble sendt. De kan trykke på et element i listen for å se hele meldingen. Når de har lest meldingen ferdig kan de svare på den, og deretter bli tatt til "send melding" siden, eller gå tilbake til hjem siden.
 
 Figur 6: Aktivitetsdiagram for "leser meldinger" for aktøren Bruker.
