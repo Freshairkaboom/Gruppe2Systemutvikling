@@ -63,14 +63,17 @@ Aktivitetsdiagrammet viser hvordan aktøren Bruker bestiller brøyting. Aktivite
 
 Figur 3: Aktivitetsdiagram for "bestill brøyting" for aktøren Bruker.
 
-UC4: Vis værvarsel
+UC4: Viser værvarsel
 Aktivitetsdiagrammet viser hvordan aktøren Bruker viser værvarsel. Aktiviteten går fra å sjekke om brukeren har en bruker. Hvis ikke, må brukeren registrere bruker. Hvis ja, så sjekker systemet om du har en aktiv sesjon. Hvis ja, så kommer du til hjem siden, og hvis ikke, så må du logge inn og så kommer du til hjem siden. Så kan du trykke på "vis værvarsel" knappen på hjem siden, og systemet vil hente værvarsel via API og vise det til brukeren i et nytt vindu. Herfra kan brukeren velge å gå tilbake til hjem siden når de er ferdige å se på værmeldingen.
 
 Figur 4: Aktivitetsdiagram for "vis værvarsel" for aktøren Bruker.
 
-UC5: Sende melding
+UC5: Sender melding
+Aktivitetsdiagrammet viser hvordan aktøren Bruker sender melding. Aktiviteten går fra å sjekke om brukeren har en bruker. Hvis ikke, må brukeren registrere bruker. Hvis ja, så sjekker systemet om du har en aktiv sesjon. Hvis ja, så kommer du til hjem siden, og hvis ikke, så må du logge inn og så kommer du til hjem siden. Så kan du trykke på "kontakt HytteService" knappen på hjem siden, og Bruker blir tatt til en side der man får en tekstboks. Man skriver deretter inn meldingen i tekstboksen, og trykker "Send melding" knappen. Bruker blir da tatt tilbake til hjem siden.
 
-UC5: Lese meldinger
+Figur 5: Aktivitetsdiagram for "sender melding" for aktøren Bruker.
+
+UC5: Leser meldinger
 
 Aktør: Brøytemannskap
 UC1: Får henvendelser på appen om hvilke hytter de skal måke
