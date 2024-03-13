@@ -68,6 +68,10 @@ Aktivitetsdiagrammet viser hvordan aktøren Bruker viser værvarsel. Aktiviteten
 
 Figur 4: Aktivitetsdiagram for "vis værvarsel" for aktøren Bruker.
 
+UC5: Sende melding
+
+UC5: Lese meldinger
+
 Aktør: Brøytemannskap
 UC1: Får henvendelser på appen om hvilke hytter de skal måke
 
