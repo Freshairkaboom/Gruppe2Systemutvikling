@@ -73,7 +73,10 @@ Aktivitetsdiagrammet viser hvordan aktøren Bruker sender melding. Aktiviteten g
 
 Figur 5: Aktivitetsdiagram for "sender melding" for aktøren Bruker.
 
-UC5: Leser meldinger
+UC6: Leser meldinger
+Aktivitetsdiagrammet viser hvordan aktøren Bruker sender melding. Aktiviteten går fra å sjekke om brukeren har en bruker. Hvis ikke, må brukeren registrere bruker. Hvis ja, så sjekker systemet om du har en aktiv sesjon. Hvis ja, så kommer du til hjem siden, og hvis ikke, så må du logge inn og så kommer du til hjem siden. Bruker kan deretter trykke på notifikasjoner for å se en liste over mottatte meldinger med tittel, tekst og dato den ble sendt. De kan trykke på et element i listen for å se hele meldingen. Når de har lest meldingen ferdig kan de svare på den, og deretter bli tatt til "send melding" siden, eller gå tilbake til hjem siden.
+
+Figur 6: Aktivitetsdiagram for "leser meldinger" for aktøren Bruker.
 
 Aktør: Brøytemannskap
 UC1: Får henvendelser på appen om hvilke hytter de skal måke
