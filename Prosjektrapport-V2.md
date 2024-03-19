@@ -50,7 +50,7 @@
 
 ### Datamodell (ER-modell)
 
-### Domenemodell (UML-modell)
+### Domenemodell: En domenemodell er et forenklet kart over et spesifikt område, for eksempel et programvaresystem eller en bedrift. Den viser de viktige tingene og hvordan de er knyttet til hverandre. Dette gjør det lettere for alle parter å forstå hva systemet gjør og hvordan det fungerer. Det kan ses på som en blåkopi av systemet ditt. Men i stedet for vegger og rør viser det ting som kunder, varer og bestillinger, samt hvordan de er knyttet til hverandre.
 
 
 ## Design
