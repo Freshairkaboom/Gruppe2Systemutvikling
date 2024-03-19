@@ -46,8 +46,6 @@
 
 ### Aktivitetsdiagram
 
-### Flytdiagram
-
 ### Datamodell (ER-modell)
 
 ### Domenemodell (UML-modell)
