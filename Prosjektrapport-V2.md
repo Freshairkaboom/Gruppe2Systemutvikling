@@ -8,7 +8,7 @@
 - Adrian Johansen
 - Bjørn Tore Follegg
 - Shaima Nazand
-- Monica Johansen
+- Monica Azaria Johansen
 - Ramona Cretulescu
 - Christoffer Johansen
 ### Individuell beskrivelse, gruppemedlems bidrag til prosjektet(legges til på slutten av oppgavetiden)
