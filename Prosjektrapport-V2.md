@@ -57,8 +57,6 @@ I dette aktivitetsdiagrammet kan man se værvarselet ut fra den adressen man har
 Figur 3: Aktivitetsdiagram over kontaktskjema
 I dette aktivitetsdiagrammet så er brukeren inne på kontaktsiden, her kan brukeren kontakte bedriften / brøytemannskapet. Bruker får et utfyllingsskjema som blir sendt til bedriften. Om det kommer en feilmelding så blir brukeren bedt om å prøve på ny eller brukeren kan avslutte oppgaven.
 
-### Flytdiagram
-
 ### Datamodell (ER-modell)
 
 ### Domenemodell (UML-modell)
