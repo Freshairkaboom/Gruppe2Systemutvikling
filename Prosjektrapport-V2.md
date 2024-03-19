@@ -82,6 +82,10 @@
 
 ### Milepælsplan
 
+I milepælsplanen så er det satt opp ukesvis hva vi hadde planlagt å jobbe med i hvilke uker, og hvilke planlagte frister som gjaldt for de arbeidsoppgavene.
+
+(Dette området er satt av til tabellen milepælsplan som ligger i eget word dokument.)
+
 ### Risikovurdering
 
 ### Møtelogg
