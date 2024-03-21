@@ -17,6 +17,10 @@
 ### Maskinvare spesifikasjon. Utviklingsverktøy og teknologi. Konfigurasjon-/versjonskontroll.
 ### Brukergrensesnitt. Design-mål. prototype brukergrensesnitt/skjermbilder.
 
+
+
+
+
 ## Kvalitetssikring tema/aktiviteter kan være:
 ### Overordnet testbeskrivelse. Overordnet testplan
 ### Prosjektstyring. Roller/ansvar. Milepælsplan (grov), Risikovurdering. Møtelogg
