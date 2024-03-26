@@ -147,6 +147,15 @@ I dette aktivitetsdiagrammet så er brukeren inne på kontaktsiden, her kan bruk
 ### Prosjektstyring
 
 ### Roller/ansvar
+Ettersom vi benytter oss av Kanban metodikk ved å bare plukke oppgaver og gjennomføre dem, har vi liten behov for offisielle roller. I denne seksjonen beskriver vi hvem som har hatt hvilke roller, og hvem som har tatt på seg nødvendig ansvar i prosjektet.
+
+#### Roller:
+- Møteleder: Lars
+- Skribent/sektretær (til møtereferater): Adrian
+
+#### Andre ansvarsområder:
+- Sette opp prosjektbrettet: Adrian
+- Vurdere pull requests: Alle
 
 ### Milepælsplan
 
