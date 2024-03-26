@@ -19,27 +19,37 @@
 ## Foranalyse
 
 ### Problembeskrivelse
+
 Hytteservice står overfor utfordringer knyttet til ineffektivitet og unødvendige kostnader i forbindelse med brøyting av hytteområder. Uten en nøyaktig oversikt over hytter som er i bruk, må alle områder brøytes ved snøfall, noe som fører til økte kostnader, tidssløsing og unødvendig slitasje på utstyr. Det mangler også en effektiv måte å kommunisere med hytteeiere og planlegge brøyteaktiviteter.
 
 ### Bakgrunn
+
 Hytteservice har lenge levert tjenester til hytteeiere over hele landet, men med vinterhalvåret kommer spesifikke utfordringer knyttet til brøyting av veier og områder rundt hyttene. Den nåværende praksisen med å brøyte basert på estimater og generell kunnskap om hyttebruk har vist seg å være ineffektiv og kostbar. Nå skal det automatiseres og digitaliseres for å tilby en bedre løsning enn det de har.
 
 ### Hensikt og mål for prosjektet
-Gjennom utviklingen av HytteApp ønsker Hytteservice å modernisere sin tilnærming til brøytingstjenester, samtidig som de opprettholder sitt omdømme for kvalitet og pålitelighet i markedet. 
+
+Gjennom utviklingen av HytteApp ønsker Hytteservice å modernisere sin tilnærming til brøytingstjenester, samtidig som de opprettholder sitt omdømme for kvalitet og pålitelighet i markedet.
 
 Formålet med prosjektet er å utvikle en mobilapplikasjon, HytteApp, som effektiviserer og forbedrer brøyteprosessen for Hytteservice og hytteeierne. Målene inkluderer:
 
 Å redusere kostnader ved unødvendig brøyting og slitasje på utstyr.
-Å utvikle en funksjonell og brukervennlig HytteApp. 
+Å utvikle en funksjonell og brukervennlig HytteApp.
 Å forbedre kundeopplevelsen for hytteeiere gjennom en enkel og pålitelig bestillingsprosess.
 Å øke effektiviteten til Hytteservice gjennom bedre ressursallokering og planlegging av brøyteoppdrag.
 Å sikre at løsningen oppfyller personvernkravene, spesielt GDPR, og har universell utforming for tilgjengelighet.
 
 ### Overordnet kravspesifikasjon
 
+I tillegg til å beskrive produktets funksjoner og operasjonelle egenskaper, spiller kravspesifikasjonen også en sentral rolle i å definere produktets mål og formål. Den gir et klart rammeverk for utviklingsteamet og bidrar til å sikre at alle interessenter har en felles forståelse av hva produktet skal oppnå. Videre fungerer kravspesifikasjonen som et viktig verktøy for kommunikasjon mellom ulike teammedlemmer.
+
+I tillegg til å tilrettelegge for kommunikasjon og forståelse, hjelper kravspesifikasjonen også med å håndtere risikoer knyttet til produktutviklingen. Ved å identifisere og dokumentere kravene tydelig, kan mulige utfordringer og feil oppdages og løses tidlig i prosessen. Dette bidrar til å minimere risikoen for kostbare omgjøringer senere i utviklingsfasen.
+
+I en stadig skiftende teknologisk verden er det viktig å kunne tilpasse seg endringer raskt. Ved å være fleksible i kravspesifikasjonen kan utviklingsteamet bedre håndtere utfordringer og muligheter, øke sjansene for suksess og levere et produkt som tilfredsstiller kundens behov.
+
 ### Interessenter og brukerbeskrivelser
 
 ### Funksjonelle krav
+
 - Registering og innlogging for hytteeiere
 - Mulighet for å bestille brøyting
 - Varslingssytem via SMS når brøyting er fullført
@@ -48,29 +58,37 @@ Formålet med prosjektet er å utvikle en mobilapplikasjon, HytteApp, som effekt
 - Funksjonelle krav (brukerregistrering, bestilling, motta sms, værvarsel, administrasjon)
 
 ### Ikke-funksjonelle krav
-#### Sikkerhet og personvern: 
+
+#### Sikkerhet og personvern:
+
 Appen må overholde GDPR-krav og andre relevante lover og forskrifter angående personvern. Dette inkluderer sikker lagring og håndtering av brukerdata, samt kryptering av sensitiv informasjon under overføring.
 
-#### Universell utforming (UU): 
+#### Universell utforming (UU):
+
 Appen må være tilgjengelig og brukervennlig for alle, uavhengig av eventuelle funksjonshemminger eller teknisk kunnskap. Dette inkluderer tilpasninger for syns-, hørsels- og motoriske utfordringer.
 
-#### Ytelse og skalerbarhet: 
+#### Ytelse og skalerbarhet:
+
 Appen må kunne håndtere et stort antall brukere samtidig uten at det går på bekostning av ytelsen. Videre må den være skalerbar for å kunne tilpasse seg økende brukerbase og funksjonalitetsbehov over tid.
 
-#### Pålitelighet og tilgjengelighet: 
+#### Pålitelighet og tilgjengelighet:
+
 Appen må være stabil og pålitelig, med minimal nedetid og feilhåndtering. Videre må den være tilgjengelig på ulike plattformer og enheter, inkludert mobile enheter og nettlesere.
 
-#### Brukervennlighet og responsivt design: 
+#### Brukervennlighet og responsivt design:
+
 Appen må ha et intuitivt og responsivt grensesnitt som er enkelt å navigere og forstå for brukerne. Den må også tilpasses forskjellige skjermstørrelser og enheter for optimal brukeropplevelse.
 
-#### Teknologisk plattform: 
+#### Teknologisk plattform:
+
 Valg av teknologisk plattform må være godt dokumentert og begrunnet, med fokus på sikkerhet, fleksibilitet og vedlikeholdbarhet over tid.
 
-#### Teknisk dokumentasjon: 
+#### Teknisk dokumentasjon:
+
 Det må være tilstrekkelig teknisk dokumentasjon og brukerveiledninger tilgjengelig for å hjelpe både utviklere og brukere med å forstå og bruke appen effektivt.
 
-
 ### Universell utforming
+
 I forhold til utvikling av HytteApp er det en del spørsmål som må stilles i forhold til hvorvidt vi skal ta hensyn til spesielle brukerbehov, eller om vi holder oss til etablerte standarder. Vi må svare på om vi overholder Web Content Accessibility Guidelines 2.1 (World Wide Web Consortium, 2018) og likestillings- og diskrimineringsloven (Lovdata, 2017), og om designet vårt kan sies å være inkluderende.
 
 For å godkjenne design bør designere vise til hvordan de har tatt hensyn til UU i produktet, hvilke hensyn og virkemidler som er brukt i forhold til etablerte standarder, og hvilke nye hensyn som er tatt. Deretter må de som godkjenner designene gå over om det som er tatt hensyn til og implementert i designet er nok til å overholde WCAG og likestillings- og diskrimineringsloven. I designfasen, spesifikt i etterkant av prototyping, kan det være hjelpsomt å involvere testgrupper for å se på om de forskjellige hensynene faktisk fungerer.
@@ -141,3 +159,6 @@ I dette aktivitetsdiagrammet så er brukeren inne på kontaktsiden, her kan bruk
 ### Velge og beskrive prosessmodell/systemutviklingsmodell/metode. Begrunne tilpasninger. Skissere alt.
 
 ## Referanser (APA7)
+
+Asbjørn Rolstadås (2018.24.april). kravspesifikasjon
+https://snl.no/kravspesifikasjon
