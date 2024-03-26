@@ -159,3 +159,6 @@ I dette aktivitetsdiagrammet så er brukeren inne på kontaktsiden, her kan bruk
 ### Velge og beskrive prosessmodell/systemutviklingsmodell/metode. Begrunne tilpasninger. Skissere alt.
 
 ## Referanser (APA7)
+
+Asbjørn Rolstadås (2018.24.april). kravspesifikasjon
+https://snl.no/kravspesifikasjon
