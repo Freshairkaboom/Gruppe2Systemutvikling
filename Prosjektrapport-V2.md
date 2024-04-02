@@ -258,6 +258,18 @@ I milepælsplanen så er det satt opp ukesvis hva vi hadde planlagt å jobbe med
 Tabell: Milepælsplan
 
 ### Risikovurdering
+For å gjennomføre et bra systemutviklingsprosjekt, så kan det være greit å ha oversikt over hva som kan gå galt i prosjektet. Dette gjør vi ved å identifisere potensielle risikoer, analysere hyppighet og alvorlighetsgrad på hvert punkt, og kalkulere en overordnet risikoscore. Desto høyere risikoscore, desto større fokus bør man ha på dem i prosjektet. Man bør også ha en risikohåndteringsplan, der man legger ut om spesifikke tiltak vi utfører dersom det skjer noe uforutsett. I et prosjekt som driver med Kanban metodikk bør man håndtere slike risikoer så snart de dukker opp, kalle inn til ekstraordinære møter, sende private meldinger eller iallefall ta det opp ved neste planlagte møte. Risikohåndteringsgrad er en kalkulert score basert på hvor sterke håndteringstiltak som må til, og hvor høy prioritet det har, altså hvor raskt man skal håndtere dem. 
+
+Tabell: Risikoanalyse
+
+Risikoanalysen lister opp det vi ser på som risikoer, komplett med hyppighet - hvor ofte vi tror det kommer til å skje, alvorlighetsgrad - hvor alvorlig det er om det inntreffer, og produktet av de to, som utgjør risikoscore.
+
+Tabell: Risikohåndteringsplan
+
+Risikohåndteringsplanen gjentar de foregående risikoene, men beskriver tiltakstyngde, hvor mye arbeid som må til for å fikse det, og hvilken prioritet det har å fikse det. Risikohåndteringsgrad er produktet av de to. De spesifikke tiltakene er beskrevet til slutt.
+
+#### Identifisering av risikoer
+
 
 ### Møtelogg
 
