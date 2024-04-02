@@ -134,6 +134,12 @@ Den viser de viktige entitetene og hvordan de er knyttet til hverandre
 ### Maskinvarespesfikasjon
 
 ### Utviklingsverktøy og teknologi
+Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men et grunnlag ville vært som følgende:
+- For app-utvikling kunne vi ha brukt React Native for å kunne bygge for både iOS og Android.
+- Backend-utviklingen kunne foregått på Node.js for eksempel da det er enkelt å skalere der.
+- Databasen kunne vært bygd i MySQL.
+- Google Maps API for kart.
+- Dessuten har vi allerede brukt GitHub for deling av prosjektomfang og samarbeid i utviklingsteamet.
 
 ### Konfigurasjon-/versjonskontroll
 
