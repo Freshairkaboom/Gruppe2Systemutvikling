@@ -247,6 +247,9 @@ Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men 
 ### Overordnet testbeskrivelse
 
 ### Overordnet testplan
+En testplan beskriver teamets fremgangsmåte for å få kvalitetssikret systemets funksjonelle og ikke-funksjonelle krav fra kravspesifikasjonen. Den skal inneholde informasjon om grunnlaget for hvorfor vi skal teste, overordnede mål for testingen, omfanget av testingen, hvilken strategi vi benytter oss av, hvilke testmiljø vi skal benytte oss av, og hvordan man skal sette det opp. Testingen skal deles inn i ulike faser, og den må også ha en tidslinje for når testingen skal foregå, inkludert start- og sluttdato for hver fase.
+
+Vi har valgt å bruke en smidig metode der applikasjonen skal konstrueres basert på en rekke brukerhistorier, se seksjon om brukerhistorier over. Testene vil også basere seg på brukerhistoriene, og hvilke 
 
 ### Prosjektstyring 
 
