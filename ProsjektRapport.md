@@ -77,6 +77,42 @@ Brukerhistorier er et verktøy som brukes i gjennomføring av prosjekter, spesie
 
 ## Kvalitetssikring og testing
 - Overordna testplan/testbeskrivelse
+- UseCase:
+
+- Definisjon:  UseCase er en beskrivelse av en sekvens av handlinger som utføres av brukerne innenfor er system, som gir observerbar verdi til en aktør. Aktøren kan være en person eller et annet system. UseCase fokuserer på hva systemet gjør og ikke hvordan det gjøres. 
+
+- Formål: Hovedformålet med UseCase er å fange opp funksjonelle krav ved å beskrive hvordan systemet skal oppføre seg i forskjellige sitasjoner. De hjelper med å sikre at systemet dekker alle forventede interaksjoner med brukere eller eksterne systemer. 
+
+- Aktører: Entiteter (vanligvis brukere eller eksterne systemer) som interagerer med systemer. 
+
+- Forutsetninger: Betingelse som må være oppfylt før brukstilfellet starter. 
+
+- Resultat: Den endelige tilstanden etter at UseCase er utført, som viser den oppnådde verdien eller endringer i systemet. 
+
+- Bruksmønster:
+
+- Definisjon: Begrepet «bruksmønster» brukes ofte om hverandre med «UseCase», men det kan også referere til en mer generell ide om mønstre eller vaner i hvordan brukere interagerer med systemet over tid. Det kan også vise til et sett med UseCase som tilsammen skaper en komplett funksjonell funksjon av systemet. 
+
+- Formål: Bruksmønstre bidrar til å identifisere og forstå vanlige måter systemet blir brukt på, noe som kan hjelpe designere og utviklere med å fokusere brukernes behov og forbedre brukeropplevelsen.
+
+- Tilnærming: Analysere og dokumentere vanlige oppgaver eller mål som brukere forsøker å oppnå ved å bruke systemet og identifisere gjentatte interaksjoner som kan optimaliseres eller støttes bedre gjennom design. 
+
+- Sammenheng mellom UseCase og Bruksmønster 
+
+- Komplementære Verktøy: UseCase og bruksmønster fungerer sammen for å gi et fullstendig bilde av hvordan systemet vil bli brukt. UseCase gir detaljerte, spesifikke eksempler på interaksjoner, mens bruksmønster kan avsløre bredere mønstre i bruk og brukerbehov. 
+
+- Design og utvikling: Sammen bidrar disse tilnærmingene til å forme systemdesignet ved å fokusere på brukerens perspektiv, og sikrer at sluttproduktet oppfyller brukerens krav og forventinger. 
+
+- Ved å bruke UseCase og forstå bruksmønster, kan utviklingsteamene lage mer intuitive og brukervennlige applikasjoner og systemer som bedre møter målgruppens behov. 
+
+
+
+
+
+
+
+## UseCase og Brukermønster
+
 
 ## Kontekst/Bakgrunn
 
