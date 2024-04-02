@@ -122,6 +122,8 @@ I dette aktivitetsdiagrammet så er brukeren inne på kontaktsiden, her kan bruk
 ### Datamodell (ER-modell)
 
 ### Domenemodell (UML-modell)
+- En domenemodell er et forenklet kart over et spesifikt område, for eksempel et programvaresystem eller en bedrift. Den viser de viktige tingene og hvordan de er knyttet til hverandre. Dette gjør det lettere for alle parter å forstå hva systemet gjør og hvordan det fungerer. 
+Den viser de viktige entitetene og hvordan de er knyttet til hverandre
 
 ## Design
 
@@ -136,8 +138,97 @@ I dette aktivitetsdiagrammet så er brukeren inne på kontaktsiden, her kan bruk
 ### Konfigurasjon-/versjonskontroll
 
 ### Brukergrensesnitt
+## De beste brukergrensesnittene til HytteAppen:
+# Det er enkelt å bruke:
+- Appen skal være lett å forstå og enkel å bruke for mennesker i alle aldre og med ulike tekniske ferdigheter.
+- Menyer skal være logisk bygget opp og tekster skal være enkle og forståelige.
+- Appen vil gi brukere veiledning og hjelp.
+
+# For å sikre at et brukervennlig grensesnitt er tilgjengelig, kan man:
+- Bruk korte, lettforståelige tekster.
+- Ha en tydelig struktur.
+- Bruk hensiktsmessig kontraster og farger.
+- Unngå overdreven kompleksitet.
+- Test appen på målgruppens medlemmer.
+# Effektivitet:
+- Appen skal gjøre det mulig for brukere å fullføre vanlige oppgaver raskt og enkelt.
+- Pløying bør være en enkel prosess med bare noen få trinn.
+ Appen må gi brukerne forståelig informasjon.
+
+# Attraktivt:
+- Appen bør ha et moderne design som er enkelt å bruke og appellerer til målgruppen.
+- Det er viktig at bruken av bilder, farger og typografi er nøye vurdert og tilpasset målgruppen.
+
+# Pålitelighet:
+- Det er viktig at applikasjonen er stabil og fungerer feilfritt.
+- Appen må ha oppdatert og nøyaktig informasjon.
+- Appen skal beskytte brukernes datasikkerhet og personvern.
+
+# Layouten:
+
+# Startvinduet:
+- En "karusell" med bilder av brukerens hytter.
+- En oversikt over den kommende brøytingen for hver hytte.
+- Værmelding for hytta som ble valgt.
+- Hurtig tilgang til meldinger og innstillinger.
+
+# For å sikre brukervennlig grensesnitt kan man gjøre følgende:
+- Bruk tekster som er lett å forstå.
+- Vær tydelig på strukturen.
+- Bruk riktig kontraster og farger.
+- Unngå for mye komplisering.
+- Test applikasjonen med målgruppens medlemmer.
+- Når du designer appen, er universell utforming (UU) veldig viktig.
+
+# Innstillinger:
+- Mulig å endre profildata.
+- Hytter kan legges til, endres eller slettes.
+- Mulighet til å velge språk og innstillinger for varsler.
+- Mulighet til å se hjelp og brukerveiledning.
+- For å sikre at brukergrensesnittet er enkelt og tilfredsstiller målgruppen, er det viktig å involvere brukerne i designprosessen (hvis mulig).
+
+# Meldinger:
+- En liste over alle meldinger som har blitt sendt og mottatt.
+- Mulighet til å sortere meldinger etter type (brøytemannskap, hyttetjeneste).
+- Mulig å sende filer og bilder.
+- Mulighet til å begynne en diskusjon med brøytemanskap eller hytteservice.
+
+# Brøytingsplan:
+- En kalender som viser tilgjengelige brøytetider.
+- Mulig å velge brøytingstid (f.eks. morgen, ettermiddag eller kveld).
+- Mulig å inkludere et mobilnummer for SMS-varsling.
+- En bekreftelsesside som inneholder alle nødvendige detaljer om bestillingen.
 
 ### Designmål
+# For hytteeiere skal appen tilby følgende funksjoner:
+- Enkel registrering av hytter og brukerprofiler.
+- Bestilling av brøyting med nøyaktig dato og tid for ankomst og avreise.
+- Mulighet for å velge hvem som skal motta SMS-varsel om brøyting.
+- Vise værvarsel for hytteadressen.
+- Mulig å kommunisere med hytteservice og brøytemannskap.
+
+# Hytteservice bør gi følgende funksjoner:
+- En samlet liste over alle hytter som trenger brøyting, sammen med detaljert informasjon om hver hytte og prosessen med å bestille dem.
+- Mulighet til å planlegge effektive brøyteruter basert på informasjon om hyttene og bestillingene.
+- Generering av omfattende statistikk over brøyteaktivitet fordelt på hytteområder, tidsperioder og andre faktorer.
+- Enkel tilgang til brukerprofiler, hytter og bestillinger.
+
+# Ytelse:
+- Appen må være stabil, rask og responsiv.
+- For de viktigste funksjonene skal appen fungere offline, det betyr at brukere kan bestille brøyting og se relevante innhold selv uten internettforbindelse.
+
+# Tilgjengelighet:
+- Appen må være tilgjengelig på Android og iOS.
+- Appen bør ha universell utforming (UU) slik at alle kan bruke den, uavhengig av funksjonsevne.
+
+# Sikkerhet:
+- Appen må håndtere personvern i samsvar med GDPR og gjeldende sikkerhetsstandarder.
+- Appen bør ha sikker håndtering og kryptering av brukerdata.
+
+# Utforming/Design:
+- Det er viktig at appen har et design som er moderne, brukervennlig og attraktivt for målgruppen.
+- Det er viktig at designet er konsistent, lett å forstå og bruker gode bilder, fargepalett og typografi.
+- Det er viktig at appens visuelle identitet er i samsvar med Hytteservices merkevareidentitet.
 
 ### Prototype - skjermbilder - Figma
 
