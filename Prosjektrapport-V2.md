@@ -132,6 +132,7 @@ Den viser de viktige entitetene og hvordan de er knyttet til hverandre
 ### Systemarkitektur og teknologivalg
 
 ### Maskinvarespesfikasjon
+Serverinfrastrukturen burde være skybasert. Vi ville gått for Microsoft Azure. Det burde også være en dedikert database ala MySQL-server. Videre trenger du en stabil internettilkobling. Alt av klienter skal fungere, men ettersom det er en app burde du ha en smarttelefon eller et nettbrett. For utviklingsmuligheter anbefaler vi en datamaskin med nok kraft til å søtte et utviklingsmiljø, IDE-er og andre verktøy. Det burde også være en backup- og redundansløsning. 
 
 ### Utviklingsverktøy og teknologi
 
