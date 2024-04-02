@@ -135,10 +135,10 @@ Den viser de viktige entitetene og hvordan de er knyttet til hverandre
 
 ### Utviklingsverktøy og teknologi
 Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men et grunnlag ville vært som følgende:
-- For app-utvikling kunne vi ha brukt React Native for å kunne bygge for både iOS og Android.
-- Backend-utviklingen kunne foregått på Node.js for eksempel da det er enkelt å skalere der.
-- Databasen kunne vært bygd i MySQL.
-- Google Maps API for kart.
+- For app-utvikling kunne vi ha brukt et rammeverk som React Native for å kunne bygge for både iOS og Android. Fordelen her er at det holde med én kodebase.
+- Backend-utviklingen kunne foregått på Node.js for eksempel da det er godt egnet for utvikling av skalerbare serverapplikasjoner. Express.js er en slags miniversjon av Node.js som er meget enkelt å lære.
+- Databasen kunne vært bygd i MySQL. Særlig fordi MySQL er som vi kjenner til gir meget stabil og pålitelig ytelse.
+- Google Maps API for kart ville vært en god idé. Særlig fordi den gir mulighet for interaktive kart i appen.
 - Dessuten har vi allerede brukt GitHub for deling av prosjektomfang og samarbeid i utviklingsteamet.
 
 ### Konfigurasjon-/versjonskontroll
