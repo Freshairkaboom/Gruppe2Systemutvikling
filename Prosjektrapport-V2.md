@@ -138,7 +138,6 @@ Den viser de viktige entitetene og hvordan de er knyttet til hverandre
 ### Konfigurasjon-/versjonskontroll
 
 ### Brukergrensesnitt
-### De beste brukergrensesnittene til HytteAppen:
 #### Det er enkelt å bruke:
 - Appen skal være lett å forstå og enkel å bruke for mennesker i alle aldre og med ulike tekniske ferdigheter.
 - Menyer skal være logisk bygget opp og tekster skal være enkle og forståelige.
