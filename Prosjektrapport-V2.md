@@ -245,12 +245,11 @@ Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men 
 ## Kvalitetssikring
 
 ### Overordnet testbeskrivelse
-Formålet med testprosessen har vært å utarbeide feil og mangler i systemet før lanseringen. Testingen har gått ut på å sikre at systemet er robust, feilfritt og brukervennlig før det blir tatt i bruk.
+Formålet med testprosessen er å utarbeide feil og mangler i systemet før man pusher ut appen. Testingen går ut på å sikre at systemet er feilfritt og brukervennlig før det blir tatt i bruk.
 
-Det første vi gjorde var å gjennomføre en grundig kvalitetskontroll av de individuelle komponentene i systemet. Dette innebærer testing av hver enkelt del for å sikre at de er oppe til den standeren vi har suttet. Deretter gikk vi videre til å teste selve systemet. Her så vi på hvordan de forskjellige komponentene samhandler med hverandre, samt verifisering av at de oppfylte både de funksjonelle kravene, som for eksempel brukerinteraksjon og datahåndtering, og de ikke-funksjonelle kravene, som ytelse og sikkerhet. 
+Det første vi skal gjøre er å gjennomføre en grundig kvalitetskontroll av de individuelle komponentene i systemet. Dette innebærer testing av hver enkelt del for å sikre at de er opp til den standarden vi har suttet. Etter dette er gjort går vi videre til testing av systemet som en helhet. Her skal vi se hvordan de forskjellige komponentene samkjører med hverandre å verifisere at de oppfyller de funksjonelle kravene som ytelse og sikkerhet.
 
-I den andre fasen av testingen fokuserte vi på å evaluere systemet som en helhet. Vi gjennomførte brukertester for å sikre at systemet var intuitivt og enkelt å bruke. I denne testingen var det viktig å se på tilbakemeldingene slik at vi kunne forbedre og optimalisere systemet for brukarene. Vi gjorde justeringer i henhold til tilbakemeldinger og sørget for at brukervennligheten var på plass.
-
+I den andre fasten av testingen skal vi fokusere på systemet som en helhet. Vi skal gjennomføre brukertester for å sikre at systemet er intuitivt og enkelt å bruke. I denne testingen er det viktig å se på tilbakemeldingene slik at vi kan forbedre og optimalisere systemet for brukeren. Vi skal bruke tilbakemeldingene til å søre for at brukervennligheten er på plass.
 
 ### Overordnet testplan
 
