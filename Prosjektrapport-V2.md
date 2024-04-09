@@ -63,6 +63,7 @@ Prosjektet kan vurdere å anskaffe tjenester fra eksterne leverandører med rele
 En annen kategori vil inkludere de som har en indirekte påvirkning på HytteApp-prosjektet. Dette omfatter de som har ansvaret forsikre at forskrifter, standarder og regelverk blir fulgt. Et eksempel på en indirekte interessenter som likevel har stor betydning for appen, er Statens kartverk. Deres rolle er å levere kritiske eiendomsdata som er nødvendige for nøyaktig lokalisering av hytter. Dette er essensielt for at brøyting kan planlegges og gjennomføres effektivt. En annen indirekte interessent er de regulatoriske myndighetene, som sørger for at HytteApp overholder personvernlovgivingen GDPR og standarder for universell utforming. Dette er avgjørende for tjenestens tilgjengelighet og lovlighet. 
 
 
+
 ### Funksjonelle krav
 
 - Registering og innlogging for hytteeiere
