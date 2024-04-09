@@ -117,19 +117,24 @@ Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hen
 Definisjon: En UseCase er en beskrivelse av en sekvens av handlinger som utføres av brukerne innenfor er system, som gir observerbar verdi til en aktør. Aktøren kan være en person eller et annet system. UseCase fokuserer på hva systemet gjør og ikke hvordan det gjøres. 
     
 Formål: Hovedformålet med UseCase er å fange opp funksjonelle krav ved å beskrive hvordan systemet skal oppføre seg i forskjellige sitasjoner. 
-    
-    
-
-
+ 
 ### UC-diagram
-Her skal det settes in UC diagram.
+
+Figur: Use Case diagram
+
 ### UC-beskrivelser
-Use Case beskrivelser
+
 Tabell UC1 til UC4 beskriver fire Use Cases som er tilknyttet applikasjonen Hytte App. 
 Tabellene viser Use Cases, hvem som er aktør, pre og post betingelser, hovedflyt og alternativ flyt hvis det skjer feil under prosessen.
 
+Tabell: Use Case 1
 
-Her skal det settes inn fire tabeller.
+Tabell: Use Case 2
+
+Tabell: Use Case 3
+
+Tabell: Use Case 4
+
 ### Aktivitetsdiagram
 
 Figur 1: Aktivitetsdiagram over brøyting
