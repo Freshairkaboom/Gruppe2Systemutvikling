@@ -321,6 +321,17 @@ Altså, Scrum bruker litt mer tid på planlegging enn Kanban metodikk for å sø
 
 #### Fossefall
 
+En annen vurdering kunne vært å bruke fossefallsmetode. Den ligger på den mere planleggingsdelen av spekteret. Fossefallsmetoden går ut på å jobbe i fem tydelige faser: 
+- Kravanalyse
+- Systemdesign
+- Implementering
+- Testing
+- Vedlikehold
+
+Siden fossefallsmetoden er mer rigid i sin struktur og mer planleggingsarbeid må ligge til grunn når vi jobber med denne metoden, så er det vanskeligere å tilpasse seg endringer som kommer underveis i prosjektarbeidet. Omtrent som et hus som bygges på en solid grunnmur, så er det vanskeligere å endre på fundamentet som huset er bygd på. 
+
+I motsetning til Kanban som er mer endringsorientert, er fossefallsmodellen mest brukt i prosjekter som krever mer planlegging som for eksempel
+sikkerhetssystemer eller offentlige systemer som er basert på reguleringer og lovforskrifter. I utviklingen av en app for private tjenester er det ikke like viktig en grundig dokumentasjon. Derfor valgte vi å ikke bruke fossefallsmetoden og heller fokusere på tilpasningsdyktighet ved bruk av smidig utvikling slik som er den vanligste praksisen i moderne app-utviklingprosjekt.
 
 ## Referanser (APA7)
 
