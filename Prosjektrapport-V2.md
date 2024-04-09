@@ -48,12 +48,12 @@ I en stadig skiftende teknologisk verden er det viktig å kunne tilpasse seg end
 
 ### Brukerhistorier
 
-Brukerhistorier er et verktøy som brukes i gjennomføring av prosjekter, spesielt som et virkemiddel i SCRUM og Kanban arbeidsmetoder, for å oversette kravspesifikasjoner til konkrete ønsker som utviklere kan deretter kan prøve å oppfylle ved å lage konkrete arbeidsoppgaver som gjennomføres av prosjektteam. Her er noen av brukerhistoriene vi har tenkt ut som kan være relevant for bruken av HytteApp.
+Brukerhistorier er et verktøy som brukes i gjennomføring av prosjekter, spesielt som et virkemiddel i SCRUM og Kanban arbeidsmetoder. Den er hentet fra XP, eller Extreme Programming metodikk, et agilt rammeverk som er kjent for å være den mest spesifikke formen for agilt arbeid. Målet med brukerhistorier er å oversette kravspesifikasjoner til konkrete ønsker som utviklere kan prøve å oppfylle ved å lage konkrete arbeidsoppgaver, som deretter skal gjennomføres av prosjektteam. Brukerhistorier følger formatet: "Som en 'aktør', ønsker jeg 'å kunne bruke appen til dette', for å 'oppfylle dette ønsket'". Her er noen av brukerhistoriene vi har tenkt ut som kan være relevant for bruken av HytteApp.
 
-Som hytteeier ønsker jeg å kunne bestille måking på en raskt og effektiv måte, så jeg kan komme til en ferdigbrøytet hytte.
-Som brøytemannskap ønsker jeg en rask og effektiv kommunikasjon med de som eier hyttene, så jeg vet hvilke hytter som skal brøytes, og jeg slipper unødig slitasje på utstyret.
-Som administrator ønsker jeg en forenklet og oversiktig bestilling av måking, så jeg slipper unødvendig kostnader og at jeg kan overvåke og optimalisere tjenesten.
-Som bruker av hytteappen ønsker jeg at den er i tråd med GDPR og at den har universiell utforming, så den er sikker og tilgjengelig for alle brukere
+- Som hytteeier ønsker jeg å kunne bestille måking på en raskt og effektiv måte, så jeg kan komme til en ferdigbrøytet hytte.
+- Som brøytemannskap ønsker jeg en rask og effektiv kommunikasjon med de som eier hyttene, så jeg vet hvilke hytter som skal brøytes, og jeg slipper unødig slitasje på utstyret.
+- Som administrator ønsker jeg en forenklet og oversiktig bestilling av måking, så jeg slipper unødvendige kostnader og at jeg kan overvåke og optimalisere tjenesten.
+- Som bruker av hytteappen ønsker jeg at den er i tråd med GDPR og at den har universiell utforming, så den er sikker og tilgjengelig for alle brukere
 
 ### Interessenter og brukerbeskrivelser
 
