@@ -118,9 +118,26 @@ Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hen
 
 ### Aktører og UseCase(UC)
 
+Definisjon: En UseCase er en beskrivelse av en sekvens av handlinger som utføres av brukerne innenfor er system, som gir observerbar verdi til en aktør. Aktøren kan være en person eller et annet system. UseCase fokuserer på hva systemet gjør og ikke hvordan det gjøres. 
+    
+Formål: Hovedformålet med UseCase er å fange opp funksjonelle krav ved å beskrive hvordan systemet skal oppføre seg i forskjellige sitasjoner. 
+ 
 ### UC-diagram
 
+Figur: Use Case diagram
+
 ### UC-beskrivelser
+
+Tabell UC1 til UC4 beskriver fire Use Cases som er tilknyttet applikasjonen Hytte App. 
+Tabellene viser Use Cases, hvem som er aktør, pre og post betingelser, hovedflyt og alternativ flyt hvis det skjer feil under prosessen.
+
+Tabell: Use Case 1
+
+Tabell: Use Case 2
+
+Tabell: Use Case 3
+
+Tabell: Use Case 4
 
 ### Aktivitetsdiagram
 
@@ -155,6 +172,7 @@ Den viser de viktige entitetene og hvordan de er knyttet til hverandre
 ### Systemarkitektur og teknologivalg
 
 ### Maskinvarespesfikasjon
+Serverinfrastrukturen burde være skybasert. Vi ville gått for Microsoft Azure. Det burde også være en dedikert database ala MySQL-server. Videre trenger du en stabil internettilkobling. Alt av klienter skal fungere, men ettersom det er en app burde du ha en smarttelefon eller et nettbrett. For utviklingsmuligheter anbefaler vi en datamaskin med nok kraft til å støtte et utviklingsmiljø, IDE-er og andre verktøy. Det burde også være en backup- og redundansløsning. 
 
 ### Utviklingsverktøy og teknologi
 Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men et grunnlag ville vært som følgende:
@@ -264,6 +282,11 @@ Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men 
 ## Kvalitetssikring
 
 ### Overordnet testbeskrivelse
+Formålet med testprosessen er å utarbeide feil og mangler i systemet før man dytter ut appen. Testingen går ut på å sikre at systemet er feilfritt og brukervennlig før det blir tatt i bruk.
+
+Det første vi skal gjøre er å gjennomføre en grundig kvalitetskontroll av de individuelle komponentene i systemet. Etter dette er gjort går vi videre til testing av systemet som en helhet. Her skal vi se hvordan de forskjellige komponentene samkjører med hverandre å verifisere at de oppfyller de funksjonelle kravene som ytelse og sikkerhet.
+
+I den andre fasten av testingen skal vi fokusere på systemet som en helhet. Vi skal gjennomføre brukertester for å sikre at systemet er intuitivt og enkelt å bruke. I denne testingen er det viktig å se på tilbakemeldingene slik at vi kan forbedre og optimalisere systemet for brukeren. Vi skal bruke tilbakemeldingene til å sørge for at brukervennligheten er på plass.
 
 ### Overordnet testplan
 
