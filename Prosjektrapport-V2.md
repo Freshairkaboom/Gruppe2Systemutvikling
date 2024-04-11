@@ -172,6 +172,14 @@ Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men 
 
 ### Konfigurasjon-/versjonskontroll
 
+#### Discord
+I dette prosjektetteamet var vi tilsammen 7 stykker. Siden noen av medlemmene i teamet bor et stykke fra skolen ble vi enige om å ha de fleste møtene over nett. Vi ble enige om å bruke Discord fordi det er en enkel men effektiv kommunikasjonsplattform. Noen av meldemmene hadde ikke brukt Discord før, mens andre kjente godt til det. Discord er forholdsvis enkelt å lære seg, så vi kom raskt i gang med å bruke denne plattformen. Fordelen med Discord er at du kan lage stemme-kanaler der de som ønsker å arbeide sammen kan samles. Det er også mulighter for å dele skjerm så alle kan vise de andre hva de jobber med eller om de trenger hjelp fra andre på gruppen. Du kan "tagge" andre medlemmer eller hele gruppa hvis du ønsker raskt svar på et spørsmål. De får da et varsel om at noen ønsker å få tak i dem. 
+
+#### Github
+Github er en versjonskontroll som er mye bruk av utviklere. Den gir brukerne mulighet til å laste opp og endre dokumenter. Det er som en felles mappesystem der du kan bidra til andres dokumenter ved å endre en kopi av dokumentet i hovedmappa. Når vi jobbet i Github la vi ut arbeidet vårt i en "Pull Requests" når vi var ferdig med det vi arbeidet med. Da kunne andre meldemmer av teamet gå inn å se hva vi arbeidet med, så kunne de kommentere arbeidet vårt, komme med inspill til eventuelle endringer som burde bli gjort. 
+
+Vi brukte også Github til å lage en prosjektledelsestavle. der satte vi opp alle oppgavene som prosjektet inneholdt. Da ble arbeidet vi skulle gjøre veldig oversiktlig. Medlemmene i prosjektteamet kunne da plukke de oppgavene de ønsket å jobbe med. Når vi hadde plukket en oppgave la vi den i "i prosess" kolonnen. Når vi var ferdig med oppgaven, la vi den i "Ferdig" kolonnen. Slik hadde vi hele tiden oversikt over hva den enkelte arbeidet med til en hver tid. 
+
 ### Brukergrensesnitt
 ### De beste brukergrensesnittene til HytteAppen:
 #### Det er enkelt å bruke:
