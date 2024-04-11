@@ -75,6 +75,29 @@ Tabell: Interessenter
 
 Tabell: Aktører
 
+Brukerbeskrivelse 1 – Hytteeiere
+Ved å bruke HytteApp søker hytteeiere etter å gjøre hyttelivet enklere og skape et mer behagelig hyttemiljø. Hytteeiere starter med å registrere seg og opprette en bruker. Det er også mulig å velge å opprette flere brukerkontoer for hytta i appen. Dette tillater flere familiemedlemmer å melde sin ankomst, bestille brøytingstjenester og se værvarselet for sin hytte gjennom appen. 
+
+Hytteeierne legger inn sin personlige informasjon og knytter sammen sin egn hytteadresse med profilen sin. Hyttebrukere må melde sin planlagte ankomst for hyttebesøket senest ett døgn før den planlagte ankomstdatoen. Det skal også spesifiseres når på dagen de kan melde ankomstdato og avreise. Tidspunktene som kan velges er 8-12 formiddag, 12-18 ettermiddag, 18-24 kveld. 
+
+Hytteeiere skal kunne kommunisere både med Hytteservice og brøytemannskapet dersom de har spørsmål. Når de skal på hytta igjen, logger hytteeierne seg inn i applikasjonen for å velge hytte og bestille snømåking. De velger hytta, angir riktig ankomstdato og tidspunkt på døgnet for både ankomst og avreise, og mottar deretter en ordrebekreftelse via SMS. Hytteeiere kan velge et annet mobilnummer for å motta brøytemeldinger. Varslingen blir sendt ut samme dag som det blir brøytet, altså ankomstdagen. 
+
+Programmet gir videre muligheten til å oppdatere værvarslene for de spesifikke hytteadressene basert på eksakt posisjon. Dette bidrar til å forbedre komforten under hyttetiden og tilbyr en komplett tjenesteløsning for hytteeierne. Etter hytteturen kan hytteeierne gi sin vurdering av brøytingstjenesten direkte i HytteApp, noe som hjelper til med å forbedre applikasjonen og sikrer bedre opplevelser i fremtiden.
+
+Brukerbeskrivelse 2 - Brøytemannskap
+
+Brøytemannskap sender en beskjed i HytteApp så snart det er behov for snømåking. De bruker verktøyet til å kommunisere og får en oppdatert oversikt over hvilke hytter som behøver snøbrøyting. Brøytemannskap kan kommunisere med både hytteeierne og administrasjonen om det skulle være nødvendig. De har muligheten til å oppdage når og hvor de må brøyte, samt planlegge brøytearbeidet på forhånd. Dette forenkler for brøytefirma ved å redusere behovet for å rydde opp snø fra unødvendige områder, øker produktiviteten med bedre tidsstyring og unngår unødvendig slitasje på maskiner og utstyr. 
+
+Ved hvert hyttebesøk vil brøytemannskap bruke HytteApp til å godkjenne gjennomføringen av måking, som deretter sender melding når brøytingen er ferdig for hytteadressen. I tillegg ønsker brøytepersonalet å være fleksible og tilpasse seg hytteeierens nåværende situasjon. De kan rapportere hvis planene endres plutselig og brøytingstjenestene ikke lenger er nødvendige. Dette garanterer at hytteeierne kan nå hyttene sine til bestemte tider uten bekymringer. De vil gjerne velge HytteApp sinne tjenester for sitt høflige og effektive brøytemannskap. 
+
+Brukerbeskrivelse 3- Hytteservice Administrasjon
+
+Ledere i Hytteservice søker å kunne bruke HytteApp for å administrere og forenkle bestillingsprosessen for fjerning av snø og gjøre den mer oversiktlig. Formålet er å redusere unødvendig kostnader og gi muligheten til at Hytteservice kan overvåke og ikke minst forbedre sitt tilbud. 
+
+Hytteservice ønsker rask å få oversikt over hvilke hytter som trenger måking, planlegge oppdragene, og kommunisere gjennom appen både med hytteeiere og brøytemannskap. Hytteservice skal kunne samarbeide med Kartverkets Matrikkel for å identifisere hytteadressene som trenger snørydding. Dette vil bidra til å benytte de allerede eksisterende interne ressursene på en effektiv måte, holder kontroll på utgiftene, oppnå god kundelojalitet og samtidig forbedre tjenestene til HytteApp.  
+
+Hytteservice ønsker også at HytteApp er en brukervennlig app for sine brukere, som respekterer prinsippene for universell utforming og er en trygg app som oppfyller alle kravene til personvern, spesielt GDPR.
+
 ### Funksjonelle krav
 
 - Registering og innlogging for hytteeiere
