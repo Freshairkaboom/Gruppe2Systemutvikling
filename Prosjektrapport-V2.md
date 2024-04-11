@@ -118,22 +118,15 @@ Definisjon: UseCase beskriver en sekvens av handlinger som systemet utfører som
 
 Formal: Primært sikter UseCase til å dokumentere de funksjonelle kravene ved å illustrere hvordan systemet skal reagere under forskjellige scenarier. Dette bidrar til å sikre at systemet adresserer alle forventede brukerinteraksjoner og eksterne systemintegrasjoner på en adekvat måte. 
 
-#### Aktører: 
-
+#### Aktører:
 Aktører representerer entiteter som interagerer med systemet. Dette kan være menneskelige brukere, som kunder eller ansatte, eller eksterne systemer som andre applikasjoner eller databaser. 
 Forutsetninger: Disse er betingelsene som må være oppfylt før et brukstilfelle kan initiere og sikre at systemet er i riktig tilstand for å utføre de nødvendige operasjonene. 
-
 Resultat: Det beskriver den tilstanden systemet oppnår etter vellykket utførelse av et brukstilfelle, og demonstrerer den verdi eller de endringer som er realisert gjennom interaksjonen. 
 
 #### Bruksmønster: 
 Definisjon: Selv om begrepet «bruksmønster» ofte brukes om hverandre med «UseCase», referer det også til generelle tendenser eller mønster i hvordan brukere interagerer med systemet over tid. Det kan videre referere til et sett med UseCase som samlet utgjør en komplett funksjonalitet i systemet. 
-
 Formål: Formålet med bruksmønster er å identifisere og forstå de vanlige måtene systemet benyttes på, noe som hjelper designere og utviklere å tilpasse systemet til brukerens behov og forbedre brukeropplevelsen. 
-
 Tilnærming: Gjennom å analysere og dokumentere gjentatte oppgaver eller mål brukere streber etter å oppnå, gir bruksmønster innsikt i effektive og ineffektive aspekter ved systemets design. Dette muliggjør identifisering av interaksjoner som kan optimaliserer.
-
-
-
 
 #### Sammenheng mellom UseCase og Bruksmønster
 
