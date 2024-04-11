@@ -112,7 +112,56 @@ Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hen
 
 ## Analyse
 
+### UseCase og Bruksmønster
+UseCase:
+Definisjon: UseCase beskriver en sekvens av handlinger som systemet utfører som svar på en forespørsel fra en aktør (enten en bruker eller et annet system), og som resulterer i en observerbar verdi for denne aktøren. UseCase fokuserer på «hva» systemet gjør, snarere enn «hvordan», for å realisere funksjonelle krav.  
+Formal: Primært sikter UseCase til å dokumentere de funksjonelle kravene ved å illustrere hvordan systemet skal reagere under forskjellige scenarier. Dette bidrar til å sikre at systemet adresserer alle forventede brukerinteraksjoner og eksterne systemintegrasjoner på en adekvat måte. 
+Aktører: Aktører representerer entiteter som interagerer med systemet. Dette kan være menneskelige brukere, som kunder eller ansatte, eller eksterne systemer som andre applikasjoner eller databaser. 
+Forutsetninger: Disse er betingelsene som må være oppfylt før et brukstilfelle kan initiere og sikre at systemet er i riktig tilstand for å utføre de nødvendige operasjonene. 
+Resultat: Det beskriver den tilstanden systemet oppnår etter vellykket utførelse av et brukstilfelle, og demonstrerer den verdi eller de endringer som er realisert gjennom interaksjonen. 
+
+Bruksmønster: 
+Definisjon: Selv om begrepet «bruksmønster» ofte brukes om hverandre med «UseCase», referer det også til generelle tendenser eller mønster i hvordan brukere interagerer med systemet over tid. Det kan videre referere til et sett med UseCase som samlet utgjør en komplett funksjonalitet i systemet. 
+Formål: Formålet med bruksmønster er å identifisere og forstå de vanlige måtene systemet benyttes på, noe som hjelper designere og utviklere å tilpasse systemet til brukerens behov og forbedre brukeropplevelsen. 
+Tilnærming: Gjennom å analysere og dokumentere gjentatte oppgaver eller mål brukere streber etter å oppnå, gir bruksmønster innsikt i effektive og ineffektive aspekter ved systemets design. Dette muliggjør identifisering av interaksjoner som kan optimaliserer.
+
+
+
+
+Sammenheng mellom UseCase og Bruksmønster
+Komplementære Verktøy: 
+Bruk av UseCase sammen med forståelsen av bruksmønster gir et helhetlig bilde av systemets bruk. Mens UseCase detaljerer spesifikke interaksjoner, kan bruksmønster avdekke bredere bruksområder og behov. 
+Påvirkning på Design og Utvikling: 
+Disse metodene bidrar sammen til å forme systemets design fra brukerens perspektiv, sikrer at det ferdige produktet ikke bare oppfyller funksjonelle krav, men også brukerens forventinger og behov. 
+Ved å integrere UseCase og analysere bruksmønstre, kan utviklingsteam utvikle mer intuitive og brukervennlige applikasjoner og systemer som treffsikkert adresserer målgruppens behov. 
+
+
 ### Aktører og UseCase(UC)
+Når vi utvikler eller analyserer systemer, spesielt innen programvareutvikling, blir to konsepter ofte fremhevet for å forstå og definere hvordan systemet skal brukes: Aktører og UseCase. Disse konseptene er avgjørende for å identifisere funksjonelle krav og forventede interaksjoner med systemet.
+Aktører er entiteter som interagerer direkte med systemet. De kan være mennesker, andre systemer eller eksterne enheter. Hensikten med å identifisere aktører er å klargjøre hvem eller hva som vil bruke systemet, og på hvilke måter. Aktører spiller forskjellige roller i forhold til systemet. 
+
+Primære Aktører: De som initierer interaksjoner for å oppnå et mål. For eksempel, en bruker som søker informasjon. 
+Sekundære Aktører: De som støtter eller responderer i interaksjonene. Dette kan være eksterne systemer som systemet kommuniserer med for å utføre en oppgave.
+Offstage Aktører: De som har indirekte interesse i interaksjonen, men som ikke deltar direkte. Dette kan være regulatoriske myndigheter eller systemadministratorer.
+Å identifisere aktører gir grunnlag for å forstå systemets grensesnitt og hvordan forskjellige brukere vil interagere med det.
+
+
+
+UseCase: Scenarier 
+
+UseCase beskriver en sekvens av hendelser som utføres av systemet for å oppnå et spesifikt mål for en aktør. Det er en teknikk brukt for å fange opp funksjonelle krav og illustrerer systemets oppførsel under forskjellige forhold. UseCase er delt inn i flere komponenter:
+
+Navn: Gir en kort beskrivelse av handlingen eller målet.
+Aktør: Den som starter UseCase-scenariet.
+Scenario: En detaljert beskrivelse av hendelsene som utspiller seg, inkludert hovedflyt og alternative flyter.
+Forutsetninger: Betingelser som må være oppfylt før UseCase kan starte.
+Resultat: Tilstanden til systemet eller endringene som er oppnådd etter at UseCase er fullført.
+Bruken av UseCase hjelper teamet med å visualisere systemets funksjonalitet fra brukerens perspektiv og sikrer at alle brukerbehov er adressert.
+
+Samspillet Mellom Aktører og UseCase
+Samspillet mellom aktører og UseCase er grunnleggende i systemutvikling. Ved å kartlegge aktørene og definere tilhørende UseCase, skapes en brukersentrert tilnærming til systemdesign. Dette bidrar til å sikre at systemet leverer verdi til alle brukere og møter deres behov på en effektiv måte. Videre hjelper det utviklingsteamet med å identifisere grensesnittkrav, forstå brukerinteraksjoner og prioritere funksjonalitetsutvikling basert på brukerscenarier.
+I sin helhet gir integrasjonen av aktører og UseCase et sterkt rammeverk for å utforske, dokumentere og validere hvordan et system skal fungere, og spiller en kritisk rolle i et velfungerende system. 
+
 
 ### UC-diagram
 
