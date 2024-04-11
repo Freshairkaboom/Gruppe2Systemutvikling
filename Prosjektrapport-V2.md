@@ -310,7 +310,38 @@ Risikohåndteringsplanen gjentar de foregående risikoene, men beskriver tiltaks
 
 ## Systemutviklingsprosessmodell
 
-### Velge og beskrive prosessmodell/systemutviklingsmodell/metode. Begrunne tilpasninger. Skissere alt.
+### Vår systemutviklingsmodell - Kanban
+
+Valget av systemutvkilingsmodell er en av de viktigste og mest avgjørende valgene for et prosjekts suksess. Det kan være forskjellen på om prosjektet blir utført i tide eller ikke, hvor mye oversikt man kan ha om prosjektets progresjon, hvor sikker man er på kvaliteten av produktet, og hvor fleksibel man har lov å være i prosjektets løp. Systemutviklingsmodeller finnes på et spektrum mellom planlagt og endringsdyktig. Jo mer planlagt en modell er, jo mindre fleksibel kan man være med endringer underveis, og jo mer endringsdyktig man er, jo mindre planlegging ligger til grunn i løpet av prosessen.
+
+Valget vårt er basert på en moderne utviklingsmodell som ligger så langt ute på ytterkanten av endringsdyktig som mulig - nemlig Kanban metoden. Kanban er en smidig metodikk som handler om å ikke låse arbeidsoppgaver i prosjektet til faser eller sprinter, men heller fylle opp en liste med arbeidsoppgaver som skal utføres, og begrense arbeidsmengden ved å sette en øvre grense på hvor mange arbeidsoppgaver som skal jobbes med samtidig. Arbeidsoppgavene skal settes opp på et synlig brett kalt et Kanban brett, der de først listes helt til venstre på brettet i en kolonne som heter "backlog", et engelsk ord som betyr å akkumulere eller bygge opp. Helt til høyre på brettet så ligger alle oppgavene som er ferdig i sin egen kolonne, og i midten kan det være flere stadier, som "jobbes med", som betyr at oppgaven er plukket opp av et team medlem og er under arbeid, og "venter på tilbakemelding", som betyr at team medlemmet har lagt ut arbeidet sitt for å bli godkjent av andre. Dersom brettet oppdateres dynamisk, for eksempel via en nettløsning, så kan alle på teamet se hvordan prosjektarbeidet ligger an i alle stadier, og det blir enklere å få kontroll på fremgangen, noe som er svært nyttig når arbeid har avhengigheter.
+
+Grunnen til at vi valgte Kanban er fordi dette er den desidert mest fleksible arbeidsmåten. Når man skal utvikle en app, er det nesten umulig å forutsi alle mulige endringer som må gjøres i prosjektet underveis. Plutselig dukker det opp et problem som må takles, kunden kan endre mening om hva de ønsker, eller tidsrammen rundt prosjektet kan endre seg. Det kan oppstå problemer med finansiering, en konkurrent kan ha kommet i forkjøpet, og det kan utvikle seg teknisk gjeld i en verden som er i stadig raskere utvikling. Da er det greit å være så fleksibel som mulig. Fordelen med Kanban da er at man ikke låser seg til et løp overhode, og kan endre prioritet når som helst for å takle disse uforutsette utfordringene. Dette er spesielt godt for et ferskt utviklingsteam som uten tvil kommer til å ha utfordringer i prosessen.
+
+### Alternativer
+
+#### Scrum
+En tilpasning som kunne vært vurdert er Scrum metodikk, som ligner på Kanban metodikk med at den heller ligger på den endringsdyktige siden av spektrumet, men er litt mer strukturert. Dette er en av de mest populære modellene for prosjektarbeid nettopp fordi den har en god blanding av struktur, som gir trygghet og sikring av kvalitet, samtidig som den er fleksibel.
+
+Forskjellen på Scrum og Kanban ligger i at arbeidsoppgavene til Scrum er delt inn i sprinter, som kan sees på som arbeidspakker i et spesifikt tidsintervall. Sprinter er iterative, altså at de bygger på hverandre. En sprint kan enten gruppere arbeid basert på avhengigheter, for eksempel at arbeid i sprint 1 må være ferdig før arbeid i sprint 2, eller det kan være gruppert basert på prioritet, altså at arbeid i sprint 1 bør prioriteres over arbeid i sprint 2. Det finnes ingen rette svar på hvordan man skal strukturere sprinter, men man lager ofte overordnende dokumenter som Work Breakdown Structure (WBS) for å beskrive hvilket arbeid som skal være i hvilken sprint, og et Gantt diagram som styrer tidsbruken til hver sprint basert på WBS.
+
+En annen forskjell på Scrum og Kanban er at Scrum har faste roller, som Scrum Master, som har ansvar for at sprintene utføres, dokumentene holdes oppdatert, og prosjektsstyringsarbeid. 
+
+Altså, Scrum bruker litt mer tid på planlegging enn Kanban metodikk for å sørge for en overordnet pekepinn på hvordan arbeidet skal utføres, og er litt mindre fleksibel ved at endringer i prioriteter, planlegging eller krav kan gjøre at noen av de tidligere planleggingsdokumentene må oppdateres. Denne metodikken kan vurderes dersom det ansees som viktig å ha mer styring
+
+#### Fossefall
+
+En annen vurdering kunne vært å bruke fossefallsmetode. Den ligger på den mere planleggingsdelen av spekteret. Fossefallsmetoden går ut på å jobbe i fem tydelige faser: 
+- Kravanalyse
+- Systemdesign
+- Implementering
+- Testing
+- Vedlikehold
+
+Siden fossefallsmetoden er mer rigid i sin struktur og mer planleggingsarbeid må ligge til grunn når vi jobber med denne metoden, så er det vanskeligere å tilpasse seg endringer som kommer underveis i prosjektarbeidet. Omtrent som et hus som bygges på en solid grunnmur, så er det vanskeligere å endre på fundamentet som huset er bygd på. 
+
+I motsetning til Kanban som er mer endringsorientert, er fossefallsmodellen mest brukt i prosjekter som krever mer planlegging som for eksempel
+sikkerhetssystemer eller offentlige systemer som er basert på reguleringer og lovforskrifter. I utviklingen av en app for private tjenester er det ikke like viktig en grundig dokumentasjon. Derfor valgte vi å ikke bruke fossefallsmetoden og heller fokusere på tilpasningsdyktighet ved bruk av smidig utvikling slik som er den vanligste praksisen i moderne app-utviklingprosjekt.
 
 ## Referanser (APA7)
 
