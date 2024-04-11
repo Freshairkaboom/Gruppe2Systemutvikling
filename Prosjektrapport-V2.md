@@ -122,6 +122,7 @@ Formål: Hovedformålet med UseCase er å fange opp funksjonelle krav ved å bes
 
 Figur: Use Case diagram
 
+<<<<<<< Updated upstream
 ### UC-beskrivelser
 
 Tabell UC1 til UC4 beskriver fire Use Cases som er tilknyttet applikasjonen Hytte App. 
@@ -134,6 +135,21 @@ Tabell: Use Case 2
 Tabell: Use Case 3
 
 Tabell: Use Case 4
+=======
+
+### UC-beskrivelser
+
+Tabell Use Case 1
+
+Tabell Use Case 2
+
+Tabell Use Case 3
+
+Tabell Use Case 4
+
+Tabell Use Case 5
+
+>>>>>>> Stashed changes
 
 ### Aktivitetsdiagram
 
