@@ -152,7 +152,7 @@ Den viser de viktige entitetene og hvordan de er knyttet til hverandre
 Et klassediagram i UML er en form for en statisk struktur diagram, og blir brukt til å vise hvordan et system er oppbygd. I et klassediagram kan du se hvordan systemet er bygd opp ved hjelp av klasser, attributter, operasjoner og forholdet mellom klassene.
 Klassediagram blir brukt for å fordype og lage en bedre forståelse av hvordan systemet fungerer. Ved bruk av klasser, attributter og operasjoner kan du lage en god oversikt over strukturen til et system.
 
-(KlasseDiagram.jpg)
+Figur: Klassediagram
 
 ### Systemarkitektur og teknologivalg
 
