@@ -130,11 +130,10 @@ Tilnærming: Gjennom å analysere og dokumentere gjentatte oppgaver eller mål b
 
 #### Sammenheng mellom UseCase og Bruksmønster
 
-##### Komplementære Verktøy: 
-
+Komplementære Verktøy: 
 Bruk av UseCase sammen med forståelsen av bruksmønster gir et helhetlig bilde av systemets bruk. Mens UseCase detaljerer spesifikke interaksjoner, kan bruksmønster avdekke bredere bruksområder og behov. 
 
-##### Påvirkning på Design og Utvikling: 
+Påvirkning på Design og Utvikling: 
 Disse metodene bidrar sammen til å forme systemets design fra brukerens perspektiv, sikrer at det ferdige produktet ikke bare oppfyller funksjonelle krav, men også brukerens forventinger og behov. 
 Ved å integrere UseCase og analysere bruksmønstre, kan utviklingsteam utvikle mer intuitive og brukervennlige applikasjoner og systemer som treffsikkert adresserer målgruppens behov. 
 
@@ -142,6 +141,7 @@ Ved å integrere UseCase og analysere bruksmønstre, kan utviklingsteam utvikle 
 ### Aktører og UseCase(UC)
 Når vi utvikler eller analyserer systemer, spesielt innen programvareutvikling, blir to konsepter ofte fremhevet for å forstå og definere hvordan systemet skal brukes: Aktører og UseCase. Disse konseptene er avgjørende for å identifisere funksjonelle krav og forventede interaksjoner med systemet.
 
+#### Hva er Aktører?
 Aktører er entiteter som interagerer direkte med systemet. De kan være mennesker, andre systemer eller eksterne enheter. Hensikten med å identifisere aktører er å klargjøre hvem eller hva som vil bruke systemet, og på hvilke måter. Aktører spiller forskjellige roller i forhold til systemet. 
 
 Primære Aktører: De som initierer interaksjoner for å oppnå et mål. For eksempel, en bruker som søker informasjon. 
@@ -153,7 +153,7 @@ Offstage Aktører: De som har indirekte interesse i interaksjonen, men som ikke 
 
 
 
-##### UseCase: Scenarier 
+##### Hva er UseCase?
 
 UseCase beskriver en sekvens av hendelser som utføres av systemet for å oppnå et spesifikt mål for en aktør. Det er en teknikk brukt for å fange opp funksjonelle krav og illustrerer systemets oppførsel under forskjellige forhold. UseCase er delt inn i flere komponenter:
 
