@@ -211,12 +211,20 @@ Figur: Klassediagram
 Serverinfrastrukturen burde være skybasert. Vi ville gått for Microsoft Azure. Det burde også være en dedikert database ala MySQL-server. Videre trenger du en stabil internettilkobling. Alt av klienter skal fungere, men ettersom det er en app burde du ha en smarttelefon eller et nettbrett. For utviklingsmuligheter anbefaler vi en datamaskin med nok kraft til å støtte et utviklingsmiljø, IDE-er og andre verktøy. Det burde også være en backup- og redundansløsning.
 
 ### Utviklingsverktøy og teknologi
-Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men et grunnlag ville vært som følgende:
-- For app-utvikling kunne vi ha brukt et rammeverk som React Native for å kunne bygge for både iOS og Android. Fordelen her er at det holde med én kodebase.
-- Backend-utviklingen kunne foregått på Node.js for eksempel da det er godt egnet for utvikling av skalerbare serverapplikasjoner. Express.js er en slags miniversjon av Node.js som er meget enkelt å lære.
-- Databasen kunne vært bygd i MySQL. Særlig fordi MySQL er som vi kjenner til gir meget stabil og pålitelig ytelse.
-- Google Maps API for kart ville vært en god idé. Særlig fordi den gir mulighet for interaktive kart i appen.
-- Dessuten har vi allerede brukt GitHub for deling av prosjektomfang og samarbeid i utviklingsteamet.
+For å utvikle HytteApp og oppfylle de spesifikke kravene som er beskrevet, ville det vært avgjørende å velge riktige utviklingsverktøy og teknologier. App-utviklingen kan dra nytte av rammeverk som Flutter eller React Native, som gir mulighet for kryssplattformapper som fungerer godt på tvers av både iOS og Android. Alternativt kan man gå for native utvikling ved å bruke Swift for iOS og Kotlin for Android, noe som gir full kontroll over plattformspesifikke funksjoner og ytelse. Kotlin er voldsomt i vinden, så vi ville kanskje gått for det.
+
+Når det kommer til backend-utvikling, er Node.js et populært valg på grunn av sin skalerbarhet og effektivitet, men vi har kun lært Java så vi ville nok gått for det. Når det gjelder databasevalg, kan MongoDB være ideell for sin fleksibilitet og skalerbarhet, spesielt for applikasjoner med komplekse datamodeller. Alternativt kan tradisjonelle relasjonelle databaser som MySQL også være passende, spesielt hvis det er behov for transaksjonsstøtte, og dette har vi lært om så vi ville gått for det.
+
+Kartintegrering er en viktig del av HytteApp, og tjenester som Google Maps API kan tilby kartfunksjonalitet og muligheten til å integrere interaktive kart i appen. Når det gjelder autentisering og autorisasjon, kan Firebase Authentication være en enkel løsning med støtte for ulike påloggingsmetoder. Vi registerer at Microsoft Azure er populært for tiden, så vi ville vurdert det.
+
+For sanntidskommunikasjon kan Firebase Cloud Messaging (FCM) være nyttig for å sende push-varsler og opprettholde sanntidskommunikasjon mellom server og klient. WebSockets er også et alternativ for å oppnå sanntidsoppdateringer og toveis kommunikasjon mellom klienten og serveren, men vi ville nok valgt Socket.IO da dette er et JavaScript-bibliotek som forhåpentligvis ikke ville tatt så lang tid å lære seg for oss.
+
+Versjonskontroll og samarbeid er viktig i et utviklingsteam, og verktøy som Git, sammen med plattformer som GitHub eller GitLab, gir et robust rammeverk for versjonskontroll, prosjektstyring og samarbeid mellom utviklere.
+
+Med tanke på test-rammeverk ville vi sett på Jest. Jest er et JavaScript-testrammeverk som er designet for å sikre riktigheten av enhver JavaScript-kodebase. Hvis ikke ville vi antakelig sett på JUnit 5 for Java. 
+
+Ved å ha tatt i bruk disse utviklingsverktøyene og teknologiene ville utviklingsteamet kunne bygget en effektiv, skalerbar og brukervennlig app som oppfyller alle kravene i oppgaveteksten.
+
 
 ### Konfigurasjon-/versjonskontroll
 
