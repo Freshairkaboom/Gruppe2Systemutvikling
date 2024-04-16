@@ -130,7 +130,7 @@ Tilnærming: Gjennom å analysere og dokumentere gjentatte oppgaver eller mål b
 
 #### Sammenheng mellom UseCase og Bruksmønster
 
-Komplementære Verktøy: 
+Komplementære verktøy: 
 Bruk av UseCase sammen med forståelsen av bruksmønster gir et helhetlig bilde av systemets bruk. Mens UseCase detaljerer spesifikke interaksjoner, kan bruksmønster avdekke bredere bruksområder og behov. 
 
 Påvirkning på Design og Utvikling: 
