@@ -197,7 +197,16 @@ Figur 1: Domenemodell
 
 ## Design
 
-### Systemdesign og klassediagram
+### Systemarkitektur
+For å effektivisere kommunikasjonen mellom hytteeiere og Hytteservice, ville arkitekturen for HytteApp blitt lagt opp med en tradisjonell klient-server struktur. Denne strukturen er organisert etter hvilke funksjoner som brukes mot de ulike tjenestene.
+
+Brukergrensesnittet er det første brukerne møter, og det bestemmer utseendet på systemet og hvordan det kan brukes. For HytteApp vil dette være en mobilapplikasjon for hytteeiere, tilgjengelig på både iOS og Android, samt en nettbasert plattform som gir tilgang til de samme funksjonene. Dette brukergrensesnittet gir hytteeierne mulighet til å registrere seg, bestille brøyting, motta varsler og kommunisere med Hytteservice.
+
+All funksjonalitet knyttet til bestillinger, hytteinformasjon, værmeldinger og kommunikasjon mellom brukere og Hytteservice ville blitt håndtert av en backend-server. Denne serveren ville blitt kjørt på en skybasert plattform som Azure eller AWS og ville vært ansvarlig for å behandle forespørsler fra klientene, utføre forretningslogikk og lagre data.
+
+En MySQL-databaseserver ville blitt brukt til å lagre all data knyttet til HytteApp. Dette inkluderer informasjon om hytter, bestillinger, brukerprofiler og værvarsler. MySQL-serveren vil være adskilt fra backend-serveren for å sikre god ytelse og skalerbarhet, og den vil kjøre på sin egen dedikerte maskinvare.
+
+Denne systemarkitekturen for HytteApp legger til rette for en effektiv og pålitelig løsning som oppfyller kravene til både hytteeiere og Hytteservice, og den sikrer god ytelse, skalerbarhet og sikkerhet gjennom riktig bruk av teknologi og infrastruktur.
 
 ## Klassediagram
 Et klassediagram i UML er en form for en statisk struktur diagram, og blir brukt til å vise hvordan et system er oppbygd. I et klassediagram kan du se hvordan systemet er bygd opp ved hjelp av klasser, attributter, operasjoner og forholdet mellom klassene.
@@ -205,7 +214,6 @@ Klassediagram blir brukt for å fordype og lage en bedre forståelse av hvordan 
 
 Figur: Klassediagram
 
-### Systemarkitektur og teknologivalg
 
 ### Maskinvarespesifikasjon
 Serverinfrastrukturen burde være skybasert. Vi ville gått for Microsoft Azure. Det burde også være en dedikert database ala MySQL-server. Videre trenger du en stabil internettilkobling. Alt av klienter skal fungere, men ettersom det er en app burde du ha en smarttelefon eller et nettbrett. For utviklingsmuligheter anbefaler vi en datamaskin med nok kraft til å støtte et utviklingsmiljø, IDE-er og andre verktøy. Det burde også være en backup- og redundansløsning.
