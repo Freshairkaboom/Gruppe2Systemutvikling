@@ -152,7 +152,6 @@ Offstage Aktører: De som har indirekte interesse i interaksjonen, men som ikke 
 Å identifisere aktører gir grunnlag for å forstå systemets grensesnitt og hvordan forskjellige brukere vil interagere med det.
 
 
-
 ##### Hva er UseCase?
 
 UseCase beskriver en sekvens av hendelser som utføres av systemet for å oppnå et spesifikt mål for en aktør. Det er en teknikk brukt for å fange opp funksjonelle krav og illustrerer systemets oppførsel under forskjellige forhold. UseCase er delt inn i flere komponenter:
