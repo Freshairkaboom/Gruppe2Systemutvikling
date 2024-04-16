@@ -166,8 +166,9 @@ Hytteeier- entitet er mange til mange- forhold med Hytte-tabellen, som kan refle
 
 
 ### Domenemodell (UML-modell)
-- En domenemodell er et forenklet kart over et spesifikt område, for eksempel et programvaresystem eller en bedrift. Den viser de viktige tingene og hvordan de er knyttet til hverandre. Dette gjør det lettere for alle parter å forstå hva systemet gjør og hvordan det fungerer. 
-Den viser de viktige entitetene og hvordan de er knyttet til hverandre
+En domenemodell er et forenklet kart over et spesifikt område, for eksempel et programvaresystem eller en bedrift. En domenemodell konsentrerer seg om de viktigste elementene, som for eksempel entitetene, og hvordan de er knyttet til hverandre, kalt relasjoner. Dette gjør det lettere for alle parter å forstå hva systemet gjør og hvordan det fungerer.
+Figur 1: Domenemodell
+
 
 ## Design
 
@@ -203,97 +204,71 @@ Github er en versjonskontroll plattform som er mye brukt av utviklere. Den gir b
 Vi brukte også Github til å lage en prosjektledelsestavle. der satte vi opp alle oppgavene som prosjektet inneholdt. Da ble arbeidet vi skulle gjøre veldig oversiktlig. Medlemmene i prosjektteamet kunne da plukke de oppgavene de ønsket å jobbe med. Når vi hadde plukket en oppgave la vi den i "i prosess" kolonnen. Når vi var ferdig med oppgaven, la vi den i "Ferdig" kolonnen. Slik hadde vi hele tiden oversikt over hva den enkelte arbeidet med til en hver tid. 
 
 ### Brukergrensesnitt
-### De beste brukergrensesnittene til HytteAppen:
-#### Det er enkelt å bruke:
-- Appen skal være lett å forstå og enkel å bruke for mennesker i alle aldre og med ulike tekniske ferdigheter.
-- Menyer skal være logisk bygget opp og tekster skal være enkle og forståelige.
-- Appen vil gi brukere veiledning og hjelp.
+Brukergrensesnitt er når brukere og datamaskinen og/eller mobiler/nettbrett snakker med hverandre. Ikoner, bilder, knapper og alle forskjellige type av menyer en bruker ser på skjermen er alle brukergrensesnitt, og brukere gir datamaskinen/mobiler instruksjoner gjennom disse brukergrensesnittene ved å trykke på dem, og deretter viser datamaskinen deg hva som skjer på skjermen basert på valgene du tar.
 
-#### For å sikre at et brukervennlig grensesnitt er tilgjengelig, kan man:
-- Bruk korte, lettforståelige tekster.
-- Ha en tydelig struktur.
-- Bruk hensiktsmessig kontraster og farger.
-- Unngå overdreven kompleksitet.
-- Test appen på målgruppens medlemmer.
+#### Appen er lett å bruke:
+Appen skal være lett å forstå og enkel å bruke for mennesker i alle aldre og med ulike ferdigheter. Poenget er å gi et brukervennlig syn og erfaring for både de som er vant til å bruke mobiler og PC, og også de som ikke pleier å bruke teknologi ofte.
+Tekstene som skal brukes i appen må være lett å forstå og skrevet i et språk som er enkel og forståelig. Det er viktig å unngå slang, forkortelser og ord som kan være vanskelig å forstå for noen folk. Forskjellige typer av termer har forklaringer med en enkel definisjon. Korte avsnitt og setninger skal gjør det lettere å lese og forstå, unødvendig tekst og store bokstaver kan være veldig irriterende å lese derfor er det viktig å unngå det. 
+Menyer er logisk bygget opp og tekster skal er forståelige. Appens menyer er lett å forstå pluss de er strukturert logisk, da vil brukeren raskt og enkelt finne det de leter etter ved bruk av kategorier.
+Appen skal gi brukere veiledning og hjelp, og de skal få hjelp gjennom for eks. at appen har en brukerveiledning som forklarer alle appens funksjoner, og når brukeren trenger det vil hjelpetekster bli vist. Eller eventuelt en seksjon som svarer på ofte stilte spørsmål (FAQ) som kan være en stor mulighet for å få hjelp fra Hytteservice. 
+
 #### Effektivitet:
-- Appen skal gjøre det mulig for brukere å fullføre vanlige oppgaver raskt og enkelt.
-- Pløying bør være en enkel prosess med bare noen få trinn.
- Appen må gi brukerne forståelig informasjon.
+Appen gjøre det mulig for brukere å fullføre vanlige oppgaver raskt og enkelt, målet med appen er å gjøre den effektiv for brukere å bruke appen. Appen gir brukbar og viktig informasjon som er samtidig forståelig.
 
 #### Attraktivt:
-- Appen bør ha et moderne design som er enkelt å bruke og appellerer til målgruppen.
-- Det er viktig at bruken av bilder, farger og typografi er nøye vurdert og tilpasset målgruppen.
+Appen har et moderne design som er enkelt å bruke for målgruppen den er lagd for, appens design gjenspeiler også de følelsene som ligger grunn til hytteliv. Bruken av bilder, farger og typografi er tilpasset til målgruppen og hytter.
 
 #### Pålitelighet:
-- Det er viktig at applikasjonen er stabil og fungerer feilfritt.
-- Appen må ha oppdatert og nøyaktig informasjon.
-- Appen skal beskytte brukernes datasikkerhet og personvern.
+Det er viktig at applikasjonen er stabil og fungerer godt og uten noen feil. Appens mål er å gi brukere en følelse av trygghet og pålitelighet. Informasjon i appen er alltid oppdatert og korrekt sånn at brukere kan stole på appens informasjon, og den skal sikre brukerens data og personvern.
 
-## Layouten:
-
-#### Startvinduet:
-- En "karusell" med bilder av brukerens hytter.
-- En oversikt over den kommende brøytingen for hver hytte.
-- Værmelding for hytta som ble valgt.
-- Hurtig tilgang til meldinger og innstillinger.
-
-#### For å sikre brukervennlig grensesnitt kan man gjøre følgende:
-- Bruk tekster som er lett å forstå.
-- Vær tydelig på strukturen.
-- Bruk riktig kontraster og farger.
-- Unngå for mye komplisering.
-- Test applikasjonen med målgruppens medlemmer.
-- Når du designer appen, er universell utforming (UU) veldig viktig.
+#### Hovedside:
+Et sted i hovedside, for eks. øverst i siden, skal brukeren se ett sett av bilder av alle våre hytter, dette kan gjøre det lett for brukere å få visjon av hyttene som de kan velge mellom, og som gjør at brukere kan velge fort en hytte og som de kan lese mer informasjon om. 
+Et eget separat avsnitt som inneholder viktig informasjon om hytte som brukere valgte, og dette skal gi brukere oversikt over værforholdene på hytta sånn at brukere kan planlegge turen i henhold til disse forholdene.
+Få rask tilgang til meldinger og innstillinger på startvindu, et sted der brukere kan lett finne det de leter etter og få tilgang til både innstillinger og meldinger. Dette lar brukere raskt og enkelt få tilgang til alle funksjoner som brukere oftest bruker
 
 #### Innstillinger:
-- Mulig å endre profildata.
-- Hytter kan legges til, endres eller slettes.
-- Mulighet til å velge språk og innstillinger for varsler.
-- Mulighet til å se hjelp og brukerveiledning.
-- For å sikre at brukergrensesnittet er enkelt og tilfredsstiller målgruppen, er det viktig å involvere brukerne i designprosessen (hvis mulig).
+Hytteapp vil gi brukere muligheten til å bestemme profilen sin, preferanser og hytter. informasjon som navn, e-post og telefonnummer skal enkelt oppdateres. Det skal er lett å legge til ny og endre informasjon om hytter som allerede eksisterer eller fjerne hytte som brukeren ikke trenger. 
+Det skal være mulig å endre språket til appen for de som ikke snakker norsk/bokmål. Brukere må ha tilgang til brukerveiledning som inneholder viktig informasjon og råd om hvordan de skal bruke hver funksjon i appen. 
+ 
+#### SMS/Meldinger:
+En velfungerende meldingsfunksjon i hytteappen som lar brukere snakke og kommunisere både med brøytemannskap, på denne måten kan alle, inkludert brukere, enkelt holde seg oppdatert og få hjelp med det de trenger i tillegg. 
+En kommunikasjonshistorie over alle bestillinger og chat har blitt sendt mellom brukere og hytteservice, hvor både brukere og hytteservice har oversikt over. 
+Hytteappen burde gi folk muligheten til å starte en samtale med service ansatte hvor brukere kan spørsmål om ting de lurer på og gi/få tilbakemeldinger.
 
-#### Meldinger:
-- En liste over alle meldinger som har blitt sendt og mottatt.
-- Mulighet til å sortere meldinger etter type (brøytemannskap, hyttetjeneste).
-- Mulig å sende filer og bilder.
-- Mulighet til å begynne en diskusjon med brøytemanskap eller hytteservice.
 
-#### Brøytingsplan:
-- En kalender som viser tilgjengelige brøytetider.
-- Mulig å velge brøytingstid (f.eks. morgen, ettermiddag eller kveld).
-- Mulig å inkludere et mobilnummer for SMS-varsling.
-- En bekreftelsesside som inneholder alle nødvendige detaljer om bestillingen.
+#### Brøytebestilling:
+Appen gjør brøyting veldig enkelt og raskt, brukere vil få det de trenger uten å bli på grunn av appens enkelt grensesnitt og brukervennlighet. Det blir lett for brukere a finne kalenderen som viser alle tilgjengelige brøytetider.   
+Det skal være mulig for brukeren å velge brøytings tid for eks. morgen, ettermiddag eller kveld osv. Appen gjør mulig for brukeren å sette inn deres mobilnummer som skal få viktige SMS hvor de skal få forskjellige tilbud og/eller varslinger. Appen har en bekreftelsesside for brukere hvor alle nødvendige detaljer om bestillingen skal vises. 
+
 
 ### Designmål
-#### For hytteeiere skal appen tilby følgende funksjoner:
-- Enkel registrering av hytter og brukerprofiler.
-- Bestilling av brøyting med nøyaktig dato og tid for ankomst og avreise.
-- Mulighet for å velge hvem som skal motta SMS-varsel om brøyting.
+#### Hytteeiere skal ha følgende funksjoner i appen:
+- Raskt og enkelt registrering av hytter og brukerprofiler.
+- Bestilling av brøyting med dato og tid for ankomst/avreise.
+- Hytteeiere skal velge hvem som skal motta SMS om brøyting.
 - Vise værvarsel for hytteadressen.
 - Mulig å kommunisere med hytteservice og brøytemannskap.
 
-#### Hytteservice bør gi følgende funksjoner:
-- En samlet liste over alle hytter som trenger brøyting, sammen med detaljert informasjon om hver hytte og prosessen med å bestille dem.
-- Mulighet til å planlegge effektive brøyteruter basert på informasjon om hyttene og bestillingene.
-- Generering av omfattende statistikk over brøyteaktivitet fordelt på hytteområder, tidsperioder og andre faktorer.
-- Enkel tilgang til brukerprofiler, hytter og bestillinger.
+#### Hytteservice skal gi følgende funksjoner:
+- En liste av alle hytter som trenger brøyting, sammen med detaljert informasjon om hver hytte og veiledning til hvordan brukere kan bestille dem.
+- Brukere har muligheten til å planlegge brøyteruter basert på informasjon om hyttene og bestillingene.
+- veldig enkel tilgang til brukerprofiler, hytter og bestillinger.
 
 #### Ytelse:
-- Appen må være stabil, rask og responsiv.
-- For de viktigste funksjonene skal appen fungere offline, det betyr at brukere kan bestille brøyting og se relevante innhold selv uten internettforbindelse.
+- Appen er stabil, rask og responsiv.
+- Appen skal fungere offline også når det kommer til viktige funksjoner, det betyr at brukere kan bestille brøyting og lese viktig informasjon uten internettforbindelse.
 
 #### Tilgjengelighet:
-- Appen må være tilgjengelig på Android og iOS.
-- Appen bør ha universell utforming (UU) slik at alle kan bruke den, uavhengig av funksjonsevne.
+- Appen er tilgjengelig både på Android og iOS.
+- Appen har universell utforming (UU) sånn at alle kan bruke den uavhengig av funksjonsevne.
 
 #### Sikkerhet:
-- Appen må håndtere personvern i samsvar med GDPR og gjeldende sikkerhetsstandarder.
+- Appen håndterer personvern som følger GDPR og sikkerhetsstandarder.
 - Appen bør ha sikker håndtering og kryptering av brukerdata.
 
 #### Utforming/Design:
-- Det er viktig at appen har et design som er moderne, brukervennlig og attraktivt for målgruppen.
-- Det er viktig at designet er konsistent, lett å forstå og bruker gode bilder, fargepalett og typografi.
-- Det er viktig at appens visuelle identitet er i samsvar med Hytteservices merkevareidentitet.
+-  Appen har et moderne design og er brukervennlig.
+- Designet er konsistent, lett å forstå og bruker passende bilder, farger og font.
 
 ### Prototype - skjermbilder - Figma
 
