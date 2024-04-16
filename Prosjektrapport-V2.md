@@ -134,8 +134,6 @@ Den viser de viktige entitetene og hvordan de er knyttet til hverandre
 ### Maskinvarespesfikasjon
 
 ### Utviklingsverktøy og teknologi
-Det er viktig å understreke at formålet med denne oppgaven ikke er å faktisk bygge HytteApp. Vi skal kun utforske, vurdere og tenke gjennom de ulike teknologiske aspektene ved prosjektet. Målet er å gi et innblikk i mulighetene et utviklingsteam kunne hatt.
-
 For å utvikle HytteApp og oppfylle de spesifikke kravene som er beskrevet, ville det vært avgjørende å velge riktige utviklingsverktøy og teknologier. App-utviklingen kan dra nytte av rammeverk som Flutter eller React Native, som gir mulighet for kryssplattformapper som fungerer godt på tvers av både iOS og Android. Alternativt kan man gå for native utvikling ved å bruke Swift for iOS og Kotlin for Android, noe som gir full kontroll over plattformspesifikke funksjoner og ytelse. Kotlin er voldsomt i vinden, så vi ville kanskje gått for det.
 
 Når det kommer til backend-utvikling, er Node.js et populært valg på grunn av sin skalerbarhet og effektivitet, men vi har kun lært Java så vi ville nok gått for det. Når det gjelder databasevalg, kan MongoDB være ideell for sin fleksibilitet og skalerbarhet, spesielt for applikasjoner med komplekse datamodeller. Alternativt kan tradisjonelle relasjonelle databaser som MySQL også være passende, spesielt hvis det er behov for transaksjonsstøtte, og dette har vi lært om så vi ville gått for det.
