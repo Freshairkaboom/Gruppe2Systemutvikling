@@ -2,6 +2,8 @@
 
 ## Introduksjon
 
+Denne rapporten er laget for å beskrive vårt arbeid med å sette opp et plan for et systemutviklingsprosjekt. Dette gjør vi regi av emnet SYS1000, Systemutvikling, og er vår avsluttende eksamen i emnet. Det er viktig å understreke at formålet med denne oppgaven ikke er å faktisk bygge HytteApp. Vi skal kun utforske, vurdere og tenke gjennom de ulike teknologiske aspektene ved prosjektet. Målet er å gi et innblikk i mulighetene et utviklingsteam kunne hatt. Arbeidet under er kun en refleksjon om hvordan en plan kunne tatt form dersom utviklingen av appen skulle gjøres på alvor.
+
 ## Team
 
 - Lars A. Strand
