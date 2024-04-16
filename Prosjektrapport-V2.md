@@ -112,7 +112,6 @@ Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hen
 
 ## Analyse
 
-### UseCase og Bruksmønster
 #### UseCase:
 Definisjon: UseCase beskriver en sekvens av handlinger som systemet utfører som svar på en forespørsel fra en aktør (enten en bruker eller et annet system), og som resulterer i en observerbar verdi for denne aktøren. UseCase fokuserer på «hva» systemet gjør, snarere enn «hvordan», for å realisere funksjonelle krav.  
 
