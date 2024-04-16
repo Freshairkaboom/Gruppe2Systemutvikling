@@ -143,6 +143,9 @@ Kartintegrering er en viktig del av HytteApp, og tjenester som Google Maps API k
 For sanntidskommunikasjon kan Firebase Cloud Messaging (FCM) være nyttig for å sende push-varsler og opprettholde sanntidskommunikasjon mellom server og klient. WebSockets er også et alternativ for å oppnå sanntidsoppdateringer og toveis kommunikasjon mellom klienten og serveren, men vi ville nok valgt Socket.IO da dette er et JavaScript-bibliotek som forhåpentligvis ikke ville tatt så lang tid å lære seg for oss.
 
 Versjonskontroll og samarbeid er viktig i et utviklingsteam, og verktøy som Git, sammen med plattformer som GitHub eller GitLab, gir et robust rammeverk for versjonskontroll, prosjektstyring og samarbeid mellom utviklere.
+
+Med tanke på test-rammeverk ville vi sett på Jest. Jest er et JavaScript-testrammeverk som er designet for å sikre riktigheten av enhver JavaScript-kodebase. Hvis ikke ville vi antakelig sett på JUnit 5 for Java. 
+
 Ved å ha tatt i bruk disse utviklingsverktøyene og teknologiene ville utviklingsteamet kunne bygget en effektiv, skalerbar og brukervennlig app som oppfyller alle kravene i oppgaveteksten.
 
 
