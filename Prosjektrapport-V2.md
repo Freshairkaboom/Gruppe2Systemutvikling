@@ -302,6 +302,27 @@ Vi brukte også Github til å lage en prosjektledelsestavle. der satte vi opp al
 ### Overordnet testbeskrivelse
 
 ### Overordnet testplan
+En testplan beskriver teamets fremgangsmåte for å få kvalitetssikret systemets funksjonelle og ikke-funksjonelle krav fra kravspesifikasjonen. Den skal inneholde informasjon om grunnlaget for hvorfor vi skal teste, overordnede mål for testingen, omfanget av testingen, hvilke testmiljø vi skal benytte oss av, og hvordan man skal sette det opp. Testingen skal deles inn i ulike faser, og den må også ha en tidslinje for når testingen skal foregå, inkludert start- og sluttdato for hver fase.
+
+Vi har valgt å bruke en smidig metode der applikasjonen skal konstrueres basert på en rekke kravspesifikasjoner. Testene vil basere seg på brukerhistoriene fra et brukervennlighets perspektiv, og klassediagrammet fra et teknisk perspektiv.
+
+#### Mål for testing
+Hovedmålet for testingen er å finne defekter ved leveranser som kan rettes opp fortløpende. Siden vi benytter oss av en kanban fremgangsmåte, blir målet å teste alle endringer som blir dyttet ut i applikasjonen før de kommer ut. Siden det er snakk om en mobilapplikasjon, vil vi ha behov for fortløpende automatiserte tester av systemet på det nivået som føles hensiktsmessig, med enhetstester som grunnlinje. Målet med testing er oppnådd dersom kunden er fornøyd med produktet, og systemet fungerer som angitt til kunden, og som oppretteholder lover for universell utforming og GDPR.
+
+#### Omfang av testing
+Testingen bør være en godt integrert del av systemutviklingsprosessen, og i det formål vil vi her definere kort hva det innebærer i forhold til arbeidsmengde:
+
+Først av alt så må hver leveranse eller oppdatering på mobilapplikasjonen testes. Alle klasser i systemet bør ha sin egen testfil, komplett med både positive og negative tester for alle mulige utfall. Det er anbefalt, men ikke nødvendig, og drive med testdrevet utvikling for å sørge for at alt blir testet ordentlig, men tester kan også genereres i etterkant. Testfiler skal sjekkes og bekreftes er til stede før enhver lansering av oppdatering av en annen utvikler, og utvikleren selv er ansvarlig for at testene fungerer. Testdekningen bør være solid og ta hensyn til alle typer scenarioer.
+
+Med jevnlige mellomrom bør det utføres brukertesting. Dette bør planlegges og gjennomføres minst halvveis i prosjektet, samt nær prosjektets slutt når det fremdeles er tid til å rette opp defekter. Brukertestene bør være enkle og korte, og bør ikke være gjentakende eller kjedelige. Dette innebærer at brukertestene skal være på minst komponentnivå. Om det oppleves som hensiktsmessig underveis i prosjektet kan også brukertester teste hele systemet ved å bryte ned testene i enkle oppgaver som innebærer å bruke systemet.
+Et skjema bør opprettes av testeren for å skrive ned både forventede resultater, samt hva resultatet blir, og en testrapport bestående av skjemaene og resulterende defekter, genereres i etterkant og deles med prosjektansvarlig for opprettelse av oppgaver som forsøker å adressere defektene.
+
+#### Testmiljø
+Med tanke på at vi tenkte på å benytte oss av React Native og Node.js er det noen få valg vi har når det kommer til enhetstesting av systemet. Vårt valg for dette prosjektet er Jest, fordi det er laget for å være enkelt å sette opp og bruke, ettersom de reklamerer med at det er ingen konfigurasjon nødvendig i de fleste Javascript prosjekt, noe som kan spare utviklertid. Det er også svært veldokumentert, oppdatert og har hele verktøykassen på ett sted, som egner seg for et nytt utviklerteam svært godt.
+
+#### Opprettelse av testmiljø
+
+Stegene for opprettelse av testmiljøet Jest er svært enkle og finnes på Getting Started seksjonen i Jest sin egen dokumentasjon: https://jestjs.io/docs/getting-started
 
 ### Prosjektstyring 
 
