@@ -291,7 +291,7 @@ Med jevnlige mellomrom bør det utføres brukertesting. Dette bør planlegges og
 Et skjema bør opprettes av testeren for å skrive ned både forventede resultater, samt hva resultatet blir, og en testrapport bestående av skjemaene og resulterende defekter, genereres i etterkant og deles med prosjektansvarlig for opprettelse av oppgaver som forsøker å adressere defektene.
 
 #### Testmiljø
-Med tanke på at vi tenkte på å benytte oss av React Native og Node.js er det noen få valg vi har når det kommer til enhetstesting av systemet. Vårt valg for dette prosjektet er Jest, fordi det er laget for å være enkelt å sette opp og bruke, ettersom de reklamerer med at det er ingen konfigurasjon nødvendig i de fleste Javascript prosjekt, noe som kan spare utviklertid. Det er også svært veldokumentert, oppdatert og har hele verktøyskassen på ett sted, som egner seg for et nytt utviklerteam svært godt.
+Med tanke på at vi tenkte på å benytte oss av React Native og Node.js er det noen få valg vi har når det kommer til enhetstesting av systemet. Vårt valg for dette prosjektet er Jest, fordi det er laget for å være enkelt å sette opp og bruke, ettersom de reklamerer med at det er ingen konfigurasjon nødvendig i de fleste Javascript prosjekt, noe som kan spare utviklertid. Det er også svært veldokumentert, oppdatert og har hele verktøykassen på ett sted, som egner seg for et nytt utviklerteam svært godt.
 
 #### Opprettelse av testmiljø
 
