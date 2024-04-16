@@ -150,7 +150,7 @@ Hytteeier- entitet er mange til mange- forhold med Hytte-tabellen, som kan refle
 
 
 ### Domenemodell (UML-modell)
-En domenemodell er et forenklet kart over et spesifikt område, for eksempel et programvaresystem eller en bedrift. Den viser de viktige tingene og hvordan de er knyttet til hverandre. Dette gjør det lettere for alle parter å forstå hva systemet gjør og hvordan den fungerer. Den viser de viktige entitetene og hvordan de er knyttet til hverandre. En domenemodell konsentrerer seg på de viktigste elementene, som for eks. entitetene, og hvordan de er knyttet til hverandre, som er også kalt «relasjoner», innenfor domene.  
+En domenemodell er et forenklet kart over et spesifikt område, for eksempel et programvaresystem eller en bedrift. En domenemodell konsentrerer seg om de viktigste elementene, som for eksempel entitetene, og hvordan de er knyttet til hverandre, kalt relasjoner. Dette gjør det lettere for alle parter å forstå hva systemet gjør og hvordan det fungerer.
 Figur 1: Domenemodell
 
 
