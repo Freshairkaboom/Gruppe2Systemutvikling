@@ -346,6 +346,9 @@ Med tanke på at vi tenkte på å benytte oss av React Native og Node.js er det 
 Stegene for opprettelse av testmiljøet Jest er svært enkle og finnes på Getting Started seksjonen i Jest sin egen dokumentasjon: https://jestjs.io/docs/getting-started
 
 ### Prosjektstyring 
+Prosjektstyring går ut på å lage mål, planlegge aktiviteter og oppfølge gjennomføringen av et prosjekt (Asbjørn Rolstadås, 2020).
+
+Hensikten med prosjektstyring er å sørge for at prosjektet går fremover. Det er med på å lage struktur og sette mål for hva som skal gjøres. Prosjektstyring består av fire forskjellige faser. Den første fasen er oppstartsfasen, i denne fasen starter du med å få en oversikt over prosjektet, hvordan prosjektet skal utføres, og det blir som regel fordelt roller. Den neste fasen er planleggingsfasen, og det er her alle detaljene kommer inn.  Altså detaljerte planer om hva som skal gjøres. Etter planleggingsfasen kommer gjennomføringsfasen. Her gjennomføres planene grundig etter hvordan de ble lagt i planleggingsfasen. Til slutt kommer vi til avslutningsfasen. I avslutningsfasen sjekkes det grundig at alt er blitt gjort etter planen, og det blir kvalitetssjekket for å sørge for at alt er på plass.
 
 ### Roller/ansvar
 Ettersom vi benytter oss av Kanban metodikk ved å bare plukke oppgaver og gjennomføre dem, har vi liten behov for offisielle roller. I denne seksjonen beskriver vi hvem som har hatt hvilke roller, og hvem som har tatt på seg nødvendig ansvar i prosjektet.
@@ -419,3 +422,6 @@ sikkerhetssystemer eller offentlige systemer som er basert på reguleringer og l
 
 Asbjørn Rolstadås (2018.24.april). kravspesifikasjon
 https://snl.no/kravspesifikasjon
+
+Asbjørn Rolstadås (2020.14.april). prosjektstyring
+https://snl.no/prosjektstyring
