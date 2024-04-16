@@ -130,6 +130,19 @@ Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hen
 
 ### UC-beskrivelser
 
+Tabell UC1 til UC5 beskriver fem Use Cases som er tilknyttet applikasjonen HytteApp. 
+Tabellene viser hvem som er aktør, pre og post betingelser, hovedflyt og alternativ flyt hvis det skjer feil under prosessen.
+
+Tabell: Use Case 1
+
+Tabell: Use Case 2
+
+Tabell: Use Case 3
+
+Tabell: Use Case 4
+
+Tabell: Use Case 5
+
 ### Aktivitetsdiagram
 
 Figur 1: Aktivitetsdiagram over brøyting
