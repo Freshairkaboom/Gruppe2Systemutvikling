@@ -277,6 +277,11 @@ Det skal være mulig for brukeren å velge brøytings tid for eks. morgen, etter
 ## Kvalitetssikring
 
 ### Overordnet testbeskrivelse
+Formålet med testprosessen er å utarbeide feil og mangler i systemet før man dytter ut appen. Testingen går ut på å sikre at systemet er feilfritt og brukervennlig før det blir tatt i bruk.
+
+Det første vi skal gjøre er å gjennomføre en grundig kvalitetskontroll av de individuelle komponentene i systemet. Etter dette er gjort går vi videre til testing av systemet som en helhet. Her skal vi se hvordan de forskjellige komponentene samkjører med hverandre å verifisere at de oppfyller de funksjonelle kravene som ytelse og sikkerhet.
+
+I den andre fasten av testingen skal vi fokusere på systemet som en helhet. Vi skal gjennomføre brukertester for å sikre at systemet er intuitivt og enkelt å bruke. I denne testingen er det viktig å se på tilbakemeldingene slik at vi kan forbedre og optimalisere systemet for brukeren. Vi skal bruke tilbakemeldingene til å sørge for at brukervennligheten er på plass.
 
 ### Overordnet testplan
 En testplan beskriver teamets fremgangsmåte for å få kvalitetssikret systemets funksjonelle og ikke-funksjonelle krav fra kravspesifikasjonen. Den skal inneholde informasjon om grunnlaget for hvorfor vi skal teste, overordnede mål for testingen, omfanget av testingen, hvilke testmiljø vi skal benytte oss av, og hvordan man skal sette det opp. Testingen skal deles inn i ulike faser, og den må også ha en tidslinje for når testingen skal foregå, inkludert start- og sluttdato for hver fase.
