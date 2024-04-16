@@ -112,8 +112,20 @@ Hytteservice ønsker også at HytteApp er en brukervennlig app for sine brukere,
 ### Ikke-funksjonelle krav
 
 #### Sikkerhet og personvern:
+Informasjonssikkerhet og personvern er kjempeviktig for sikre sensitiv informasjon som kritisk data, personale detaljer fra uønsket eller fremmed aktiviteter. Derfor er det viktig for hytteappen å ha personvern og informasjonssikkerhet for at den skal fungere trygt for både brukere og hytteeiere. 
+Angripere kan finne kreative metoder og måter å få tilgang til og ta kontroll over kontoen din, for eksempel kan de ikke bare lese brukernes personlige data, men også endre dem. Derfor er det nødvendig for hytteeiere, brukere og også alle ansatte å ha private kontoer. 
+
+Hver konto må ha bekreftet eller verifisert passord og brukernavn, og passordene må være unike og må aldri deles med noen andre.
+I dag kommer de fleste apper og nettsteder med to-trinns bekreftelse. En to-trinns bekreftelse gjør det svært vanskelig for angripere å få tilgang til apper og nettsteder, fordi den sender en kode til mobilen din, eller den vil trenge en ansikts-ID og den kan også skapes av autentiseringsapp. 
+Hytteapp kan ta i bruk to-trinns verifiseringsmetode for å sikre at brukerdata og all annen personlig informasjon er sikret fordi den brukes sammen med passordet, noe som vil gjøre det nesten umulig for hackere og angripere å få tilgang til Hytteapp.
+
+Hytteapp følger General Data Protection Regulation (GDPR) eller Personvernforordningen (PVF).
+Hytte-appbrukere kan kontrollere informasjonen de velger å dele med appen. Brukere har rett til å velge om de vil at deres personopplysninger skal lagres eller eventuelt deles med andre brukere. Hytteapp brukere kan også velge hvilken informasjon de vil holde skjult og hvilken informasjon de vil dele. Hytteapp vil bare lagre og bruke den nødvendige informasjonen den trenger og vil unngå å be om informasjon som den ikke trenger. Brukeren bestemmer selv hvilke data de vil beholde og hvilke data de vil slette og fjerne fra appen.
+Hytteapp brukere har rett til å enten godta eller avslå at hytteappen kan samle inn og behandle personopplysningene deres. Samtykke mellom brukere og hytteappen skal gis fritt, den skal være detaljert og veldig spesifikk.
 
 Appen må overholde GDPR-krav og andre relevante lover og forskrifter angående personvern. Dette inkluderer sikker lagring og håndtering av brukerdata, samt kryptering av sensitiv informasjon under overføring.
+Referanse:  in2000-2022-innebygd-informasjonssikkerhet.pdf
+
 
 #### Universell utforming (UU):
 
@@ -425,3 +437,5 @@ https://snl.no/kravspesifikasjon
 
 Asbjørn Rolstadås (2020.14.april). prosjektstyring
 https://snl.no/prosjektstyring
+
+ in2000-2022-innebygd-informasjonssikkerhet.pdf
