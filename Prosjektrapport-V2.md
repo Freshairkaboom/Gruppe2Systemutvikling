@@ -112,18 +112,81 @@ Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hen
 
 ## Analyse
 
-#### UseCase:
-Definisjon: UseCase beskriver en sekvens av handlinger som systemet utfører som svar på en forespørsel fra en aktør (enten en bruker eller et annet system), og som resulterer i en observerbar verdi for denne aktøren. UseCase fokuserer på «hva» systemet gjør, snarere enn «hvordan», for å realisere funksjonelle krav.  
+### UseCase:
+Definisjon: UseCase beskriver en sekvens av handlinger som systemet utfører som svar på en forespørsel fra en aktør (enten en bruker eller et annet system), og som resulterer i en observerbar verdi for denne aktøren. UseCase fokuserer på «hva» systemet gjør, snarere enn «hvordan», for å realisere funksjonelle krav. (Sommerville, 2011, s.106-108)
 
-Formal: Primært sikter UseCase til å dokumentere de funksjonelle kravene ved å illustrere hvordan systemet skal reagere under forskjellige scenarier. Dette bidrar til å sikre at systemet adresserer alle forventede brukerinteraksjoner og eksterne systemintegrasjoner på en adekvat måte. 
+Formål: Primært sikter UseCase til å dokumentere de funksjonelle kravene ved å illustrere hvordan systemet skal reagere under forskjellige sitasjoner. Dette bidrar til å sikre at systemet adresserer alle forventede brukerinteraksjoner og eksterne systemintegrasjoner på en passende måte. 
+
+Aktører: Aktører representerer entiteter som interagerer med systemet. Dette kan være menneskelige brukere, som kunder eller ansatte, eller eksterne systemer som andre applikasjoner eller databaser. Aktører kan også bli kalt interessenter. 
+
+Pre-betingelser: Disse er betingelsene som må være oppfylt før et UseCase kan initiere og sikre at systemet er i riktig tilstand for å utføre de nødvendige operasjonene. 
+
+Post-betingelser: Det beskriver den tilstanden systemet oppnår etter vellykket utførelse av et UseCase, og demonstrerer den verdi eller de endringer som er realisert gjennom interaksjonen. 
+
+### Bruksmønster: (brukt bold før : i teksten under, det er notat til Lars)
+Definisjon: Selv om begrepet «bruksmønster» ofte brukes om hverandre med «UseCase», referer det også til generelle tendenser eller mønster i hvordan brukere interagerer med systemet over tid. Det kan videre referere til et sett med UseCase som samlet utgjør en komplett funksjonalitet i systemet. (Sommerville, 2011, s. 56,107, 154)
+
+Mens UseCase fokuserer på individuelle situasjoner eller hendelser hvor systemet brukes, ser bruksmønster på den overordnede bruken av systemet over tid. Begge er viktige for å designe og utvikle systemer som er brukervennlige og som møter de faktiske behovene til brukerne. UseCase kan betraktes som byggesteinene som definerer spesifikke funksjoner og prosesser, mens bruksmønster kan hjelpe designere og utviklere å forstå og planlegge for hvordan disse funksjonene vil bli brukt i praksis. (Sommerville, 2011, s. 56,107, 154)
+Flere utviklere mener også at UseCase er en sitasjon, mens Bruksmønster er en gruppe av UseCase. (Sommerville, 2011, s. 56,107, 154)
+Formål: Formålet med bruksmønster er å identifisere og forstå de vanlige måtene systemet benyttes på, noe som hjelper designere og utviklere å tilpasse systemet til brukerens behov og forbedre brukeropplevelsen. (Sommerville, 2011, s. 56,107, 154)
+
+Fremgangsmåte: Ved å analysere og dokumentere oppgaver eller mål som brukerne kontinuerlig sikter mot å oppnå, avdekker bruksmønstre både effektive og ineffektive elementer i systemdesignet. Dette legger til rette for identifisering av brukerinteraksjoner som kan forbedres og effektiviseres. (Sommerville, 2011, s. 56,107, 154)
+
+Sammenheng mellom UseCase og Bruksmønster(Notat til LAars, her har jeg brukt bold)
+Integrerte systemer: (brukt bold her og)
+Bruk av UseCase sammen med forståelsen av bruksmønster gir et helhetlig bilde av systemets bruk. Mens UseCase detaljerer spesifikke interaksjoner, kan bruksmønster avdekke bredere bruksområder og behov. (Sommerville, 2011, s. 219, 445-48)
+
+Påvirkning på Design og Utvikling: (brukt bold)
+Disse metodene bidrar sammen til å forme systemets design fra brukerens perspektiv, sikrer at det ferdige produktet ikke bare oppfyller funksjonelle krav, men også brukerens forventinger og behov. 
+Ved å integrere UseCase og analysere bruksmønstre, kan utviklingsteam utvikle mer intuitive og brukervennlige applikasjoner og systemer som treffsikkert adresserer målgruppens behov. 
+
+Aktører og UseCase (brukt bold)
+Når vi utvikler eller analyserer systemer, spesielt innen programvareutvikling, blir to konsepter ofte fremhevet for å forstå og definere hvordan systemet skal brukes: Aktører og UseCase. Disse konseptene er avgjørende for å identifisere funksjonelle krav og forventede interaksjoner med systemet. (Sommerville, 2011, s. 75-103)
+Aktører er entiteter som interagerer direkte med systemet. De kan være mennesker, andre systemer eller eksterne enheter. Hensikten med å identifisere aktører er å klargjøre hvem eller hva som vil bruke systemet, og på hvilke måter. Aktører spiller forskjellige roller i forhold til systemet (Concepta, 2023).
+
+(brukt italics før : i teksten under)
+Primære Aktører: De som initierer interaksjoner for å oppnå et mål. For eksempel, en bruker som søker informasjon. 
+Sekundære Aktører: De som støtter eller responderer i interaksjonene. Dette kan være eksterne systemer som systemet kommuniserer med for å utføre en oppgave.
+Offstage Aktører: De som har indirekte interesse i interaksjonen, men som ikke deltar direkte. Dette kan være regulatoriske myndigheter eller systemadministratorer.
+Å identifisere aktører gir grunnlag for å forstå systemets grensesnitt og hvordan forskjellige brukere vil interagere med det.(Concepta, 2023)
+
+Aktører i HytteApp (bold her og bold før : i teksten under)
+Hytteeiere: Eieren av hytta som bruker appen for å bestille brøyting og andre tjenester. 
+Brøytemannskap: Operatører som utfører brøyting og andre tjenester på forespørsel. 
+Hytteservice Administrator: Administrer HytteApp, inkludert oppdatering av tjenester og behandling av brukerhenvendelser. 
+System (Backend): Behandler data, sender varsler, koordinerer informasjon mellom hytteeier og brøytemannskap. 
+
+Samspillet Mellom Aktører og UseCase (bold her)
+Samspillet mellom aktører og UseCase er grunnleggende i systemutvikling. Ved å kartlegge Aktørene og definere tilhørende UseCase, skapes en brukersentrert tilnærming til systemdesign. Dette bidrar til å sikre at systemet leverer verdi til alle brukere og møter deres behov på en effektiv måte. Videre hjelper det utvikleren med å identifisere, forstå brukerinteraksjoner og prioritere funksjonalitetsutvikling basert på UC-beskrivelser. I sin helhet gir sammenslåing av aktører og UseCase et sterkt rammeverk for å utforske, dokumentere og validere hvordan et system skal fungere, og spiller en kritisk rolle i et velfungerende system. (Sommerville, 2011, s 75-103,106-108)
+
+UC-Beskrivelser (bold her)
+UC beskrivelser gir detaljerte trinn for hvordan hver aktør samhandler med systemet gjennom hver UseCase. Dette hjelper utvikleren å forstå brukerbehovene og systemkravene, noe som er avgjørende for å designe en brukervennlig og funksjonell applikasjon. 
+
+Eksempler på korte UC-Beskrivelser. 
+
+1.	Registrere deg som bruker (Hytteeier): Hytteeierne oppretter en konto i HytteApp for å få tilgang til tjenester. 
+
+2.	Bestille brøyting (Hytteeier): Hytteeieren sender en forespørsel om brøyting gjennom appen.
+
+3.	Motta og akseptere oppdrag (Brøytemannskap): Brøytemannskapet mottar oppdragsvarsler og aksepterer dem gjennom sin del av appen eller et administrasjonsgrensesnitt.
+
+4.	Send varsling om fullført tjeneste (System): Systemet sender automatisk varsler til hytteeieren når tjenesten er fullført.
+
+5.	Administrere brukere og tjenester (Hytteservice Administrator): Administrator kan legge til, fjerne eller endre tjenester og håndtere brukerkontoer.
+
+
+
+
+
+
+
 
 #### Aktører:
 Aktører representerer entiteter som interagerer med systemet. Dette kan være menneskelige brukere, som kunder eller ansatte, eller eksterne systemer som andre applikasjoner eller databaser. 
-Forutsetninger: Disse er betingelsene som må være oppfylt før et brukstilfelle kan initiere og sikre at systemet er i riktig tilstand for å utføre de nødvendige operasjonene. 
-Resultat: Det beskriver den tilstanden systemet oppnår etter vellykket utførelse av et brukstilfelle, og demonstrerer den verdi eller de endringer som er realisert gjennom interaksjonen. 
+ 
 
 #### Bruksmønster: 
-Definisjon: Selv om begrepet «bruksmønster» ofte brukes om hverandre med «UseCase», referer det også til generelle tendenser eller mønster i hvordan brukere interagerer med systemet over tid. Det kan videre referere til et sett med UseCase som samlet utgjør en komplett funksjonalitet i systemet. 
+Definisjon: Selv om begrepet «bruksmønster» ofte brukes om hverandre med «UseCase», referer dettil generelle tendenser eller mønster i hvordan brukere interagerer med systemet over tid. Det kan videre referere til et sett med UseCase som samlet utgjør en komplett funksjonalitet i systemet. 
 Formål: Formålet med bruksmønster er å identifisere og forstå de vanlige måtene systemet benyttes på, noe som hjelper designere og utviklere å tilpasse systemet til brukerens behov og forbedre brukeropplevelsen. 
 Tilnærming: Gjennom å analysere og dokumentere gjentatte oppgaver eller mål brukere streber etter å oppnå, gir bruksmønster innsikt i effektive og ineffektive aspekter ved systemets design. Dette muliggjør identifisering av interaksjoner som kan optimaliserer.
 
