@@ -203,7 +203,7 @@ Ved å integrere UseCase og analysere bruksmønstre, kan utviklingsteam utvikle 
 ### Aktører og UseCase(UC)
 Når vi utvikler eller analyserer systemer, spesielt innen programvareutvikling, blir to konsepter ofte fremhevet for å forstå og definere hvordan systemet skal brukes: Aktører og UseCase. Disse konseptene er avgjørende for å identifisere funksjonelle krav og forventede interaksjoner med systemet.
 
-#### Hva er Aktører?
+#### Hva er aktører?
 Aktører er entiteter som interagerer direkte med systemet. De kan være mennesker, andre systemer eller eksterne enheter. Hensikten med å identifisere aktører er å klargjøre hvem eller hva som vil bruke systemet, og på hvilke måter. Aktører spiller forskjellige roller i forhold til systemet. 
 
 Primære Aktører: De som initierer interaksjoner for å oppnå et mål. For eksempel, en bruker som søker informasjon. 
