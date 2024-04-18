@@ -326,6 +326,8 @@ Stegene for opprettelse av testmiljøet Jest er svært enkle og finnes på Getti
 
 ### Prosjektstyring 
 
+Figur: Work Breakdown Structure(WBS) 
+
 ### Roller/ansvar
 Ettersom vi benytter oss av Kanban metodikk ved å bare plukke oppgaver og gjennomføre dem, har vi liten behov for offisielle roller. I denne seksjonen beskriver vi hvem som har hatt hvilke roller, og hvem som har tatt på seg nødvendig ansvar i prosjektet.
 
