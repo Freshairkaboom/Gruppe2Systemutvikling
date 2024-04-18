@@ -336,7 +336,7 @@ På denne siden av applikasjonen kan hytteeiere planlegge sin ankomst og avreise
 •	Hytteeiere skal nøye gjennomgå bestillingsdetaljene og lagre informasjonen.
 
 Legg inn bestilling
-Denne siden gir hytteeiere muligheten til å bestille tjenester som brøyting. De kan velge type tjeneste, oppgi kontaktinformasjon og angi ønsket tidspunkt for snørydding. Det er også mulig for brukere å sende bilder og legge til kommentarer ved behov. Etter at all informasjon er fylt ut, kan hytteeiere bare lagre den ved å trykke på "Lagre"-knappen, og deretter er bestillingen registrert. Ordrebekreftelse på SMS sendes ut på dagen de ankommer hytta, samme dag som brøyting gjennomføres.
+Denne siden gir hytteeiere muligheten til å bestille tjenester som brøyting. De kan velge type tjeneste, oppgi kontaktinformasjon og angi ønsket tidspunkt for brøyting. Det er også mulig for brukere å sende bilder og legge til kommentarer ved behov. Etter at all informasjon er fylt ut, kan hytteeiere lagre den ved å trykke på "Lagre"-knappen, og deretter er bestillingen registrert. Ordrebekreftelse på SMS sendes ut på dagen de ankommer hytta, samme dag som brøyting gjennomføres.
 
 Meldinger
 Dette bildet illustrerer meldingssiden i HytteApp, der hytteeiere enkelt kan kommunisere med administrasjonen eller brøytemannskapet. De kan enkelt sende og motta beskjeder, eller svare direkte fra denne siden ved å trykke på "Svar"-knappen. På denne måten kan hytteeiere holde oversikt over nye beskjeder og markere meldinger som leste ved å trykke på "Lest"-knappen, som blir grønn.
