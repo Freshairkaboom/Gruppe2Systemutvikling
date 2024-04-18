@@ -114,6 +114,16 @@ Hytteservice ønsker også at HytteApp er en brukervennlig app for sine brukere,
 #### Sikkerhet og personvern:
 
 Appen må overholde GDPR-krav og andre relevante lover og forskrifter angående personvern. Dette inkluderer sikker lagring og håndtering av brukerdata, samt kryptering av sensitiv informasjon under overføring.
+Informasjonssikkerhet og personvern er kjempeviktig for å sikre sensitiv informasjon som kritisk data, samt personlige detaljer fra uønsket eller fremmed aktivitet. Derfor er det viktig for HytteApp å ha personvern og informasjonssikkerhet for at den skal fungere trygt for både brukere og hytteeiere. Angripere kan finne kreative metoder og måter å få tilgang til og ta kontroll over kontoen din, for eksempel kan de ikke bare lese brukernes personlige data, men også endre dem. Derfor er det nødvendig for brukere og også alle ansatte å ha private kontoer. s. 12 jøsang, 2024
+
+Hver konto må ha bekreftet eller verifisert passord og brukernavn, og passordene må være unike og må aldri deles med noen andre. I dag kommer de fleste apper og nettsteder med to-trinns bekreftelse. En to-trinns bekreftelse gjør det svært vanskelig for angripere å få tilgang til apper og nettsteder, fordi den sender en kode til mobilen din, eller appen kan generere kode for deg. To-trinns bekreftelse kan også bruke ansikts-ID, fingeravtrykk og mobilmønster som ekstra sikkerhet. s.22 Jøsang, 2024
+
+Hytteapp kan ta i bruk to-trinns verifiseringsmetode for å sikre at brukerdata og all annen personlig informasjon er sikret fordi den brukes sammen med passordet, noe som vil gjøre det nesten umulig for hackere og angripere å få tilgang til Hytteapp.
+
+HytteApp bør følge General Data Protection Regulation (GDPR) eller Personvernforordningen (PVF). s. 33 Jøsang, 2024
+HytteApp kan kontrollere informasjonen de velger å dele med appen. Brukere har rett til å velge om de vil at deres personopplysninger skal lagres eller eventuelt deles med andre brukere. HytteApp brukere kan også velge hvilken informasjon de vil holde skjult og hvilken informasjon de vil dele. s. 29 Jøsang, 2024
+
+HytteApp vil bare lagre og bruke den nødvendige informasjonen den trenger og vil unngå å be om informasjon som den ikke trenger. Brukeren bestemmer selv hvilke data de vil beholde og hvilke data de vil slette og fjerne fra appen. HytteApp brukere har rett til å enten godta eller avslå at hytteappen kan samle inn og behandle personopplysningene deres. Samtykke mellom brukere og hytteappen skal gis fritt, den skal være detaljert og veldig spesifikk. s.35 jøsang, 2024
 
 #### Universell utforming (UU):
 
