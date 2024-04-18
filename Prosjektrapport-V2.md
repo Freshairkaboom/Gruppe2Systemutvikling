@@ -2,6 +2,8 @@
 
 ## Introduksjon
 
+Denne rapporten er laget for å beskrive vårt arbeid med å sette opp et plan for et systemutviklingsprosjekt. Dette gjør vi regi av emnet SYS1000, Systemutvikling, og er vår avsluttende eksamen i emnet. Det er viktig å understreke at formålet med denne oppgaven ikke er å faktisk bygge HytteApp. Vi skal kun utforske, vurdere og tenke gjennom de ulike teknologiske aspektene ved prosjektet. Målet er å gi et innblikk i mulighetene et utviklingsteam kunne hatt. Arbeidet under er kun en refleksjon om hvordan en plan kunne tatt form dersom utviklingen av appen skulle gjøres på alvor.
+
 ## Team
 
 - Lars A. Strand
@@ -55,7 +57,7 @@ Brukerhistorier er et verktøy som brukes i gjennomføring av prosjekter, spesie
 - Som administrator ønsker jeg en forenklet og oversiktig bestilling av måking, så jeg slipper unødvendige kostnader og at jeg kan overvåke og optimalisere tjenesten.
 - Som bruker av hytteappen ønsker jeg at den er i tråd med GDPR og at den har universiell utforming, så den er sikker og tilgjengelig for alle brukere
 
-### Interessenter og brukerbeskrivelser
+### Interessenter
 
 En interessent kan inkludere enkeltpersoner, team eller organisasjoner som har en form for interesse. De kan være involvert både direkte eller indirekte gjennom hele gjennomføringen eller påvirkes av det endelige utfallet av prosjektet. 
 
@@ -74,6 +76,29 @@ En annen kategori vil inkludere de som har en indirekte påvirkning på HytteApp
 Tabell: Interessenter 
 
 Tabell: Aktører
+
+### Brukerbeskrivelser
+
+Brukerbeskrivelse 1 – Hytteeiere
+Ved å bruke HytteApp søker hytteeiere etter å gjøre hyttelivet enklere og skape et mer behagelig hyttemiljø. Hytteeiere starter med å registrere seg og opprette en bruker. Det er også mulig å velge å opprette flere brukerkontoer for hytta i appen. Dette tillater flere familiemedlemmer å melde sin ankomst, bestille brøytingstjenester og se værvarselet for sin hytte gjennom appen. 
+
+Hytteeierne legger inn sin personlige informasjon og knytter sammen sin egn hytteadresse med profilen sin. Hyttebrukere må melde sin planlagte ankomst for hyttebesøket senest ett døgn før den planlagte ankomstdatoen. Det skal også spesifiseres når på dagen de kan melde ankomstdato og avreise. Tidspunktene som kan velges er 8-12 formiddag, 12-18 ettermiddag, 18-24 kveld. 
+
+Hytteeiere skal kunne kommunisere både med Hytteservice og brøytemannskapet dersom de har spørsmål. Når de skal på hytta igjen, logger hytteeierne seg inn i applikasjonen for å velge hytte og bestille snømåking. De velger hytta, angir riktig ankomstdato og tidspunkt på døgnet for både ankomst og avreise, og mottar deretter en ordrebekreftelse via SMS. Hytteeiere kan velge et annet mobilnummer for å motta brøytemeldinger. Varslingen blir sendt ut samme dag som det blir brøytet, altså ankomstdagen. 
+
+Programmet gir videre muligheten til å oppdatere værvarslene for de spesifikke hytteadressene basert på eksakt posisjon. Dette bidrar til å forbedre komforten under hyttetiden og tilbyr en komplett tjenesteløsning for hytteeierne. Etter hytteturen kan hytteeierne gi sin vurdering av brøytingstjenesten direkte i HytteApp, noe som hjelper til med å forbedre applikasjonen og sikrer bedre opplevelser i fremtiden.
+
+Brukerbeskrivelse 2 - Brøytemannskap
+Brøytemannskap sender en beskjed i HytteApp så snart det er behov for snømåking. De bruker verktøyet til å kommunisere og får en oppdatert oversikt over hvilke hytter som behøver snøbrøyting. Brøytemannskap kan kommunisere med både hytteeierne og administrasjonen om det skulle være nødvendig. De har muligheten til å oppdage når og hvor de må brøyte, samt planlegge brøytearbeidet på forhånd. Dette forenkler for brøytefirma ved å redusere behovet for å rydde opp snø fra unødvendige områder, øker produktiviteten med bedre tidsstyring og unngår unødvendig slitasje på maskiner og utstyr. 
+
+Ved hvert hyttebesøk vil brøytemannskap bruke HytteApp til å godkjenne gjennomføringen av måking, som deretter sender melding når brøytingen er ferdig for hytteadressen. I tillegg ønsker brøytepersonalet å være fleksible og tilpasse seg hytteeierens nåværende situasjon. De kan rapportere hvis planene endres plutselig og brøytingstjenestene ikke lenger er nødvendige. Dette garanterer at hytteeierne kan nå hyttene sine til bestemte tider uten bekymringer. De vil gjerne velge HytteApp sinne tjenester for sitt høflige og effektive brøytemannskap. 
+
+Brukerbeskrivelse 3- Hytteservice Administrasjon
+Ledere i Hytteservice søker å kunne bruke HytteApp for å administrere og forenkle bestillingsprosessen for fjerning av snø og gjøre den mer oversiktlig. Formålet er å redusere unødvendig kostnader og gi muligheten til at Hytteservice kan overvåke og ikke minst forbedre sitt tilbud. 
+
+Hytteservice ønsker rask å få oversikt over hvilke hytter som trenger måking, planlegge oppdragene, og kommunisere gjennom appen både med hytteeiere og brøytemannskap. Hytteservice skal kunne samarbeide med Kartverkets Matrikkel for å identifisere hytteadressene som trenger snørydding. Dette vil bidra til å benytte de allerede eksisterende interne ressursene på en effektiv måte, holder kontroll på utgiftene, oppnå god kundelojalitet og samtidig forbedre tjenestene til HytteApp.  
+
+Hytteservice ønsker også at HytteApp er en brukervennlig app for sine brukere, som respekterer prinsippene for universell utforming og er en trygg app som oppfyller alle kravene til personvern, spesielt GDPR.
 
 ### Funksjonelle krav
 
@@ -124,11 +149,78 @@ Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hen
 
 ## Analyse
 
-### Aktører og UseCase(UC)
+### UseCase:
+Definisjon: UseCase beskriver en sekvens av handlinger som systemet utfører som svar på en forespørsel fra en aktør (enten en bruker eller et annet system), og som resulterer i en observerbar verdi for denne aktøren. UseCase fokuserer på «hva» systemet gjør, snarere enn «hvordan», for å realisere funksjonelle krav. (Sommerville, 2011, s.106-108)
+
+Formål: Primært sikter UseCase til å dokumentere de funksjonelle kravene ved å illustrere hvordan systemet skal reagere under forskjellige sitasjoner. Dette bidrar til å sikre at systemet adresserer alle forventede brukerinteraksjoner og eksterne systemintegrasjoner på en passende måte. 
+
+Aktører: Aktører representerer entiteter som interagerer med systemet. Dette kan være menneskelige brukere, som kunder eller ansatte, eller eksterne systemer som andre applikasjoner eller databaser. Aktører kan også bli kalt interessenter. 
+
+Pre-betingelser: Disse er betingelsene som må være oppfylt før et UseCase kan initiere og sikre at systemet er i riktig tilstand for å utføre de nødvendige operasjonene. 
+
+Post-betingelser: Det beskriver den tilstanden systemet oppnår etter vellykket utførelse av et UseCase, og demonstrerer den verdi eller de endringer som er realisert gjennom interaksjonen. 
+
+### Bruksmønster: (brukt bold før : i teksten under, det er notat til Lars)
+Definisjon: Selv om begrepet «bruksmønster» ofte brukes om hverandre med «UseCase», referer det også til generelle tendenser eller mønster i hvordan brukere interagerer med systemet over tid. Det kan videre referere til et sett med UseCase som samlet utgjør en komplett funksjonalitet i systemet. (Sommerville, 2011, s. 56,107, 154)
+
+Mens UseCase fokuserer på individuelle situasjoner eller hendelser hvor systemet brukes, ser bruksmønster på den overordnede bruken av systemet over tid. Begge er viktige for å designe og utvikle systemer som er brukervennlige og som møter de faktiske behovene til brukerne. UseCase kan betraktes som byggesteinene som definerer spesifikke funksjoner og prosesser, mens bruksmønster kan hjelpe designere og utviklere å forstå og planlegge for hvordan disse funksjonene vil bli brukt i praksis. (Sommerville, 2011, s. 56,107, 154)
+Flere utviklere mener også at UseCase er en sitasjon, mens Bruksmønster er en gruppe av UseCase. (Sommerville, 2011, s. 56,107, 154)
+Formål: Formålet med bruksmønster er å identifisere og forstå de vanlige måtene systemet benyttes på, noe som hjelper designere og utviklere å tilpasse systemet til brukerens behov og forbedre brukeropplevelsen. (Sommerville, 2011, s. 56,107, 154)
+
+Fremgangsmåte: Ved å analysere og dokumentere oppgaver eller mål som brukerne kontinuerlig sikter mot å oppnå, avdekker bruksmønstre både effektive og ineffektive elementer i systemdesignet. Dette legger til rette for identifisering av brukerinteraksjoner som kan forbedres og effektiviseres. (Sommerville, 2011, s. 56,107, 154)
+
+#### Sammenheng mellom UseCase og Bruksmønster(Notat til LAars, her har jeg brukt bold)
+
+Integrerte systemer: (brukt bold her og)
+Bruk av UseCase sammen med forståelsen av bruksmønster gir et helhetlig bilde av systemets bruk. Mens UseCase detaljerer spesifikke interaksjoner, kan bruksmønster avdekke bredere bruksområder og behov. (Sommerville, 2011, s. 219, 445-48)
+
+Påvirkning på Design og Utvikling: (brukt bold)
+Disse metodene bidrar sammen til å forme systemets design fra brukerens perspektiv, sikrer at det ferdige produktet ikke bare oppfyller funksjonelle krav, men også brukerens forventinger og behov. 
+Ved å integrere UseCase og analysere bruksmønstre, kan utviklingsteam utvikle mer intuitive og brukervennlige applikasjoner og systemer som treffsikkert adresserer målgruppens behov. 
+
+#### Aktører og UseCase (brukt bold)
+Når vi utvikler eller analyserer systemer, spesielt innen programvareutvikling, blir to konsepter ofte fremhevet for å forstå og definere hvordan systemet skal brukes: Aktører og UseCase. Disse konseptene er avgjørende for å identifisere funksjonelle krav og forventede interaksjoner med systemet. (Sommerville, 2011, s. 75-103)
+Aktører er entiteter som interagerer direkte med systemet. De kan være mennesker, andre systemer eller eksterne enheter. Hensikten med å identifisere aktører er å klargjøre hvem eller hva som vil bruke systemet, og på hvilke måter. Aktører spiller forskjellige roller i forhold til systemet (Concepta, 2023).
+
+(brukt italics før : i teksten under)
+Primære Aktører: De som initierer interaksjoner for å oppnå et mål. For eksempel, en bruker som søker informasjon. 
+Sekundære Aktører: De som støtter eller responderer i interaksjonene. Dette kan være eksterne systemer som systemet kommuniserer med for å utføre en oppgave.
+Offstage Aktører: De som har indirekte interesse i interaksjonen, men som ikke deltar direkte. Dette kan være regulatoriske myndigheter eller systemadministratorer.
+Å identifisere aktører gir grunnlag for å forstå systemets grensesnitt og hvordan forskjellige brukere vil interagere med det.(Concepta, 2023)
+
+#### Aktører i HytteApp (bold her og bold før : i teksten under)
+Hytteeiere: Eieren av hytta som bruker appen for å bestille brøyting og andre tjenester. 
+Brøytemannskap: Operatører som utfører brøyting og andre tjenester på forespørsel. 
+Hytteservice Administrator: Administrer HytteApp, inkludert oppdatering av tjenester og behandling av brukerhenvendelser. 
+System (Backend): Behandler data, sender varsler, koordinerer informasjon mellom hytteeier og brøytemannskap. 
+
+#### Samspillet Mellom Aktører og UseCase (bold her)
+Samspillet mellom aktører og UseCase er grunnleggende i systemutvikling. Ved å kartlegge Aktørene og definere tilhørende UseCase, skapes en brukersentrert tilnærming til systemdesign. Dette bidrar til å sikre at systemet leverer verdi til alle brukere og møter deres behov på en effektiv måte. Videre hjelper det utvikleren med å identifisere, forstå brukerinteraksjoner og prioritere funksjonalitetsutvikling basert på UC-beskrivelser. I sin helhet gir sammenslåing av aktører og UseCase et sterkt rammeverk for å utforske, dokumentere og validere hvordan et system skal fungere, og spiller en kritisk rolle i et velfungerende system. (Sommerville, 2011, s 75-103,106-108)
+
+
+
+
+
+
+
 
 ### UC-diagram
 
 ### UC-beskrivelser
+UC beskrivelser gir detaljerte trinn for hvordan hver aktør samhandler med systemet gjennom hver UseCase. Dette hjelper utvikleren å forstå brukerbehovene og systemkravene, noe som er avgjørende for å designe en brukervennlig og funksjonell applikasjon. 
+
+Eksempler på korte UC-Beskrivelser. 
+
+1.	Registrere deg som bruker (Hytteeier): Hytteeierne oppretter en konto i HytteApp for å få tilgang til tjenester. 
+
+2.	Bestille brøyting (Hytteeier): Hytteeieren sender en forespørsel om brøyting gjennom appen.
+
+3.	Motta og akseptere oppdrag (Brøytemannskap): Brøytemannskapet mottar oppdragsvarsler og aksepterer dem gjennom sin del av appen eller et administrasjonsgrensesnitt.
+
+4.	Send varsling om fullført tjeneste (System): Systemet sender automatisk varsler til hytteeieren når tjenesten er fullført.
+
+5.	Administrere brukere og tjenester (Hytteservice Administrator): Administrator kan legge til, fjerne eller endre tjenester og håndtere brukerkontoer.
+
 
 Tabell UC1 til UC5 beskriver fem Use Cases som er tilknyttet applikasjonen HytteApp. 
 Tabellene viser hvem som er aktør, pre og post betingelser, hovedflyt og alternativ flyt hvis det skjer feil under prosessen.
@@ -166,12 +258,22 @@ Hytteeier- entitet er mange til mange- forhold med Hytte-tabellen, som kan refle
 
 
 ### Domenemodell (UML-modell)
-- En domenemodell er et forenklet kart over et spesifikt område, for eksempel et programvaresystem eller en bedrift. Den viser de viktige tingene og hvordan de er knyttet til hverandre. Dette gjør det lettere for alle parter å forstå hva systemet gjør og hvordan det fungerer. 
-Den viser de viktige entitetene og hvordan de er knyttet til hverandre
+En domenemodell er et forenklet kart over et spesifikt område, for eksempel et programvaresystem eller en bedrift. En domenemodell konsentrerer seg om de viktigste elementene, som for eksempel entitetene, og hvordan de er knyttet til hverandre, kalt relasjoner. Dette gjør det lettere for alle parter å forstå hva systemet gjør og hvordan det fungerer.
+Figur 1: Domenemodell
+
 
 ## Design
 
-### Systemdesign og klassediagram
+### Systemarkitektur
+For å effektivisere kommunikasjonen mellom hytteeiere og Hytteservice, ville arkitekturen for HytteApp blitt lagt opp med en tradisjonell klient-server struktur. Denne strukturen er organisert etter hvilke funksjoner som brukes mot de ulike tjenestene.
+
+Brukergrensesnittet er det første brukerne møter, og det bestemmer utseendet på systemet og hvordan det kan brukes. For HytteApp vil dette være en mobilapplikasjon for hytteeiere, tilgjengelig på både iOS og Android, samt en nettbasert plattform som gir tilgang til de samme funksjonene. Dette brukergrensesnittet gir hytteeierne mulighet til å registrere seg, bestille brøyting, motta varsler og kommunisere med Hytteservice.
+
+All funksjonalitet knyttet til bestillinger, hytteinformasjon, værmeldinger og kommunikasjon mellom brukere og Hytteservice ville blitt håndtert av en backend-server. Denne serveren ville blitt kjørt på en skybasert plattform som Azure eller AWS og ville vært ansvarlig for å behandle forespørsler fra klientene, utføre forretningslogikk og lagre data.
+
+En MySQL-databaseserver ville blitt brukt til å lagre all data knyttet til HytteApp. Dette inkluderer informasjon om hytter, bestillinger, brukerprofiler og værvarsler. MySQL-serveren vil være adskilt fra backend-serveren for å sikre god ytelse og skalerbarhet, og den vil kjøre på sin egen dedikerte maskinvare.
+
+Denne systemarkitekturen for HytteApp legger til rette for en effektiv og pålitelig løsning som oppfyller kravene til både hytteeiere og Hytteservice, og den sikrer god ytelse, skalerbarhet og sikkerhet gjennom riktig bruk av teknologi og infrastruktur.
 
 ## Klassediagram
 Et klassediagram i UML er en form for en statisk struktur diagram, og blir brukt til å vise hvordan et system er oppbygd. I et klassediagram kan du se hvordan systemet er bygd opp ved hjelp av klasser, attributter, operasjoner og forholdet mellom klassene.
@@ -179,18 +281,25 @@ Klassediagram blir brukt for å fordype og lage en bedre forståelse av hvordan 
 
 Figur: Klassediagram
 
-### Systemarkitektur og teknologivalg
 
 ### Maskinvarespesifikasjon
 Serverinfrastrukturen burde være skybasert. Vi ville gått for Microsoft Azure. Det burde også være en dedikert database ala MySQL-server. Videre trenger du en stabil internettilkobling. Alt av klienter skal fungere, men ettersom det er en app burde du ha en smarttelefon eller et nettbrett. For utviklingsmuligheter anbefaler vi en datamaskin med nok kraft til å støtte et utviklingsmiljø, IDE-er og andre verktøy. Det burde også være en backup- og redundansløsning.
 
 ### Utviklingsverktøy og teknologi
-Dette er litt vanskelig å skrive noe om da vi ikke fysisk skal lage appen, men et grunnlag ville vært som følgende:
-- For app-utvikling kunne vi ha brukt et rammeverk som React Native for å kunne bygge for både iOS og Android. Fordelen her er at det holde med én kodebase.
-- Backend-utviklingen kunne foregått på Node.js for eksempel da det er godt egnet for utvikling av skalerbare serverapplikasjoner. Express.js er en slags miniversjon av Node.js som er meget enkelt å lære.
-- Databasen kunne vært bygd i MySQL. Særlig fordi MySQL er som vi kjenner til gir meget stabil og pålitelig ytelse.
-- Google Maps API for kart ville vært en god idé. Særlig fordi den gir mulighet for interaktive kart i appen.
-- Dessuten har vi allerede brukt GitHub for deling av prosjektomfang og samarbeid i utviklingsteamet.
+For å utvikle HytteApp og oppfylle de spesifikke kravene som er beskrevet, ville det vært avgjørende å velge riktige utviklingsverktøy og teknologier. App-utviklingen kan dra nytte av rammeverk som Flutter eller React Native, som gir mulighet for kryssplattformapper som fungerer godt på tvers av både iOS og Android. Alternativt kan man gå for native utvikling ved å bruke Swift for iOS og Kotlin for Android, noe som gir full kontroll over plattformspesifikke funksjoner og ytelse. Kotlin er voldsomt i vinden, så vi ville kanskje gått for det.
+
+Når det kommer til backend-utvikling, er Node.js et populært valg på grunn av sin skalerbarhet og effektivitet, men vi har kun lært Java så vi ville nok gått for det. Når det gjelder databasevalg, kan MongoDB være ideell for sin fleksibilitet og skalerbarhet, spesielt for applikasjoner med komplekse datamodeller. Alternativt kan tradisjonelle relasjonelle databaser som MySQL også være passende, spesielt hvis det er behov for transaksjonsstøtte, og dette har vi lært om så vi ville gått for det.
+
+Kartintegrering er en viktig del av HytteApp, og tjenester som Google Maps API kan tilby kartfunksjonalitet og muligheten til å integrere interaktive kart i appen. Når det gjelder autentisering og autorisasjon, kan Firebase Authentication være en enkel løsning med støtte for ulike påloggingsmetoder. Vi registerer at Microsoft Azure er populært for tiden, så vi ville vurdert det.
+
+For sanntidskommunikasjon kan Firebase Cloud Messaging (FCM) være nyttig for å sende push-varsler og opprettholde sanntidskommunikasjon mellom server og klient. WebSockets er også et alternativ for å oppnå sanntidsoppdateringer og toveis kommunikasjon mellom klienten og serveren, men vi ville nok valgt Socket.IO da dette er et JavaScript-bibliotek som forhåpentligvis ikke ville tatt så lang tid å lære seg for oss.
+
+Versjonskontroll og samarbeid er viktig i et utviklingsteam, og verktøy som Git, sammen med plattformer som GitHub eller GitLab, gir et robust rammeverk for versjonskontroll, prosjektstyring og samarbeid mellom utviklere.
+
+Med tanke på test-rammeverk ville vi sett på Jest. Jest er et JavaScript-testrammeverk som er designet for å sikre riktigheten av enhver JavaScript-kodebase. Hvis ikke ville vi antakelig sett på JUnit 5 for Java. 
+
+Ved å ha tatt i bruk disse utviklingsverktøyene og teknologiene ville utviklingsteamet kunne bygget en effektiv, skalerbar og brukervennlig app som oppfyller alle kravene i oppgaveteksten.
+
 
 ### Konfigurasjon-/versjonskontroll
 
@@ -203,103 +312,113 @@ Github er en versjonskontroll plattform som er mye brukt av utviklere. Den gir b
 Vi brukte også Github til å lage en prosjektledelsestavle. der satte vi opp alle oppgavene som prosjektet inneholdt. Da ble arbeidet vi skulle gjøre veldig oversiktlig. Medlemmene i prosjektteamet kunne da plukke de oppgavene de ønsket å jobbe med. Når vi hadde plukket en oppgave la vi den i "i prosess" kolonnen. Når vi var ferdig med oppgaven, la vi den i "Ferdig" kolonnen. Slik hadde vi hele tiden oversikt over hva den enkelte arbeidet med til en hver tid. 
 
 ### Brukergrensesnitt
-### De beste brukergrensesnittene til HytteAppen:
-#### Det er enkelt å bruke:
-- Appen skal være lett å forstå og enkel å bruke for mennesker i alle aldre og med ulike tekniske ferdigheter.
-- Menyer skal være logisk bygget opp og tekster skal være enkle og forståelige.
-- Appen vil gi brukere veiledning og hjelp.
+Brukergrensesnitt er når brukere og datamaskinen og/eller mobiler/nettbrett snakker med hverandre. Ikoner, bilder, knapper og alle forskjellige type av menyer en bruker ser på skjermen er alle brukergrensesnitt, og brukere gir datamaskinen/mobiler instruksjoner gjennom disse brukergrensesnittene ved å trykke på dem, og deretter viser datamaskinen deg hva som skjer på skjermen basert på valgene du tar.
 
-#### For å sikre at et brukervennlig grensesnitt er tilgjengelig, kan man:
-- Bruk korte, lettforståelige tekster.
-- Ha en tydelig struktur.
-- Bruk hensiktsmessig kontraster og farger.
-- Unngå overdreven kompleksitet.
-- Test appen på målgruppens medlemmer.
+#### Appen er lett å bruke:
+Appen skal være lett å forstå og enkel å bruke for mennesker i alle aldre og med ulike ferdigheter. Poenget er å gi et brukervennlig syn og erfaring for både de som er vant til å bruke mobiler og PC, og også de som ikke pleier å bruke teknologi ofte.
+Tekstene som skal brukes i appen må være lett å forstå og skrevet i et språk som er enkel og forståelig. Det er viktig å unngå slang, forkortelser og ord som kan være vanskelig å forstå for noen folk. Forskjellige typer av termer har forklaringer med en enkel definisjon. Korte avsnitt og setninger skal gjør det lettere å lese og forstå, unødvendig tekst og store bokstaver kan være veldig irriterende å lese derfor er det viktig å unngå det. 
+Menyer er logisk bygget opp og tekster skal er forståelige. Appens menyer er lett å forstå pluss de er strukturert logisk, da vil brukeren raskt og enkelt finne det de leter etter ved bruk av kategorier.
+Appen skal gi brukere veiledning og hjelp, og de skal få hjelp gjennom for eks. at appen har en brukerveiledning som forklarer alle appens funksjoner, og når brukeren trenger det vil hjelpetekster bli vist. Eller eventuelt en seksjon som svarer på ofte stilte spørsmål (FAQ) som kan være en stor mulighet for å få hjelp fra Hytteservice. 
+
 #### Effektivitet:
-- Appen skal gjøre det mulig for brukere å fullføre vanlige oppgaver raskt og enkelt.
-- Pløying bør være en enkel prosess med bare noen få trinn.
- Appen må gi brukerne forståelig informasjon.
+Appen gjøre det mulig for brukere å fullføre vanlige oppgaver raskt og enkelt, målet med appen er å gjøre den effektiv for brukere å bruke appen. Appen gir brukbar og viktig informasjon som er samtidig forståelig.
 
 #### Attraktivt:
-- Appen bør ha et moderne design som er enkelt å bruke og appellerer til målgruppen.
-- Det er viktig at bruken av bilder, farger og typografi er nøye vurdert og tilpasset målgruppen.
+Appen har et moderne design som er enkelt å bruke for målgruppen den er lagd for, appens design gjenspeiler også de følelsene som ligger grunn til hytteliv. Bruken av bilder, farger og typografi er tilpasset til målgruppen og hytter.
 
 #### Pålitelighet:
-- Det er viktig at applikasjonen er stabil og fungerer feilfritt.
-- Appen må ha oppdatert og nøyaktig informasjon.
-- Appen skal beskytte brukernes datasikkerhet og personvern.
+Det er viktig at applikasjonen er stabil og fungerer godt og uten noen feil. Appens mål er å gi brukere en følelse av trygghet og pålitelighet. Informasjon i appen er alltid oppdatert og korrekt sånn at brukere kan stole på appens informasjon, og den skal sikre brukerens data og personvern.
 
-## Layouten:
-
-#### Startvinduet:
-- En "karusell" med bilder av brukerens hytter.
-- En oversikt over den kommende brøytingen for hver hytte.
-- Værmelding for hytta som ble valgt.
-- Hurtig tilgang til meldinger og innstillinger.
-
-#### For å sikre brukervennlig grensesnitt kan man gjøre følgende:
-- Bruk tekster som er lett å forstå.
-- Vær tydelig på strukturen.
-- Bruk riktig kontraster og farger.
-- Unngå for mye komplisering.
-- Test applikasjonen med målgruppens medlemmer.
-- Når du designer appen, er universell utforming (UU) veldig viktig.
+#### Hovedside:
+Et sted i hovedside, for eks. øverst i siden, skal brukeren se ett sett av bilder av alle våre hytter, dette kan gjøre det lett for brukere å få visjon av hyttene som de kan velge mellom, og som gjør at brukere kan velge fort en hytte og som de kan lese mer informasjon om. 
+Et eget separat avsnitt som inneholder viktig informasjon om hytte som brukere valgte, og dette skal gi brukere oversikt over værforholdene på hytta sånn at brukere kan planlegge turen i henhold til disse forholdene.
+Få rask tilgang til meldinger og innstillinger på startvindu, et sted der brukere kan lett finne det de leter etter og få tilgang til både innstillinger og meldinger. Dette lar brukere raskt og enkelt få tilgang til alle funksjoner som brukere oftest bruker
 
 #### Innstillinger:
-- Mulig å endre profildata.
-- Hytter kan legges til, endres eller slettes.
-- Mulighet til å velge språk og innstillinger for varsler.
-- Mulighet til å se hjelp og brukerveiledning.
-- For å sikre at brukergrensesnittet er enkelt og tilfredsstiller målgruppen, er det viktig å involvere brukerne i designprosessen (hvis mulig).
+Hytteapp vil gi brukere muligheten til å bestemme profilen sin, preferanser og hytter. informasjon som navn, e-post og telefonnummer skal enkelt oppdateres. Det skal er lett å legge til ny og endre informasjon om hytter som allerede eksisterer eller fjerne hytte som brukeren ikke trenger. 
+Det skal være mulig å endre språket til appen for de som ikke snakker norsk/bokmål. Brukere må ha tilgang til brukerveiledning som inneholder viktig informasjon og råd om hvordan de skal bruke hver funksjon i appen. 
+ 
+#### SMS/Meldinger:
+En velfungerende meldingsfunksjon i hytteappen som lar brukere snakke og kommunisere både med brøytemannskap, på denne måten kan alle, inkludert brukere, enkelt holde seg oppdatert og få hjelp med det de trenger i tillegg. 
+En kommunikasjonshistorie over alle bestillinger og chat har blitt sendt mellom brukere og hytteservice, hvor både brukere og hytteservice har oversikt over. 
+Hytteappen burde gi folk muligheten til å starte en samtale med service ansatte hvor brukere kan spørsmål om ting de lurer på og gi/få tilbakemeldinger.
 
-#### Meldinger:
-- En liste over alle meldinger som har blitt sendt og mottatt.
-- Mulighet til å sortere meldinger etter type (brøytemannskap, hyttetjeneste).
-- Mulig å sende filer og bilder.
-- Mulighet til å begynne en diskusjon med brøytemanskap eller hytteservice.
 
-#### Brøytingsplan:
-- En kalender som viser tilgjengelige brøytetider.
-- Mulig å velge brøytingstid (f.eks. morgen, ettermiddag eller kveld).
-- Mulig å inkludere et mobilnummer for SMS-varsling.
-- En bekreftelsesside som inneholder alle nødvendige detaljer om bestillingen.
+#### Brøytebestilling:
+Appen gjør brøyting veldig enkelt og raskt, brukere vil få det de trenger uten å bli på grunn av appens enkelt grensesnitt og brukervennlighet. Det blir lett for brukere a finne kalenderen som viser alle tilgjengelige brøytetider.   
+Det skal være mulig for brukeren å velge brøytings tid for eks. morgen, ettermiddag eller kveld osv. Appen gjør mulig for brukeren å sette inn deres mobilnummer som skal få viktige SMS hvor de skal få forskjellige tilbud og/eller varslinger. Appen har en bekreftelsesside for brukere hvor alle nødvendige detaljer om bestillingen skal vises. 
+
 
 ### Designmål
-#### For hytteeiere skal appen tilby følgende funksjoner:
-- Enkel registrering av hytter og brukerprofiler.
-- Bestilling av brøyting med nøyaktig dato og tid for ankomst og avreise.
-- Mulighet for å velge hvem som skal motta SMS-varsel om brøyting.
+#### Hytteeiere skal ha følgende funksjoner i appen:
+- Raskt og enkelt registrering av hytter og brukerprofiler.
+- Bestilling av brøyting med dato og tid for ankomst/avreise.
+- Hytteeiere skal velge hvem som skal motta SMS om brøyting.
 - Vise værvarsel for hytteadressen.
 - Mulig å kommunisere med hytteservice og brøytemannskap.
 
-#### Hytteservice bør gi følgende funksjoner:
-- En samlet liste over alle hytter som trenger brøyting, sammen med detaljert informasjon om hver hytte og prosessen med å bestille dem.
-- Mulighet til å planlegge effektive brøyteruter basert på informasjon om hyttene og bestillingene.
-- Generering av omfattende statistikk over brøyteaktivitet fordelt på hytteområder, tidsperioder og andre faktorer.
-- Enkel tilgang til brukerprofiler, hytter og bestillinger.
+#### Hytteservice skal gi følgende funksjoner:
+- En liste av alle hytter som trenger brøyting, sammen med detaljert informasjon om hver hytte og veiledning til hvordan brukere kan bestille dem.
+- Brukere har muligheten til å planlegge brøyteruter basert på informasjon om hyttene og bestillingene.
+- veldig enkel tilgang til brukerprofiler, hytter og bestillinger.
 
 #### Ytelse:
-- Appen må være stabil, rask og responsiv.
-- For de viktigste funksjonene skal appen fungere offline, det betyr at brukere kan bestille brøyting og se relevante innhold selv uten internettforbindelse.
+- Appen er stabil, rask og responsiv.
+- Appen skal fungere offline også når det kommer til viktige funksjoner, det betyr at brukere kan bestille brøyting og lese viktig informasjon uten internettforbindelse.
 
 #### Tilgjengelighet:
-- Appen må være tilgjengelig på Android og iOS.
-- Appen bør ha universell utforming (UU) slik at alle kan bruke den, uavhengig av funksjonsevne.
+- Appen er tilgjengelig både på Android og iOS.
+- Appen har universell utforming (UU) sånn at alle kan bruke den uavhengig av funksjonsevne.
 
 #### Sikkerhet:
-- Appen må håndtere personvern i samsvar med GDPR og gjeldende sikkerhetsstandarder.
+- Appen håndterer personvern som følger GDPR og sikkerhetsstandarder.
 - Appen bør ha sikker håndtering og kryptering av brukerdata.
 
 #### Utforming/Design:
-- Det er viktig at appen har et design som er moderne, brukervennlig og attraktivt for målgruppen.
-- Det er viktig at designet er konsistent, lett å forstå og bruker gode bilder, fargepalett og typografi.
-- Det er viktig at appens visuelle identitet er i samsvar med Hytteservices merkevareidentitet.
+-  Appen har et moderne design og er brukervennlig.
+- Designet er konsistent, lett å forstå og bruker passende bilder, farger og font.
 
 ### Prototype - skjermbilder - Figma
+
+Innloggingsside
+Hytteeiere som bruker appen for første gang, vil møte en innloggingsside som er enkel å forstå og lett å bruke. Eksisterende brukere med tidligere erfaring med HytteApp vil finne det enkelt å orientere seg. For hytteeiere har dette blitt en smidig prosess som kun krever brukernavn og passord ved innlogging. Dersom hytteeiere har glemt enten brukernavn eller passord, utgjør dette ikke noe problem. Bare ved å trykke på "Glemt passord" knappen vil hytteeiere deretter få omfattende oppfølging for å endre eller finne både brukernavn og passord. Hytteeiere skal kunne logge seg inn i applikasjonen for å få tilgang til funksjonaliteten. De må trykke på den blå «Registrer» -lenken, som videresender brukere til registreringssiden for ny bruker. 
+
+Registrering av ny bruker
+Etter at hytteeiere har trykket på den blå «Registrer»- lenken blir de ført videre til startsiden av HytteApp. Deretter vil hytteeiere komme til en registeringsside designet for å opprette en ny brukerkonto. På denne siden skal brukere kunne fylle ut personlige opplysninger som navn og adresse, samt registrere tilknytning til sin hytte. Brukere blir bedt om å oppi sitt primære mobilnummer for å koble telefonen til kontoen sin. Dette gjør at hytteeiere kan motta varslinger og ha muligheten til å kontakte tjenesten ved behov. Videre er det frivillig for brukeren å legge til et alternativt mobilnummer, for eksempel hvis en annen person også skal holde seg oppdatert eller svare på henvendelser om hyttetjenestene.  Hytteeiere skal velge et brukernavn som representerer deres individuelle innloggingsnøkkel, og et passord skal settes for å sikre kontoen. Videre skal hytteeiere bekrefte passordet sitt ved å skrive det på nytt. Til slutt skal hytteeiere kunne registrere hytteadressen og poststedet sitt, slik at tjenestene blir rettet mot riktig hytte. Når alle radene er utfylt med riktig informasjon, kan hytteeiere lagre dataene ved å trykke på «Lagre» knappen. Deretter er de klare til å ta i bruk HytteApp ved å gå tilbake til innloggingssiden og logge inn med det valgte brukernavnet og passordet.
+
+Navigasjonsmeny
+Dette skjermbilde illustrerer en navigasjonsmeny der brukere enkelt kan navigere gjennom de ulike seksjonene i HytteApp. Hytteeiere har muligheten til å modifisere personlige preferanser, blant annet overvåke og administrere bestillinger, sjekke værmeldingen for sin hytteadresse, lære mer om appen, eller skifte bruker eller registrere flere brukere samtidig. 
+
+Min side
+Dette bildet viser hovedsiden i HytteApp, med et enkelt og intuitivt design som raskt lar hytteeiere forstå sidens funksjoner. Ved å trykke på ikonet merket "Meldinger" kan hytteeiere og deres familiemedlemmer lese, sende og motta beskjeder direkte til og fra Hytteservice og brøytemannskapet. Dette gjør hele prosessen enklere og sikrer at kommunikasjonen mellom brukerne og tjenesten er brukervennlig og effektiv.
+Deretter kan nye brukere som ikke har tidligere erfaring med HytteApp trykke på «Manual» ikonet, for å få instruksjoner om programmenes funksjoner og tjenester. Videre har hytteeiere muligheten til å trykke på «GDPR» ikonet, noe som gir dem informasjon om hvordan deres personlige opplysninger blir behandlet og beskyttet. Nederst på hovedsiden vil hytteeiere kunne se sin egen hytteadresse. 
+
+Melde ankomst til hytta
+På denne siden av applikasjonen kan hytteeiere planlegge sin ankomst og avreise. For å sikre god service må hytteeiere gi beskjed om sitt hyttebesøk minimum en dag før planlagt ankomst. 
+•	Logg inn på HytteApp og velg hytta du ønsker brøyting for. 
+•	Angi ankomst- og avreisedato. 
+•	Hytteeiere må også spesifisere et tidsrom for ankomst: Tidlig formiddag (8-12), ettermiddag (12-18) eller kveld (18-24). 
+•	Spesifiser antall nødvendige parkeringsplasser. 
+•	Legg inn mobilnummer for å motta brøytevarslinger. Det er valgfritt for hytteeiere å oppgi et annet nummer enn det primært registrerte.
+•	Hytteeiere skal nøye gjennomgå bestillingsdetaljene og lagre informasjonen.
+
+Legg inn bestilling
+Denne siden gir hytteeiere muligheten til å bestille tjenester som brøyting. De kan velge type tjeneste, oppgi kontaktinformasjon og angi ønsket tidspunkt for brøyting. Det er også mulig for brukere å sende bilder og legge til kommentarer ved behov. Etter at all informasjon er fylt ut, kan hytteeiere lagre den ved å trykke på "Lagre"-knappen, og deretter er bestillingen registrert. Ordrebekreftelse på SMS sendes ut på dagen de ankommer hytta, samme dag som brøyting gjennomføres.
+
+Meldinger
+Dette bildet illustrerer meldingssiden i HytteApp, der hytteeiere enkelt kan kommunisere med administrasjonen eller brøytemannskapet. De kan enkelt sende og motta beskjeder, eller svare direkte fra denne siden ved å trykke på "Svar"-knappen. På denne måten kan hytteeiere holde oversikt over nye beskjeder og markere meldinger som leste ved å trykke på "Lest"-knappen, som blir grønn.
+
+Værmelding
+Dette skjermbildet representerer værmeldingssiden, hvor hytteeiere kan sjekke værets forhold ved å trykke på navigasjonsmenyen. HytteApp gir en værmelding tilpasset hytteeierens adresse. Øverst vises nåværende vær, inkludert temperatur og nedbør. Hytteeiere kan for eksempel se at det er meldt snøfall og minus fem grader Celsius i dette tilfellet. Videre gir skjermen en time for time prognose for været resten av dagen. Lengre ned vises en 10-dagers værmelding som gir en oversikt over mulige temperaturer for de kommende dagene. På bunnen av skjermen er det hurtigvalg for å navigere til andre deler av appen, som værkart og innstillinger.
 
 ## Kvalitetssikring
 
 ### Overordnet testbeskrivelse
+Formålet med testprosessen er å utarbeide feil og mangler i systemet før man dytter ut appen. Testingen går ut på å sikre at systemet er feilfritt og brukervennlig før det blir tatt i bruk.
+
+Det første vi skal gjøre er å gjennomføre en grundig kvalitetskontroll av de individuelle komponentene i systemet. Etter dette er gjort går vi videre til testing av systemet som en helhet. Her skal vi se hvordan de forskjellige komponentene samkjører med hverandre å verifisere at de oppfyller de funksjonelle kravene som ytelse og sikkerhet.
+
+I den andre fasten av testingen skal vi fokusere på systemet som en helhet. Vi skal gjennomføre brukertester for å sikre at systemet er intuitivt og enkelt å bruke. I denne testingen er det viktig å se på tilbakemeldingene slik at vi kan forbedre og optimalisere systemet for brukeren. Vi skal bruke tilbakemeldingene til å sørge for at brukervennligheten er på plass.
 
 ### Overordnet testplan
 En testplan beskriver teamets fremgangsmåte for å få kvalitetssikret systemets funksjonelle og ikke-funksjonelle krav fra kravspesifikasjonen. Den skal inneholde informasjon om grunnlaget for hvorfor vi skal teste, overordnede mål for testingen, omfanget av testingen, hvilke testmiljø vi skal benytte oss av, og hvordan man skal sette det opp. Testingen skal deles inn i ulike faser, og den må også ha en tidslinje for når testingen skal foregå, inkludert start- og sluttdato for hver fase.
@@ -325,6 +444,9 @@ Med tanke på at vi tenkte på å benytte oss av React Native og Node.js er det 
 Stegene for opprettelse av testmiljøet Jest er svært enkle og finnes på Getting Started seksjonen i Jest sin egen dokumentasjon: https://jestjs.io/docs/getting-started
 
 ### Prosjektstyring 
+Prosjektstyring går ut på å lage mål, planlegge aktiviteter og oppfølge gjennomføringen av et prosjekt (Asbjørn Rolstadås, 2020).
+
+Hensikten med prosjektstyring er å sørge for at prosjektet går fremover. Det er med på å lage struktur og sette mål for hva som skal gjøres. Prosjektstyring består av fire forskjellige faser. Den første fasen er oppstartsfasen, i denne fasen starter du med å få en oversikt over prosjektet, hvordan prosjektet skal utføres, og det blir som regel fordelt roller. Den neste fasen er planleggingsfasen, og det er her alle detaljene kommer inn.  Altså detaljerte planer om hva som skal gjøres. Etter planleggingsfasen kommer gjennomføringsfasen. Her gjennomføres planene grundig etter hvordan de ble lagt i planleggingsfasen. Til slutt kommer vi til avslutningsfasen. I avslutningsfasen sjekkes det grundig at alt er blitt gjort etter planen, og det blir kvalitetssjekket for å sørge for at alt er på plass.
 
 Figur: Work Breakdown Structure(WBS) 
 
@@ -400,3 +522,6 @@ sikkerhetssystemer eller offentlige systemer som er basert på reguleringer og l
 
 Asbjørn Rolstadås (2018.24.april). kravspesifikasjon
 https://snl.no/kravspesifikasjon
+
+Asbjørn Rolstadås (2020.14.april). prosjektstyring
+https://snl.no/prosjektstyring
