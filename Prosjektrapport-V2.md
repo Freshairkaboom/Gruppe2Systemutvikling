@@ -503,5 +503,5 @@ https://snl.no/kravspesifikasjon
 Asbjørn Rolstadås (2020.14.april). prosjektstyring
 https://snl.no/prosjektstyring
 
-Jøsang, A. (2024). Innbygd informasjonssikkerhet og personvern. Oslo: Universitet i oslo. 
+Jøsang, A. (2024). Innbygd informasjonssikkerhet og personvern. Oslo. Universitet i oslo. 
 https://www.uio.no/studier/emner/matnat/ifi/IN1030/v23/foiler/in1030-2023-04-27-informasjonssikkerhet-krav.pdf
