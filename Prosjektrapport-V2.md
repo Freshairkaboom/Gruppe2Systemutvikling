@@ -112,19 +112,18 @@ Hytteservice ønsker også at HytteApp er en brukervennlig app for sine brukere,
 ### Ikke-funksjonelle krav
 
 #### Sikkerhet og personvern:
-Informasjonssikkerhet og personvern er kjempeviktig for sikre sensitiv informasjon som kritisk data, personale detaljer fra uønsket eller fremmed aktiviteter. Derfor er det viktig for hytteappen å ha personvern og informasjonssikkerhet for at den skal fungere trygt for både brukere og hytteeiere. 
-Angripere kan finne kreative metoder og måter å få tilgang til og ta kontroll over kontoen din, for eksempel kan de ikke bare lese brukernes personlige data, men også endre dem. Derfor er det nødvendig for hytteeiere, brukere og også alle ansatte å ha private kontoer. 
+Informasjonssikkerhet og personvern er kjempeviktig for å sikre sensitiv informasjon som kritisk data, samt personlige detaljer fra uønsket eller fremmed aktivitet. Derfor er det viktig for HytteApp å ha personvern og informasjonssikkerhet for at den skal fungere trygt for både brukere og hytteeiere. 
+Angripere kan finne kreative metoder og måter å få tilgang til og ta kontroll over kontoen din, for eksempel kan de ikke bare lese brukernes personlige data, men også endre dem. Derfor er det nødvendig for brukere og også alle ansatte å ha private kontoer. 
 
 Hver konto må ha bekreftet eller verifisert passord og brukernavn, og passordene må være unike og må aldri deles med noen andre.
-I dag kommer de fleste apper og nettsteder med to-trinns bekreftelse. En to-trinns bekreftelse gjør det svært vanskelig for angripere å få tilgang til apper og nettsteder, fordi den sender en kode til mobilen din, eller den vil trenge en ansikts-ID og den kan også skapes av autentiseringsapp. 
+I dag kommer de fleste apper og nettsteder med to-trinns bekreftelse. En to-trinns bekreftelse gjør det svært vanskelig for angripere å få tilgang til apper og nettsteder, fordi den sender en kode til mobilen din, eller appen kan generere kode for deg. To-trinns bekreftelse kan også bruke ansikts-ID, fingeravtrykk og mobilmønster som ekstra sikkerhet. 
 Hytteapp kan ta i bruk to-trinns verifiseringsmetode for å sikre at brukerdata og all annen personlig informasjon er sikret fordi den brukes sammen med passordet, noe som vil gjøre det nesten umulig for hackere og angripere å få tilgang til Hytteapp.
 
-Hytteapp følger General Data Protection Regulation (GDPR) eller Personvernforordningen (PVF).
-Hytte-appbrukere kan kontrollere informasjonen de velger å dele med appen. Brukere har rett til å velge om de vil at deres personopplysninger skal lagres eller eventuelt deles med andre brukere. Hytteapp brukere kan også velge hvilken informasjon de vil holde skjult og hvilken informasjon de vil dele. Hytteapp vil bare lagre og bruke den nødvendige informasjonen den trenger og vil unngå å be om informasjon som den ikke trenger. Brukeren bestemmer selv hvilke data de vil beholde og hvilke data de vil slette og fjerne fra appen.
-Hytteapp brukere har rett til å enten godta eller avslå at hytteappen kan samle inn og behandle personopplysningene deres. Samtykke mellom brukere og hytteappen skal gis fritt, den skal være detaljert og veldig spesifikk.
+HytteApp bør følge General Data Protection Regulation (GDPR) eller Personvernforordningen (PVF).
+HytteApp kan kontrollere informasjonen de velger å dele med appen. Brukere har rett til å velge om de vil at deres personopplysninger skal lagres eller eventuelt deles med andre brukere. HytteApp brukere kan også velge hvilken informasjon de vil holde skjult og hvilken informasjon de vil dele. HytteApp vil bare lagre og bruke den nødvendige informasjonen den trenger og vil unngå å be om informasjon som den ikke trenger. Brukeren bestemmer selv hvilke data de vil beholde og hvilke data de vil slette og fjerne fra appen.
+HytteApp brukere har rett til å enten godta eller avslå at hytteappen kan samle inn og behandle personopplysningene deres. Samtykke mellom brukere og hytteappen skal gis fritt, den skal være detaljert og veldig spesifikk.
 
 Appen må overholde GDPR-krav og andre relevante lover og forskrifter angående personvern. Dette inkluderer sikker lagring og håndtering av brukerdata, samt kryptering av sensitiv informasjon under overføring.
-Referanse:  in2000-2022-innebygd-informasjonssikkerhet.pdf
 
 
 #### Universell utforming (UU):
@@ -161,7 +160,58 @@ Det er viktig å dokumentere ikke bare alle hensyn som tas, men også hvilke hen
 
 ## Analyse
 
+<<<<<<< Updated upstream
 ### Aktører og UseCase(UC)
+=======
+### UseCase:
+Definisjon: UseCase beskriver en sekvens av handlinger som systemet utfører som svar på en forespørsel fra en aktør (enten en bruker eller et annet system), og som resulterer i en observerbar verdi for denne aktøren. UseCase fokuserer på «hva» systemet gjør, snarere enn «hvordan», for å realisere funksjonelle krav. (Sommerville, 2011, s.106-108)
+
+Formål: Primært sikter UseCase til å dokumentere de funksjonelle kravene ved å illustrere hvordan systemet skal reagere under forskjellige sitasjoner. Dette bidrar til å sikre at systemet adresserer alle forventede brukerinteraksjoner og eksterne systemintegrasjoner på en passende måte. 
+
+Aktører: Aktører representerer entiteter som interagerer med systemet. Dette kan være menneskelige brukere, som kunder eller ansatte, eller eksterne systemer som andre applikasjoner eller databaser. Aktører kan også bli kalt interessenter. 
+
+Pre-betingelser: Disse er betingelsene som må være oppfylt før et UseCase kan initiere og sikre at systemet er i riktig tilstand for å utføre de nødvendige operasjonene. 
+
+Post-betingelser: Det beskriver den tilstanden systemet oppnår etter vellykket utførelse av et UseCase, og demonstrerer den verdi eller de endringer som er realisert gjennom interaksjonen. 
+
+### Bruksmønster: (brukt bold før : i teksten under, det er notat til Lars)
+Definisjon: Selv om begrepet «bruksmønster» ofte brukes om hverandre med «UseCase», referer det også til generelle tendenser eller mønster i hvordan brukere interagerer med systemet over tid. Det kan videre referere til et sett med UseCase som samlet utgjør en komplett funksjonalitet i systemet. (Sommerville, 2011, s. 56,107, 154)
+
+Mens UseCase fokuserer på individuelle situasjoner eller hendelser hvor systemet brukes, ser bruksmønster på den overordnede bruken av systemet over tid. Begge er viktige for å designe og utvikle systemer som er brukervennlige og som møter de faktiske behovene til brukerne. UseCase kan betraktes som byggesteinene som definerer spesifikke funksjoner og prosesser, mens bruksmønster kan hjelpe designere og utviklere å forstå og planlegge for hvordan disse funksjonene vil bli brukt i praksis. (Sommerville, 2011, s. 56,107, 154)
+Flere utviklere mener også at UseCase er en sitasjon, mens Bruksmønster er en gruppe av UseCase. (Sommerville, 2011, s. 56,107, 154)
+Formål: Formålet med bruksmønster er å identifisere og forstå de vanlige måtene systemet benyttes på, noe som hjelper designere og utviklere å tilpasse systemet til brukerens behov og forbedre brukeropplevelsen. (Sommerville, 2011, s. 56,107, 154)
+
+Fremgangsmåte: Ved å analysere og dokumentere oppgaver eller mål som brukerne kontinuerlig sikter mot å oppnå, avdekker bruksmønstre både effektive og ineffektive elementer i systemdesignet. Dette legger til rette for identifisering av brukerinteraksjoner som kan forbedres og effektiviseres. (Sommerville, 2011, s. 56,107, 154)
+
+#### Sammenheng mellom UseCase og Bruksmønster(Notat til LAars, her har jeg brukt bold)
+
+Integrerte systemer: (brukt bold her og)
+Bruk av UseCase sammen med forståelsen av bruksmønster gir et helhetlig bilde av systemets bruk. Mens UseCase detaljerer spesifikke interaksjoner, kan bruksmønster avdekke bredere bruksområder og behov. (Sommerville, 2011, s. 219, 445-48)
+
+Påvirkning på Design og Utvikling: (brukt bold)
+Disse metodene bidrar sammen til å forme systemets design fra brukerens perspektiv, sikrer at det ferdige produktet ikke bare oppfyller funksjonelle krav, men også brukerens forventinger og behov. 
+Ved å integrere UseCase og analysere bruksmønstre, kan utviklingsteam utvikle mer intuitive og brukervennlige applikasjoner og systemer som treffsikkert adresserer målgruppens behov. 
+
+#### Aktører og UseCase (brukt bold)
+Når vi utvikler eller analyserer systemer, spesielt innen programvareutvikling, blir to konsepter ofte fremhevet for å forstå og definere hvordan systemet skal brukes: Aktører og UseCase. Disse konseptene er avgjørende for å identifisere funksjonelle krav og forventede interaksjoner med systemet. (Sommerville, 2011, s. 75-103)
+Aktører er entiteter som interagerer direkte med systemet. De kan være mennesker, andre systemer eller eksterne enheter. Hensikten med å identifisere aktører er å klargjøre hvem eller hva som vil bruke systemet, og på hvilke måter. Aktører spiller forskjellige roller i forhold til systemet (Concepta, 2023).
+
+(brukt italics før : i teksten under)
+Primære Aktører: De som initierer interaksjoner for å oppnå et mål. For eksempel, en bruker som søker informasjon. 
+Sekundære Aktører: De som støtter eller responderer i interaksjonene. Dette kan være eksterne systemer som systemet kommuniserer med for å utføre en oppgave.
+Offstage Aktører: De som har indirekte interesse i interaksjonen, men som ikke deltar direkte. Dette kan være regulatoriske myndigheter eller systemadministratorer.
+Å identifisere aktører gir grunnlag for å forstå systemets grensesnitt og hvordan forskjellige brukere vil interagere med det.(Concepta, 2023)
+
+#### Aktører i HytteApp (bold her og bold før : i teksten under)
+Hytteeiere: Eieren av hytta som bruker appen for å bestille brøyting og andre tjenester. 
+Brøytemannskap: Operatører som utfører brøyting og andre tjenester på forespørsel. 
+Hytteservice Administrator: Administrer HytteApp, inkludert oppdatering av tjenester og behandling av brukerhenvendelser. 
+System (Backend): Behandler data, sender varsler, koordinerer informasjon mellom hytteeier og brøytemannskap. 
+
+#### Samspillet Mellom Aktører og UseCase (bold her)
+Samspillet mellom aktører og UseCase er grunnleggende i systemutvikling. Ved å kartlegge Aktørene og definere tilhørende UseCase, skapes en brukersentrert tilnærming til systemdesign. Dette bidrar til å sikre at systemet leverer verdi til alle brukere og møter deres behov på en effektiv måte. Videre hjelper det utvikleren med å identifisere, forstå brukerinteraksjoner og prioritere funksjonalitetsutvikling basert på UC-beskrivelser. I sin helhet gir sammenslåing av aktører og UseCase et sterkt rammeverk for å utforske, dokumentere og validere hvordan et system skal fungere, og spiller en kritisk rolle i et velfungerende system. (Sommerville, 2011, s 75-103,106-108)
+
+>>>>>>> Stashed changes
 
 ### UC-diagram
 
@@ -438,4 +488,5 @@ https://snl.no/kravspesifikasjon
 Asbjørn Rolstadås (2020.14.april). prosjektstyring
 https://snl.no/prosjektstyring
 
- in2000-2022-innebygd-informasjonssikkerhet.pdf
+ Jøsang, A. (2024). Innbygd informasjonssikkerhet og personvern. Oslo: Universitet i oslo.
+https://www.uio.no/studier/emner/matnat/ifi/IN1030/v23/foiler/in1030-2023-04-27-informasjonssikkerhet-krav.pdf
